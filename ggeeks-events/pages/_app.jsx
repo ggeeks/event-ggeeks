@@ -9,7 +9,7 @@ import { useState } from 'react'
 function MyApp({ Component, pageProps }) {
   const [toggleMenu, setToggleMenu] = useState(false);
   return (
-    <div className='text-white revamp bg-animate'>
+    <div className='text-white revamp  bg-animate-2'>
      
       <header className="  h-24  text-white ">
       <nav className=" flex  justify-between   items-center p-4">
@@ -135,7 +135,7 @@ function MyApp({ Component, pageProps }) {
       </div>
       <hr />
       <footer>
-        <div className='flex  text-3xl justify-evenly py-3'>
+        <div className='flex flex-col md:flex-row text-3xl justify-evenly py-3'>
           <div className='flex justify-evenly'>
             <ul className='flex flex-row '>
               <li className='py-2 px-5'>
@@ -171,7 +171,7 @@ function MyApp({ Component, pageProps }) {
 
             </ul>
           </div>
-          <div>
+          <div className='text-center'> 
             <h1 className='text-lg items-center justify-center my-2'>© 2022 All right reserved</h1>
           </div>
         </div>

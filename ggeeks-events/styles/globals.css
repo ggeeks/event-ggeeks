@@ -105,7 +105,7 @@ background-blend-mode: overlay, color-dodge, color-burn, color-dodge, normal;
   }
 
 }
-.aminate{
+.bg-animate1{
   background: linear-gradient(121.28deg, #000000 0%, #FFFFFF 100%), linear-gradient(121.28deg, #FFB800 0%, #FFFFFF 100%), linear-gradient(140.54deg, #7000FF 0%, #001AFF 72.37%), linear-gradient(307.43deg, #FFE927 0%, #00114D 100%), radial-gradient(107% 142.8% at 15.71% 104.5%, #FFFFFF 0%, #A7AA00 100%), radial-gradient(100.22% 100% at 70.57% 0%, #7A3B00 0%, #1DAC92 100%);
 background-blend-mode: difference, soft-light, difference, difference, difference, exclusion;
 background-size: 400% 400%;
@@ -132,7 +132,31 @@ height:100%;
 
 
 }
+.bg-animate-2{
+background: linear-gradient(114.95deg, rgba(235, 0, 255, 0.5) 0%, rgba(0, 71, 255, 0) 34.35%), linear-gradient(180deg, #004B5B 0%, #FFA7A7 100%), linear-gradient(244.35deg, #FFB26A 0%, #3676B1 50.58%, #00A3FF 100%), linear-gradient(244.35deg, #FFFFFF 0%, #004A74 49.48%, #FF0000 100%), radial-gradient(100% 233.99% at 0% 100%, #B70000 0%, #AD00FF 100%), linear-gradient(307.27deg, #219D87 0.37%, #2650BA 50.19%, #2800C6 100%), radial-gradient(100% 140% at 100% 0%, #FF00C7 0%, #006C7A 49.48%, #760000 100%);
+background-blend-mode: hard-light, overlay, overlay, overlay, difference, difference, normal;
+background-size: 400% 400%;
+animation: gradient2 10s ease infinite;
+height:100%;
+}
 
+@keyframes gradient2 {
+0% {
+  background-position: 0% 25%;
+}
+25% {
+  background-position: 50% 25%;
+}
+50%{
+  background-position: 100% 25%;
+}
+75% {
+  background-position: 50% 75%;
+}
+100% {
+  background-position: 0% 75%;
+}
+}
 .eth-card {
   background-color:#a099ff;
   background-image: 

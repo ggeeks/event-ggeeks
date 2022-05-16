@@ -10,17 +10,17 @@ import Register from './Register'
 
 function Home(){
   return (
-    <div className=" animate py-2">
+    <div className=" animate1 py-2">
       <Head>
         <title>Ggeeks Events</title>
         <link rel="icon" href="/favicon.ico" />
       </Head>
 
-      {/* <main className='h-screen'> */}
+      <main className='text-[50px]'>
         <h1 className='md:text-[89px]  '>Divided By College</h1>
-        <h1 className='md:text-[80px] '>United By Gaming</h1>
-        <button type="submit" className='text-2xl border px-2 py-3 my-9 text-orange-500 text-justify rounded-lg '>Join us</button>
-      {/* </main> */}
+        <h1 className='md:text-[80px]  '>United By Gaming</h1>
+        <button type="submit" className='md:text-2xl text-lg border px-2 py-3 my-9 text-orange-500 text-justify rounded-lg '>Join us</button>
+      </main>
       <About/>
       <Games/>
       <Gallery/>
