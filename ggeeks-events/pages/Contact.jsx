@@ -4,7 +4,7 @@ function Contact() {
   return (
     <div>
       <div><h1 className='text-4xl'> Contact Us</h1></div>
-      <div className='px-40 py-10'>
+      <div className='md:px-40 px-10 md:py-10 py-2'>
         <form action="" method="get" className='pt-10 flex flex-col px-10 justify-center '>
           <input type="text" placeholder='Name' className='white-glassmorphism my-3 bg-transparent px-3 py-5' />
           <input type="number" placeholder='Phone Number' className='white-glassmorphism my-3 bg-transparent px-3 py-5' />
