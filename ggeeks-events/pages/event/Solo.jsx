@@ -6,14 +6,14 @@ import Amongus from "../../assets/games/among-us.png"
 import bgmi from "../../assets/games/bgmi.png"
 import chess from "../../assets/games/chess.png"
 import cod from "../../assets/games/cod.png"
-import skribble from "../../assets/games/skribble.png"
+import skribbleImage from "../../assets/games/skribble.png"
 import valorant from "../../assets/games/valorant.png"
 import Image from 'next/image'
 import AmongUsSolo from "../forms/solo-form/AmongUs"
 import BgmiSolo from "../forms/solo-form/Bgmi"
 import ChessSolo from "../forms/solo-form/Chess"
 import CODMSolo from "../forms/solo-form/CODM"
-import SkribbleSolo from "../forms/solo-form/skribble"
+import SkribbleSolo from "../forms/solo-form/Skribble"
 import ValorantSolo from "../forms/solo-form/Valorant"
 
 
@@ -44,13 +44,13 @@ const Solo = () => {
           </Link>
           <Link href='../forms/solo-form/Chess' to={<ChessSolo/>} alt='chess'>
            <div className='grad-border'>
-            <Image src={chess}   alt="chess" />
+            <Image src={chess}   alt="chess-image" />
             <h2 className='text-xl'>Chess</h2>
           </div>
           </Link>
         </div>
         <div className='flex md:flex-row flex-col justify-evenly mt-5'>
-          <Link href='../forms/solo-form/CODM' alt='cod' to={<CODMSolo/>}>
+          <Link href='../forms/solo-form/CODM' alt='codm-image' to={<CODMSolo/>}>
           <div className='grad-border'>
             <Image src={cod}   alt="cod" />
             <h2 className='text-xl'>Call of Duty</h2>
@@ -58,7 +58,7 @@ const Solo = () => {
           </Link>
           <Link href='../forms/solo-form/Skribble' alt='skribble' to={<SkribbleSolo/>}>
           <div className='grad-border'>
-            <Image src={skribble}   alt="skribble" />
+            <Image src={skribbleImage}   alt="skribble-image" />
             <h2 className='text-xl'>Skribble</h2>
           </div>
           </Link>
