@@ -132,7 +132,7 @@ function MyApp({ Component, pageProps }) {
       </nav>
     </header>
       {/* <hr /> */}
-      <div className='mx-20 my-7  text-center'>
+      <div className='md:mx-20 md:my-7 mx-5 my-3  text-center'>
         <Component {...pageProps} />
       </div>
       <hr />

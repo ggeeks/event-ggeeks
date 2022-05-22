@@ -8,31 +8,31 @@ import Sponser from './Sponser'
 import Contact from './Contact'
 import Register from './Register'
 import Link from "next/link"
-function Home(){
+function Home() {
   return (
     <div className="revamp animate1 py-2">
       <Head>
-      <link rel="preconnect" href="https://fonts.googleapis.com"/>
-<link rel="preconnect" href="https://fonts.gstatic.com" crossOrigin='true'/>
-<link href="https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,300;0,700;0,800;0,900;1,700&family=Press+Start+2P&display=swap" rel="stylesheet" />
-        <title>Ggeeks Events</title>
+        <link rel="preconnect" href="https://fonts.googleapis.com" />
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossOrigin='true' />
+        <link href="https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,300;0,700;0,800;0,900;1,700&family=Press+Start+2P&display=swap" rel="stylesheet" />
+        <title>GamingGeeks Events</title>
         <link rel="icon" href="/favicon.ico" />
       </Head>
 
       <main className='text-[50px]'>
-        <h1 className='md:text-[89px]  '>Gamer Days 2.0</h1>
-        <h1 className='md:text-[40px]  '>Date Announce soon </h1>
-        <Link href='./Register' to={<Register/>}>
-        <button  className='md:text-2xl text-lg border px-2 py-3 my-9 text-orange-500 text-justify rounded-lg '>Register</button>
-          </Link>        
+        <h1 className='md:text-[89px] text-7xl '>Gamer Days 2.0</h1>
+        <h1 className='md:text-[40px] text-3xl py-5 '>Date Announce soon </h1>
+        <Link href='./Register' to={<Register />}>
+          <button className='md:text-2xl text-lg border md:px-4 white-glassmorphism animate-bounce md:py-6 px-2 py-4 my-9  rounded-lg '>Register</button>
+        </Link>
       </main>
-      <About/>
+      <About />
       {/* <Games/> */}
       {/* <Gallery/> */}
-      <Sponser/>
+      <Sponser />
       {/* <Contact/> */}
       {/* <Register/> */}
-      
+
     </div>
   )
 }

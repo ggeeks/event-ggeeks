@@ -9,7 +9,7 @@ function ChessForm (){
       <div> 
       <Link href='../../event/Solo' to={<Solo/>} alt='solo'>
     <div className='text-left flex flex-row'>
-          <IoIosArrowBack className='text-xl items-center m-1' />
+          <IoIosArrowBack     className='text-xl items-center m-1' />
           <button className=' text-xl' >Back</button>
         </div>
     </Link>

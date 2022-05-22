@@ -10,21 +10,31 @@ function Sponser() {
   return (
     <div>
       <div className='text-5xl'>Sponser</div>
-      <div className='flex flex-col'>
-        <div className="">
-          <Image src={anaitik} width={350} height={200} />
-          <Image src={badelog} width={350} height={200}/>
-          <Image src={gfg} width={350} height={200}/>
-        </div>
+      <div className=''>
+        <div className="grid md:grid-cols-3 grid-cols-2">
         <div className=''>
+          <Image src={anaitik} width={350} height={200} alt="anaitik" />
+        </div>
+          <div>
+          <Image src={badelog} width={350} height={200} alt='badelog'/>
+          </div>
+          <div>
+          <Image src={gfg} width={350} height={200}/>
+          </div>
+        <div>
           <Image src={give} width={350} height={200}/>
+        </div>
+        <div>
           <Image src={travel} width={350} height={200}/>
+        </div>
+        <div>
           <Image src={youth} width={350} height={200}/>
         </div>
+        </div>
       </div>
-      <div className='flex text-center justify-center'>
-        <h1 className='text-2xl items-center my-2 '>Want to Join us?</h1>
-        <button className='rounded-2xl border text-2xl white-glassmorphism mx-3 px-2 py-1'> Contact us</button>
+      <div className='flex text-center pt-5 justify-center'>
+        <h1 className='md:text-2xl text-lg items-center my-2 '>Want to sponser us?</h1>
+        <button className='rounded-2xl border md:text-2xl text-lg white-glassmorphism mx-3 px-2 py-1'> Contact us</button>
       </div>
 
     </div>
