@@ -1,23 +1,25 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+/* import "../font/Cyberway.woff"; */
+/* @import url('https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,300;0,700;0,800;0,900;1,700&family=Press+Start+2P&display=swap'); */
 @import url('https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,300;0,700;0,800;0,900;1,700&family=Press+Start+2P&display=swap');
 @font-face{
     font-family: Revamped;
-    src: local(Revamped), 
-    url(../fonts/Revamped.woff) format('woff'),
+    src:  url(../assets/font/Revamped.ttf);
     /* url(../fonts/Revamped.woff2) format('woff2'), */
-    ;
+    font-weight: 400;
+    font-style: normal;
 
 }
-@font-face{
+/* @font-face{
   font-family: Cyberway;
   src: local(Cyberway), 
-  url(../fonts/Cyberway.woff) format('woff'),
+  url(../font/Cyberway.woff) format('woff'),
   /* url(../fonts/Revamped.woff2) format('woff2'), */
   ;
 
-}
+
 .gradient-bg-welcome {
   background-color:#0f0e13;
   background-image: 
@@ -30,9 +32,7 @@
 .revamp{
   font-family:Revamped;
 }
-.cyberway{
-  font-family: Cyberway;
-}
+
 .gradient-bg-services {
   background-color:#0f0e13;
   background-image: 
@@ -186,4 +186,10 @@ height:100%;
   syntax: '<angle>';
   initial-value: 0deg;
   inherits: false;
+}
+
+.font-game{
+  font-family: 'Nunito', sans-serif;
+  font-family: 'Press Start 2P', cursive;
+  font-weight: 800;
 }

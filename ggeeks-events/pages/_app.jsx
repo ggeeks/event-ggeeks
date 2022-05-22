@@ -32,7 +32,7 @@ function MyApp({ Component, pageProps }) {
             <ul className='flex text-xl '>
               <Link
               href="/"
-              className="text-lg block justify-center scroll-smooth"
+              className="text-lg block justify-evenly scroll-smooth"
             >
               <li className="justify-items-center hover:text-[#fdfd96] px-2">
                 Home

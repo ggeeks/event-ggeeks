@@ -10,7 +10,7 @@ import Teams from "./event/Teams.jsx"
 function Register() {
 
   return (
-    <div >
+    <div className='' >
       <div><h1 className='text-5xl'>Register</h1></div>
       <div className='flex flex-row justify-evenly'>
         <div className='justify-center'>

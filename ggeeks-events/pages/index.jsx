@@ -10,8 +10,11 @@ import Register from './Register'
 import Link from "next/link"
 function Home(){
   return (
-    <div className=" animate1 py-2">
+    <div className="revamp animate1 py-2">
       <Head>
+      <link rel="preconnect" href="https://fonts.googleapis.com"/>
+<link rel="preconnect" href="https://fonts.gstatic.com" crossOrigin='true'/>
+<link href="https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,300;0,700;0,800;0,900;1,700&family=Press+Start+2P&display=swap" rel="stylesheet" />
         <title>Ggeeks Events</title>
         <link rel="icon" href="/favicon.ico" />
       </Head>

@@ -1,6 +1,8 @@
+import Link from 'next/link'
 import React from 'react'
 import { AiFillCalendar } from 'react-icons/ai'
 import { FaYoutube } from 'react-icons/fa'
+import Register from './Register'
 function About() {
   return (
     <div className='mt-10 '>
@@ -20,6 +22,16 @@ function About() {
         <p>
           Our motive is that everyone enjoy whatever they do whether gaming or development
         </p> */}
+        <p>
+          Gamer days 2.0 is a successor of gamer gays. this event is held every year . this is a week events in which every participant enjoy the games during this period of time.
+          there are various games we played like BGMI(battle ground mobile india), chess, ludo , etc.
+
+        </p>
+        <p>
+          games can be played Individual and in team.
+        
+          for <Link href='/Register' to={<Register/>} className='text-indigo-400'><span className='text-yellow-400'>registration</span></Link> click on the button above.
+          </p>
       </div>
       <div className='flex flex-col py-20 md:flex-row justify-evenly'>
         <div className='white-glassmorphism md:w-[50vw] items-center mx-5 my-7 text-start rounded-2xl px-5 py-3'>
