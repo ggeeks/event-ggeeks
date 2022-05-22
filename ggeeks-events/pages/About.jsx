@@ -5,10 +5,10 @@ function About() {
   return (
     <div className='mt-10 '>
       <div>
-        <h1 className='text-[46px] md:my-20 my-10'>About Us</h1>
+        <h1 className='text-[46px] md:my-20 my-10'>About Event</h1>
       </div>
       <div className='text-justify text-2xl font-serif md:px-20 px-2'>
-        <p>
+        {/* <p>
           We, students from different colleges, organize various Gaming Tournament for different Mobile/PC Games and technical event such as game development.
         </p>
         <p>
@@ -19,7 +19,7 @@ function About() {
         </p>
         <p>
           Our motive is that everyone enjoy whatever they do whether gaming or development
-        </p>
+        </p> */}
       </div>
       <div className='flex flex-col py-20 md:flex-row justify-evenly'>
         <div className='white-glassmorphism md:w-[50vw] items-center mx-5 my-7 text-start rounded-2xl px-5 py-3'>

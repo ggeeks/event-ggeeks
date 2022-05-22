@@ -14,6 +14,7 @@ function MyApp({ Component, pageProps }) {
       <header className="  h-24  text-white ">
       <nav className=" flex  justify-between   items-center p-4">
         <div className="md:flex-[0.5] flex-initial bg-transparent z-10 justify-between  items-center">
+          <Link href='/' alt=''>
           <div className="flex flex-row justify-center items-center">
             <div className="w-20 h-20 rounded-full items-center">
               <Image
@@ -24,6 +25,7 @@ function MyApp({ Component, pageProps }) {
             </div>
           <h1 className='items-center text-xl py-5'><span className='text-orange-400'>Gaming </span>Geeks</h1>
         </div>
+        </Link>
         </div>
         <div className="text-white md:flex hidden  flex-row  items-center ">
           <div className="flex flex-row justify-evenly  navbar-brand items-center">
@@ -36,16 +38,16 @@ function MyApp({ Component, pageProps }) {
                 Home
               </li>
             </Link>
-            <Link href="/Games" className="text-lg justify-center">
+            {/* <Link href="/Games" className="text-lg justify-center">
               <li className="justify-items-center hover:text-[#fdfd96] px-2">
                 Games
               </li>
-            </Link>
+            </Link> 
             <Link href="/Gallery" className="text-lg justify-center">
               <li className="justify-items-center hover:text-[#fdfd96] px-2">
                 Gallery
               </li>
-            </Link>
+            </Link> */}
             <Link href="/Sponser" className="text-lg justify-center">
               <li className="justify-items-center hover:text-[#fdfd96] px-2">
                 Sponser
@@ -56,11 +58,11 @@ function MyApp({ Component, pageProps }) {
                 Contact
               </li>
             </Link>
-            <Link href='/Register'>
+{/*         <Link href='/Register'>
               <li className='justify-items-center hover:text-[#fdfd96] px-2'>
                 Register
               </li>
-            </Link>
+            </Link> */}
             </ul>
             
           </div>
@@ -97,7 +99,7 @@ function MyApp({ Component, pageProps }) {
                 Home
               </li>
             </Link>
-            <Link href="/Games" className=" text-lg justify-center">
+            {/* <Link href="/Games" className=" text-lg justify-center">
               <li className="py-3 justify-items-center hover:text-[#fdfd96] px-2">
                 Games
               </li>
@@ -106,7 +108,7 @@ function MyApp({ Component, pageProps }) {
               <li className="justify-items-center  py-3 hover:text-[#fdfd96] px-2">
                 Gallery
               </li>
-            </Link>
+            </Link> */}
             <Link href="/Sponser" className="text-lg justify-center">
               <div className="justify-items-center  py-3 hover:text-[#fdfd96] px-2">
                 Sponser
@@ -117,11 +119,11 @@ function MyApp({ Component, pageProps }) {
                 Contact
               </div>
             </Link>
-            <Link href='/Register'>
+            {/* <Link href='/Register'>
               <li className='justify-items-center  py-3 hover:text-[#fdfd96] px-2'>
                 Register
               </li>
-            </Link>
+            </Link> */}
             </ul>
                 </div>
               </ul>
@@ -139,32 +141,32 @@ function MyApp({ Component, pageProps }) {
           <div className='flex justify-evenly'>
             <ul className='flex flex-row '>
               <li className='py-2 px-5'>
-                <Link to='' href='' className=''>
+                <Link to='' href='https://www.youtube.com/channel/UC0up2cGfG13O9oWqachTunQ' className=''>
                   <FaYoutube className='text-white' />
                 </Link>
               </li>
               <li className='py-2 px-5'>
-                <Link to='' href=''>
+                <Link to='' href='http://instagram.com/gamers.platform_'>
                   <FaInstagramSquare className='text-white' />
                 </Link>
               </li>
               <li className='py-2 px-5'>
-                <Link to='' href=''>
+                <Link to='' href='https://discord.gg/YRmKyN498W'>
                   <FaDiscord className='text-white' />
                 </Link>
               </li>
               <li className=' py-2 px-5'>
-                <Link to='' href=''>
+                <Link to='' href='https://www.linkedin.com/company/gaming-geeks'>
                   <FaLinkedin className='text-white' />
                 </Link>
               </li>
               <li className=' py-2 px-5'>
-                <Link to='' href=''>
+                <Link to='' href='https://t.me/ggeeks'>
                   <FaTelegram className='text-white' />
                 </Link>
               </li>
               <li className=' py-2 px-5'>
-                <Link to='' href=''>
+                <Link to='' href='https://chat.whatsapp.com/CB1DwNyUm7C35wFi0IC5JE'>
                   <FaWhatsapp className='text-white' />
                 </Link>
               </li>

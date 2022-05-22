@@ -1,0 +1,51 @@
+ <div className='mx-20 my-7  text-center'>
+        <Component {...pageProps} />
+      </div>
+      <hr />
+      <footer>
+        <div className='flex flex-col md:flex-row text-3xl justify-evenly py-3'>
+          <div className='flex justify-evenly'>
+            <ul className='flex flex-row '>
+              <li className='py-2 px-5'>
+                <Link to='' href='https://www.youtube.com/channel/UC0up2cGfG13O9oWqachTunQ' className=''>
+                  <FaYoutube className='text-white' />
+                </Link>
+              </li>
+              <li className='py-2 px-5'>
+                <Link to='' href='http://instagram.com/gamers.platform_'>
+                  <FaInstagramSquare className='text-white' />
+                </Link>
+              </li>
+              <li className='py-2 px-5'>
+                <Link to='' href='https://discord.gg/YRmKyN498W'>
+                  <FaDiscord className='text-white' />
+                </Link>
+              </li>
+              <li className=' py-2 px-5'>
+                <Link to='' href='https://www.linkedin.com/company/gaming-geeks'>
+                  <FaLinkedin className='text-white' />
+                </Link>
+              </li>
+              <li className=' py-2 px-5'>
+                <Link to='' href='https://t.me/ggeeks'>
+                  <FaTelegram className='text-white' />
+                </Link>
+              </li>
+              <li className=' py-2 px-5'>
+                <Link to='' href='https://chat.whatsapp.com/CB1DwNyUm7C35wFi0IC5JE'>
+                  <FaWhatsapp className='text-white' />
+                </Link>
+              </li>
+
+            </ul>
+          </div>
+          <div className='text-center'> 
+            <h1 className='text-lg items-center justify-center my-2'>© 2022 All right reserved</h1>
+          </div>
+        </div>
+      </footer>
+    </div>
+  )
+}
+
+export default MyApp

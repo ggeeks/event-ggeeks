@@ -7,7 +7,7 @@ import Gallery from './Gallery'
 import Sponser from './Sponser'
 import Contact from './Contact'
 import Register from './Register'
-
+import Link from "next/link"
 function Home(){
   return (
     <div className=" animate1 py-2">
@@ -17,16 +17,18 @@ function Home(){
       </Head>
 
       <main className='text-[50px]'>
-        <h1 className='md:text-[89px]  '>Divided By College</h1>
-        <h1 className='md:text-[80px]  '>United By Gaming</h1>
-        <button type="submit" className='md:text-2xl text-lg border px-2 py-3 my-9 text-orange-500 text-justify rounded-lg '>Join us</button>
+        <h1 className='md:text-[89px]  '>Gamer Days 2.0</h1>
+        <h1 className='md:text-[40px]  '>Date Announce soon </h1>
+        <Link href='./Register' to={<Register/>}>
+        <button  className='md:text-2xl text-lg border px-2 py-3 my-9 text-orange-500 text-justify rounded-lg '>Register</button>
+          </Link>        
       </main>
       <About/>
-      <Games/>
-      <Gallery/>
+      {/* <Games/> */}
+      {/* <Gallery/> */}
       <Sponser/>
-      <Contact/>
-      <Register/>
+      {/* <Contact/> */}
+      {/* <Register/> */}
       
     </div>
   )
