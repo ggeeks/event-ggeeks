@@ -168,3 +168,22 @@ height:100%;
     radial-gradient(at 74% 89%, hsla(30,98%,65%,1) 0, transparent 51%), 
     radial-gradient(at 53% 75%, hsla(174,94%,68%,1) 0, transparent 45%);
 }
+.grad-border {
+  --angle: 0deg;
+  width: 50vmin;
+  height: 35vmin;
+  border: .5rem solid;
+  border-image: linear-gradient(var(--angle), #da2a0c, #d3c71a, #84f64f) 1;
+  animation: 2s rotate linear infinite;
+}
+
+@keyframes rotate {
+  to {
+    --angle: 360deg;
+  }
+}
+@property --angle {
+  syntax: '<angle>';
+  initial-value: 0deg;
+  inherits: false;
+}
