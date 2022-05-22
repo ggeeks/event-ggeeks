@@ -16,3 +16,4 @@ function BgmiForm (){
     </div>
   </div>
 )}
+export default BgmiForm
