@@ -7,9 +7,9 @@ function About() {
   return (
     <div className='mt-10 '>
       <div>
-        <h1 className='md:text-[46px] text-[36px] md:my-20 my-10'>About Event</h1>
+        <h1 className='md:text-[46px] text-[36px] md:my-20 revamp my-10'>About Event</h1>
       </div>
-      <div className='text-justify md:text-2xl text-lg font-nuito md:px-20 px-2'>
+      <div className='text-justify md:text-2xl text-lg para-1 md:px-20 px-2'>
         {/* <p>
           We, students from different colleges, organize various Gaming Tournament for different Mobile/PC Games and technical event such as game development.
         </p>
@@ -29,26 +29,26 @@ function About() {
         </p>
         <p>
           games can be played Individual and in team.
-          For <Link href='/Register' to={<Register/>} className='text-indigo-400'><span className='text-yellow-400'>registration</span></Link> click on the button above.
-          </p>
+          For <Link href='/Register' to={<Register />} className='text-indigo-400'><span className='text-yellow-400'>registration</span></Link> click on the button above.
+        </p>
       </div>
       <div className='flex flex-col md:py-20 py-10 md:flex-row justify-evenly'>
         <div className='white-glassmorphism  items-center mx-5 my-7 text-start rounded-2xl px-5 py-3'>
-          <div className='text-blue-500 justify-center responsive'>
-            <span><AiFillCalendar className='md:text-9xl w-11/12 text-7xl ' /></span>
-            
+          <div className='text-blue-500 justify-center '>
+            <span><AiFillCalendar className='md:text-9xl mx-5 w-11/12 text-7xl ' /></span>
+
           </div>
 
-          <h1 className='md:text-2xl text-lg' >Amazing Events</h1>
-          <h2 className='md:text-[18px] text-[12px]'>Monthly events ranging from E-Sports to Game Development.</h2>
+          <h1 className='md:text-2xl text-lg revamp' >Amazing Events</h1>
+          <h2 className='md:text-[18px] text-[12px] para-1'>Monthly events ranging from E-Sports to Game Development.</h2>
         </div>
         <div className='white-glassmorphism items-center mx-5 my-7 text-center rounded-2xl px-5 py-3'>
           <div className='text-red-500'>
-            
-              <FaYoutube className=' md:text-9xl text-7xl w-11/12' />
+
+            <FaYoutube className=' md:text-9xl text-7xl w-11/12 mx-5' />
           </div>
-          <h1 className='md:text-2xl text-lg'>YouTube Upload</h1>
-          <h2 className='md:text-[18px] text-[12px]'>Weekly Different Gameplays are uploaded on YouTube</h2>
+          <h1 className='md:text-2xl text-lg revamp'>YouTube Upload</h1>
+          <h2 className='md:text-[18px] text-[12px] para-1 font-bold'>Weekly Different Gameplays are uploaded on YouTube</h2>
         </div>
       </div>
     </div>

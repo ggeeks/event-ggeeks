@@ -9,10 +9,10 @@ import { useState } from 'react'
 function MyApp({ Component, pageProps }) {
   const [toggleMenu, setToggleMenu] = useState(false);
   return (
-    <div className='text-white revamp  bg-animate-2'>
+    <div className='text-white h-full overflow-x-hidden revamp  bg-animate-2'>
      
-      <header className="  h-24  text-white ">
-      <nav className=" flex  justify-between   items-center p-4">
+      <header className=" revamp">
+      <nav className=" flex  justify-between  items-center p-4">
         <div className="md:flex-[0.5] flex-initial bg-transparent z-10 justify-between  items-center">
           <Link href='/' alt=''>
           <div className="flex flex-row justify-center items-center">
@@ -136,45 +136,45 @@ function MyApp({ Component, pageProps }) {
         <Component {...pageProps} />
       </div>
       <hr />
-      <footer>
-        <div className='flex flex-col md:flex-row text-3xl justify-evenly py-3'>
-          <div className='flex justify-evenly'>
-            <ul className='flex flex-row '>
-              <li className='py-2 px-5'>
-                <Link to='' href='https://www.youtube.com/channel/UC0up2cGfG13O9oWqachTunQ' className=''>
-                  <FaYoutube className='text-white' />
-                </Link>
-              </li>
-              <li className='py-2 px-5'>
-                <Link to='' href='http://instagram.com/gamers.platform_'>
-                  <FaInstagramSquare className='text-white' />
-                </Link>
-              </li>
-              <li className='py-2 px-5'>
-                <Link to='' href='https://discord.gg/YRmKyN498W'>
-                  <FaDiscord className='text-white' />
-                </Link>
-              </li>
-              <li className=' py-2 px-5'>
-                <Link to='' href='https://www.linkedin.com/company/gaming-geeks'>
-                  <FaLinkedin className='text-white' />
-                </Link>
-              </li>
-              <li className=' py-2 px-5'>
-                <Link to='' href='https://t.me/ggeeks'>
-                  <FaTelegram className='text-white' />
-                </Link>
-              </li>
-              <li className=' py-2 px-5'>
-                <Link to='' href='https://chat.whatsapp.com/CB1DwNyUm7C35wFi0IC5JE'>
-                  <FaWhatsapp className='text-white' />
-                </Link>
-              </li>
-
-            </ul>
-          </div>
+      <footer className='revamp'>
+        <div className=' md:text-3xl text-[20px]  py-3'>
+          <div className='flex md:flex-row flex-col text-center justify-center overflow-hidden md:justify-between px-20 '>
+            <div className=' grid grid-cols-6'>
+              <div className=''>
+                <a target='_blank' href='https://www.youtube.com/channel/UC0up2cGfG13O9oWqachTunQ' className=''>
+                  <FaYoutube className='mx-3' />
+                </a>
+              </div>
+              <div className=''>
+                <a target='_blank' href='http://instagram.com/gamers.platform_'>
+                  <FaInstagramSquare className='mx-3'  />
+                </a>
+              </div>
+              <div className=''>
+                <a target='_blank' href='https://discord.gg/YRmKyN498W'>
+                  <FaDiscord className='mx-3' />
+                </a>
+              </div>
+              <div className=''>
+                <a target='_blank' href='https://www.linkedin.com/company/gaming-geeks'>
+                  <FaLinkedin className='mx-3'/>
+                </a>
+              </div>
+              <div className=' '>
+                <a target='_blank' href='https://t.me/ggeeks'>
+                  <FaTelegram className='mx-3' />
+                </a>
+              </div>
+              <div className=' '>
+                <a  target='_blank' alt='whatsapp' href='https://chat.whatsapp.com/CB1DwNyUm7C35wFi0IC5JE'>
+                  <FaWhatsapp className='mx-3' />
+                </a>
+              </div>
+            </div>
+          
           <div className='text-center'> 
-            <h1 className='text-lg items-center justify-center my-2'>© 2022 All right reserved</h1>
+            <h1 className='md:text-xl text-[14px] '>© 2022 All right reserved</h1>
+          </div>
           </div>
         </div>
       </footer>
