@@ -8,7 +8,7 @@ import travel from "../assets/brand/travelogged.png"
 import youth from '../assets/brand/youth-incorporated.png'
 function Sponser() {
   return (
-    <div className='h-screen revamp '>
+    <div className=' revamp '>
       <div className='text-5xl'>Sponser</div>
       <div className='py-10 '>
         <div className="grid md:grid-cols-3 grid-cols-1">
