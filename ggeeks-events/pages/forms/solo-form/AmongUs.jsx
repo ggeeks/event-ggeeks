@@ -20,7 +20,7 @@ return (
         <input type="email" placeholder='E-mail' className='white-glassmorphism bg-transparent my-3 px-3 py-5' />
         <input type="text" placeholder='Institute' className='white-glassmorphism bg-transparent my-3 px-3 py-5' />
         <input type="text" placeholder='Discord Username' className='white-glassmorphism bg-transparent px-3 my-3 py-5' />
-        <button type="submit" className='md:text-2xl text-lg blue-glassmorphism hover:text-orange-500 md:1/5 w-2/5 justify-center rounded-xl my-3 px-3 py-4'>Register</button>
+        <button type="submit" className='md:text-2xl text-lg blue-glassmorphism hover:text-orange-500 md:w-2/5 w-3/5 justify-center rounded-xl my-3 px-3 py-4'>Register</button>
       </form>
     </div>
   </div>

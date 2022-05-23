@@ -138,41 +138,41 @@ function MyApp({ Component, pageProps }) {
       <hr />
       <footer className='revamp'>
         <div className=' md:text-3xl text-[20px]  py-3'>
-          <div className='flex md:flex-row flex-col text-center justify-center overflow-hidden md:justify-between px-20 '>
+          <div className='flex md:flex-row flex-col py-3 text-center justify-center overflow-hidden md:justify-between px-20 '>
             <div className=' grid grid-cols-6'>
               <div className=''>
                 <a target='_blank' href='https://www.youtube.com/channel/UC0up2cGfG13O9oWqachTunQ' className=''>
-                  <FaYoutube className='mx-3' />
+                  <FaYoutube className='m-3' />
                 </a>
               </div>
               <div className=''>
                 <a target='_blank' href='http://instagram.com/gamers.platform_'>
-                  <FaInstagramSquare className='mx-3'  />
+                  <FaInstagramSquare className='m-3'  />
                 </a>
               </div>
               <div className=''>
                 <a target='_blank' href='https://discord.gg/YRmKyN498W'>
-                  <FaDiscord className='mx-3' />
+                  <FaDiscord className='m-3' />
                 </a>
               </div>
               <div className=''>
                 <a target='_blank' href='https://www.linkedin.com/company/gaming-geeks'>
-                  <FaLinkedin className='mx-3'/>
+                  <FaLinkedin className='m-3'/>
                 </a>
               </div>
               <div className=' '>
                 <a target='_blank' href='https://t.me/ggeeks'>
-                  <FaTelegram className='mx-3' />
+                  <FaTelegram className='m-3' />
                 </a>
               </div>
               <div className=' '>
                 <a  target='_blank' alt='whatsapp' href='https://chat.whatsapp.com/CB1DwNyUm7C35wFi0IC5JE'>
-                  <FaWhatsapp className='mx-3' />
+                  <FaWhatsapp className='m-3' />
                 </a>
               </div>
             </div>
           
-          <div className='text-center'> 
+          <div className='text-center py-3'> 
             <h1 className='md:text-xl text-[14px] '>© 2022 All right reserved</h1>
           </div>
           </div>
