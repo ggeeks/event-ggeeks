@@ -4,18 +4,18 @@ import Link from 'next/link'
 import Logo from "../assets/lone-logo.png"
 import { AiOutlineClose } from "react-icons/ai"
 import { HiMenuAlt4 } from "react-icons/hi"
-import { FaInstagramSquare, FaDiscord, FaWhatsapp, FaTelegram, FaLinkedin, FaYoutube } from 'react-icons/fa'
+import { FaInstagramSquare, FaDiscord, FaWhatsapp, FaTelegram, FaLinkedin, FaYoutube, FaInstagram } from 'react-icons/fa'
 import { useState } from 'react'
 function MyApp({ Component, pageProps }) {
   const [toggleMenu, setToggleMenu] = useState(false);
   return (
-    <div className='text-white h-full overflow-x-hidden revamp  bg-animate-2'>
+    <div className='text-white h-full overflow-x-hidden revamp  plane-gradient'>
      
       <header className=" revamp">
-      <nav className=" flex  justify-between  items-center p-4">
+      <nav className=" flex  justify-between   items-center p-4">
         <div className="md:flex-[0.5] flex-initial bg-transparent z-10 justify-between  items-center">
           <Link href='/' alt=''>
-          <div className="flex flex-row justify-center items-center">
+          <div className="flex flex-row justify-center cursor-pointer items-center">
             <div className="w-20 h-20 rounded-full items-center">
               <Image
                 src={Logo}
@@ -34,7 +34,7 @@ function MyApp({ Component, pageProps }) {
               href="/"
               className="text-lg block justify-evenly scroll-smooth"
             >
-              <li className="justify-items-center hover:text-[#fdfd96] px-2">
+              <li className="justify-items-center cursor-pointer hover:text-[#fdfd96] px-2">
                 Home
               </li>
             </Link>
@@ -49,12 +49,12 @@ function MyApp({ Component, pageProps }) {
               </li>
             </Link> */}
             <Link href="/Sponser" className="text-lg justify-center">
-              <li className="justify-items-center hover:text-[#fdfd96] px-2">
+              <li className="justify-items-center cursor-pointer hover:text-[#fdfd96] px-2">
                 Sponser
               </li>
             </Link>
             <Link href="/Contact" className="text-lg justify-center">
-              <li className="justify-items-center hover:text-[#fdfd96] px-2">
+              <li className="justify-items-center cursor-pointer hover:text-[#fdfd96] px-2">
                 Contact
               </li>
             </Link>
@@ -95,7 +95,7 @@ function MyApp({ Component, pageProps }) {
               href="/"
               className="text-lg block justify-center scroll-smooth"
             >
-              <li className="justify-items-center py-3 hover:text-[#fdfd96] px-2">
+              <li className="justify-items-center cursor-pointer py-3 hover:text-[#fdfd96] px-2">
                 Home
               </li>
             </Link>
@@ -110,12 +110,12 @@ function MyApp({ Component, pageProps }) {
               </li>
             </Link> */}
             <Link href="/Sponser" className="text-lg justify-center">
-              <div className="justify-items-center  py-3 hover:text-[#fdfd96] px-2">
+              <div className="justify-items-center cursor-pointer py-3 hover:text-[#fdfd96] px-2">
                 Sponser
               </div>
             </Link>
             <Link href="/Contact" className="text-lg justify-center">
-              <div className="justify-items-center  py-3 hover:text-[#fdfd96] px-2">
+              <div className="justify-items-center cursor-pointer py-3 hover:text-[#fdfd96] px-2">
                 Contact
               </div>
             </Link>
@@ -147,7 +147,7 @@ function MyApp({ Component, pageProps }) {
               </div>
               <div className=''>
                 <a target='_blank' href='http://instagram.com/gamers.platform_'>
-                  <FaInstagramSquare className='m-3'  />
+                  <FaInstagram className='m-3'  />
                 </a>
               </div>
               <div className=''>

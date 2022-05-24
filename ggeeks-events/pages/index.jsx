@@ -10,7 +10,7 @@ import Register from './Register'
 import Link from "next/link"
 function Home() {
   return (
-    <div className=" animate1 py-2">
+    <div className=" py-2">
       <Head>
         <link rel="preconnect" href="https://fonts.googleapis.com" />
         <link rel="preconnect" href="https://fonts.gstatic.com" crossOrigin='true' />
@@ -22,20 +22,23 @@ function Home() {
         <link rel="icon" href="/favicon.ico" />
       </Head>
 
-      <main className='text-[50px] revamp'>
+      <main className=' revamp  my-[30vh] items-center justify-center '>
         <h1 className='md:text-[89px] text-7xl '>Gamer Days 2.0</h1>
-        <h1 className='md:text-[40px] text-3xl py-5 '>Date Announce soon </h1>
+        {/* <h1 className='md:text-[40px] text-3xl py-5 '>Date TBA soon </h1> */}
         <Link href='./Register' to={<Register />}>
-          <button className='md:text-2xl text-lg border md:px-4 white-glassmorphism animate-bounce md:py-6 px-2 py-4 my-9  rounded-lg '>Register</button>
+          <button className='md:text-2xl text-lg border md:px-4 white-glassmorphism hover:animate-none animate-bounce md:py-6 px-2 py-4 my-9  rounded-lg '>Register</button>
         </Link>
       </main>
-      <About />
-      {/* <Games/> */}
-      {/* <Gallery/> */}
-      <Sponser />
-      {/* <Contact/> */}
-      {/* <Register/> */}
+      <div className='py-10'>
+        <About />
+      </div>
 
+      <div className='py-10'>
+        <Sponser />
+      </div>
+      <div className='py-10'>
+        <Contact />
+      </div>
     </div>
   )
 }

@@ -11,8 +11,8 @@ function Sponser() {
     <div className=' revamp '>
       <div className='text-5xl'>Sponser</div>
       <div className='py-10 '>
-        <div className="grid md:grid-cols-3 grid-cols-1">
-          <div className='p-3'>
+        <div className="grid md:grid-cols-3 grid-cols-1 w-5/6 md:mx-24 mx-12">
+          <div className='p-3 w-[300px]'>
             <Image src={anaitik} width={350} height={200} alt="anaitik" />
           </div>
           <div className='p-3'>
@@ -32,9 +32,9 @@ function Sponser() {
           </div>
         </div>
       </div>
-      <div className='flex text-center pt-5 justify-center'>
+      <div className=' text-center pt-5 justify-center'>
         <h1 className='md:text-2xl text-lg items-center my-2 '>Want to sponser us?</h1>
-        <button className='rounded-2xl border md:text-2xl text-lg white-glassmorphism mx-3 px-2 py-1 hover:text-orange-500 hover:bg-white shadow-md  shadow-orange-500'> Contact us</button>
+        <button className='rounded-2xl border md:text-2xl transition-300 text-lg white-glassmorphism mx-3 px-2 py-1 hover:text-orange-500 hover:bg-white shadow-md  shadow-orange-500'> Contact us</button>
       </div>
 
     </div>
