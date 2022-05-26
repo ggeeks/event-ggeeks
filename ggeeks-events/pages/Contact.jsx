@@ -7,12 +7,12 @@ function Contact() {
       <div className='py-2'>
         <div>
         <form action="" method="get" className=' grid grid-cols-1  md:px-10 px-2 justify-center '>
-          <input type="text" placeholder='Name' className='white-glassmorphism bg-transparent my-3 px-3 py-5' />
-          <input type="number" placeholder='Phone Number' className='white-glassmorphism bg-transparent my-3 px-3 py-5 ' />
-          <input type="email" placeholder='E-mail' className='white-glassmorphism bg-transparent my-3 px-3 py-5' />
-          <input type="text" placeholder='Institute' className='white-glassmorphism bg-transparent my-3 px-3 py-5' />
-          <input type="text" placeholder='Message' className='white-glassmorphism bg-transparent px-3 my-3 py-5' />
-          <button type="submit" className='md:text-2xl text-lg border items-center rounded-xl my-3 px-3 py-4 eth-card w-28 text-center '>Send</button>
+          <input type="text" placeholder='Name' className='white-glassmorphism bg-transparent my-3 px-3 py-3' />
+          <input type="number" placeholder='Phone Number' className='white-glassmorphism bg-transparent my-3 px-3 py-3 ' />
+          <input type="email" placeholder='E-mail' className='white-glassmorphism bg-transparent my-3 px-3 py-3' />
+          <input type="text" placeholder='Institute' className='white-glassmorphism bg-transparent my-3 px-3 py-3' />
+          <input type="text" placeholder='Message' className='white-glassmorphism bg-transparent px-3 my-3 py-3' />
+          <div><button type="submit" className='md:text-2xl text-lg border items-center rounded-xl my-3 px-3 py-4 eth-card w-80 text-center '>Send</button></div>
         </form>
         </div>
         
