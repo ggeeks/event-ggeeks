@@ -148,11 +148,11 @@ height:100%;
 
 }
 .bg-animate-2{
-background: linear-gradient(114.95deg, rgba(235, 0, 255, 0.5) 0%, rgba(0, 71, 255, 0) 34.35%), linear-gradient(180deg, #004B5B 0%, #FFA7A7 100%), linear-gradient(244.35deg, #FFB26A 0%, #3676B1 50.58%, #00A3FF 100%), linear-gradient(244.35deg, #FFFFFF 0%, #004A74 49.48%, #FF0000 100%), radial-gradient(100% 233.99% at 0% 100%, #B70000 0%, #AD00FF 100%), linear-gradient(307.27deg, #219D87 0.37%, #2650BA 50.19%, #2800C6 100%), radial-gradient(100% 140% at 100% 0%, #FF00C7 0%, #006C7A 49.48%, #760000 100%);
+background: linear-gradient(114.95deg, rgba(235, 0, 255, 0.5) 0%, rgba(0, 71, 255, 0) 34.35%),  linear-gradient(244.35deg, #FFB26A 0%, #3676B1 50.58%, #00A3FF 100%),  radial-gradient(100% 233.99% at 0% 100%, #B70000 0%, #AD00FF 100%), linear-gradient(307.27deg, #219D87 0.37%, #2650BA 50.19%, #2800C6 100%), radial-gradient(100% 140% at 100% 0%, #000 40%, #006C7A 49.48%, #760000 100%);
 background-blend-mode: hard-light, overlay, overlay, overlay, difference, difference, normal;
-background-size: 400% 400%;
-animation: gradient2 10s ease infinite;
-height:100%;
+/* background-size: 400% 400%;
+animation: gradient2 10s ease none;
+height:100%; */
 }
 
 @keyframes gradient2 {
@@ -171,6 +171,31 @@ height:100%;
 100% {
   background-position: 0% 75%;
 }
+}
+.bg-1{
+  background: linear-gradient(115deg, rgb(211, 255, 215) 0%, rgb(0, 0, 0) 100%), radial-gradient(90% 100% at 50% 0%, rgb(200, 200, 200) 0%, rgb(22, 0, 45) 100%), radial-gradient(100% 100% at 80% 0%, rgb(250, 255, 0) 0%, rgb(36, 0, 0) 100%), radial-gradient(150% 210% at 100% 0%, rgb(112, 255, 0) 0%, rgb(20, 175, 125) 0%, rgb(0, 10, 255) 100%), radial-gradient(100% 100% at 100% 30%, rgb(255, 77, 0) 0%, rgba(0, 200, 255, 1) 100%), linear-gradient(60deg, rgb(255, 0, 0) 0%, rgb(120, 86, 255) 100%);
+background-blend-mode: overlay, overlay, difference, difference, difference, normal;
+}
+.bg-2{
+  background: linear-gradient(125deg, #00FF57 0%, #010033 40%, #460043 70%, #F0FFC5 100%), linear-gradient(55deg, #0014C9 0%, #410060 100%), linear-gradient(300deg, #FFC700 0%, #001AFF 100%), radial-gradient(135% 215% at 115% 40%, #393939 0%, #393939 40%, #849561 calc(40% + 1px), #849561 60%, #EED690 calc(60% + 1px), #EED690 80%, #ECEFD8 calc(80% + 1px), #ECEFD8 100%), linear-gradient(125deg, #282D4F 0%, #282D4F 40%, #23103A calc(40% + 1px), #23103A 70%, #A0204C calc(70% + 1px), #A0204C 88%, #FF6C00 calc(88% + 1px), #FF6C00 100%);
+background-blend-mode: overlay, screen, overlay, overlay, normal;
+}
+.bg-3{
+  background: linear-gradient(328.78deg, #030086 14.45%, #BD6177 84.36%), linear-gradient(301.28deg, #209B4A 0%, #7000FF 100%), radial-gradient(100% 138.56% at 100% 0%, #D50000 0%, #00FFE0 100%), radial-gradient(100% 148.07% at 0% 0%, #D50000 0%, #00FFFF 100%);
+/* background-blend-mode: soft-light, overlay, difference, normal; */
+background-blend-mode: overlay, overlay, difference, difference, difference, normal
+}
+.bg-4{
+  background: linear-gradient(205.61deg, #FF0055 0%, #000066 69.37%);
+  height:100vh;
+}
+.bg-5{
+  background: linear-gradient(180deg, #00fffa 0%, #1f213c 52.02702702702703%, #000066 100%);
+  /* height:100vh; */
+}
+.bg-6{
+  background-image: linear-gradient(to right top, #340616, #360c1a, #38121e, #391721, #3b1c25, #3f1b29, #421b2e, #441b33, #45173e, #40164b, #33195b, #091f6b);
+  height:100vh;
 }
 .eth-card {
   background-color:#a099ff;
