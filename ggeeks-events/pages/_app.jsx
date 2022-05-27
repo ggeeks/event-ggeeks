@@ -9,7 +9,7 @@ import { useState } from 'react'
 function MyApp({ Component, pageProps }) {
   const [toggleMenu, setToggleMenu] = useState(false);
   return (
-    <div className='text-white h-full overflow-x-hidden revamp  plane-gradient'>
+    <div className='text-white h-full overflow-x-hidden revamp  bg-6'>
      
       <header className=" revamp">
       <nav className=" flex  justify-between   items-center p-4">
