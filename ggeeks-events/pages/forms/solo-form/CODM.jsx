@@ -21,7 +21,7 @@ function Cod() {
           <input type="email" placeholder='E-mail' className='white-glassmorphism bg-transparent my-3 px-3 py-3' />
           <input type="text" placeholder='Institute' className='white-glassmorphism bg-transparent my-3 px-3 py-3' />
           <input type="text" placeholder='Discord Username' className='white-glassmorphism bg-transparent px-3 my-3 py-3' />
-          <div><button type="submit" className='md:text-2xl text-lg blue-glassmorphism hover:text-orange-500 md:w-2/5 w-3/5 justify-center rounded-xl my-3 px-3 py-4'>Register</button></div>
+          <div><button type="submit" className='md:text-2xl text-lg border hover:text-orange-500 justify-center rounded-xl my-3 px-3 py-4'>Register</button></div>
         </form>
       </div>
     </div>
