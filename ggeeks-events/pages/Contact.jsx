@@ -11,8 +11,8 @@ function Contact() {
           <input type="number" placeholder='Phone Number' className='white-glassmorphism bg-transparent my-3 px-3 py-3 ' />
           <input type="email" placeholder='E-mail' className='white-glassmorphism bg-transparent my-3 px-3 py-3' />
           <input type="text" placeholder='Institute' className='white-glassmorphism bg-transparent my-3 px-3 py-3' />
-          <input type="text" placeholder='Message' className='white-glassmorphism bg-transparent px-3 my-3 py-3' />
-          <div><button type="submit" className='md:text-2xl text-lg border items-center rounded-xl my-3 px-3 py-4 eth-card w-80 text-center '>Send</button></div>
+          <textarea type="text" placeholder='Message' className='white-glassmorphism bg-transparent px-3 my-3 py-3' />
+          <div><button type="submit" className='md:text-2xl text-lg border items-center rounded-xl my-3 px-3 py-4 blue-glassmorphism hover:text-orange-500 md:w-40 w-20 text-center '>Send</button></div>
         </form>
         </div>
         
