@@ -3,13 +3,29 @@ import React from 'react'
 import Image from 'next/image'
 import EventLogo from '../assets/eventlogo.jpg'
 import Register from './Register'
+
 function About() {
   return (
     <div className=" ">
-    <div className='grid grid-cols-3'>
-    <div>section 1</div>
-    <div> section 2</div>
-    <div> section 3</div>
+    <div className='grid grid-cols-3 '>
+    <div>section 1
+      <div>
+        <h1>Live stream</h1>
+        <p>When unknown printer took type and scrambled it to make type specimen book centuries,</p>
+      </div>
+    </div>
+    <div> section 2
+      <div>
+        <h1>Game News</h1>
+        <p>When unknown printer took type and scrambled it to make type specimen book centuries,</p>
+      </div>
+    </div>
+    <div> section 3
+    <div>
+      <h1>GAME TOURNAMENTS</h1>
+        <p>When unknown printer took type and scrambled it to make type specimen book centuries,</p>
+      </div>
+    </div>
 
     </div>
       <div>
