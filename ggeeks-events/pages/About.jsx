@@ -3,6 +3,15 @@ import React from 'react'
 import Image from 'next/image'
 import EventLogo from '../assets/eventlogo.jpg'
 import Register from './Register'
+<<<<<<< Updated upstream
+=======
+import bg1 from '../assets/gaming-world-bg1.png'
+import bg2 from '../assets/gaming-world-bg2.png'
+import bg3 from '../assets/gaming-world-bg3.png'
+import icon1 from '../assets/gaming-world1.png'
+import icon2 from '../assets/gaming-world2.png'
+import icon3 from '../assets/gaming-world3.png'
+>>>>>>> Stashed changes
 
 function About() {
   return (
