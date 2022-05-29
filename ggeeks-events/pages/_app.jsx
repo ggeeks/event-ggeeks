@@ -4,14 +4,16 @@ import Link from 'next/link'
 import Logo from "../assets/lone-logo.png"
 import { AiOutlineClose } from "react-icons/ai"
 import { HiMenuAlt4 } from "react-icons/hi"
+import BackgroundImg from "../assets/gaming-bg1.jpg"
 import { FaInstagramSquare, FaDiscord, FaWhatsapp, FaTelegram, FaLinkedin, FaYoutube, FaInstagram } from 'react-icons/fa'
 import { useState } from 'react'
+
 function MyApp({ Component, pageProps }) {
   const [toggleMenu, setToggleMenu] = useState(false);
   return (
-    <div className='text-white h-full overflow-x-hidden revamp  bg-6'>
-     
-      <header className=" revamp">
+    <div className='text-white h-full overflow-x-hidden revamp  bg-img ' style={{backgroundImage:('../assets/gaming-bg1.jpg')}}>
+     {/* <Image src={BackgroundImg}  objectFit='cover' className='w-screen h-screen' alt=''/> */}
+      <header className="  revamp">
       <nav className=" flex  justify-between   items-center p-4">
         <div className="md:flex-[0.5] flex-initial bg-transparent z-10 justify-between  items-center">
           <Link href='/' alt=''>
