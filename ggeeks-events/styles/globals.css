@@ -256,3 +256,27 @@ background-image: url(../assets/gaming-bg2.jpg);
   /* object-fit: fill; */
   
 }
+
+.card{
+  margin-right: 30px;
+}
+
+.rt-img1{
+  background-image: url("../assets/gaming-world-bg1.png");
+  background-repeat: no-repeat;
+  height: 500px;
+  /* margin-right: -10px; */
+
+}
+.rt-img2{
+  background-image: url("../assets/gaming-world-bg2.png");
+  background-repeat: no-repeat;
+  height: 500px;
+
+}
+.rt-img3{
+  background-image: url("../assets/gaming-world-bg3.png");
+  background-repeat: no-repeat;
+  height: 500px;
+
+}

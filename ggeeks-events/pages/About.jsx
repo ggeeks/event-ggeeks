@@ -1,33 +1,58 @@
+
 import Link from 'next/link'
 import React from 'react'
 import Image from 'next/image'
 import EventLogo from '../assets/eventlogo.jpg'
 import Register from './Register'
+import bg1 from '../assets/gaming-world-bg1.png'
+import bg2 from '../assets/gaming-world-bg2.png'
+import bg3 from '../assets/gaming-world-bg3.png'
+import icon1 from '../assets/gaming-world1.png'
+import icon2 from '../assets/gaming-world2.png'
+import icon3 from '../assets/gaming-world3.png'
+// width={350} height={700} objectFit='none' 
+
+{/* <div class="relative w-40 h-40 rounded-full overflow-hidden">
+  <img src="https://www.w3schools.com/howto/img_avatar2.png" alt="Avatar" class="object-cover w-full h-full" />
+  <div class="absolute w-full py-2.5 bottom-0 inset-x-0 bg-blue-400 text-white text-xs text-center leading-4">this is a text</div>
+</div> */}
 
 function About() {
   return (
     <div className=" ">
     <div className='grid grid-cols-3 '>
-    <div>section 1
-      <div>
-        <h1>Live stream</h1>
-        <p>When unknown printer took type and scrambled it to make type specimen book centuries,</p>
+    <div className="relative rt-img1">
+      <div className="px-10 card">
+      <div className=' py-5'><Image className="absolute" src={icon1} alt=''/></div>
+        <div className="py-10">
+          <h1 className="text-center text-orange-500 leading-4 text-3xl py-2">Live stream</h1>
+          <h1 className="text-sky-200 py-2">When unknown printer took type and scrambled it to make type specimen book centuries,</h1>
+        </div>
       </div>
+        
     </div>
-    <div> section 2
-      <div>
-        <h1>Game News</h1>
-        <p>When unknown printer took type and scrambled it to make type specimen book centuries,</p>
+    <div className="relative rt-img2">
+      <div className="px-10 card">
+      <div className=' py-5'><Image className="absolute" src={icon2} alt=''/></div>
+        <div className="py-10 ">
+          <h1 className="text-center text-orange-500 leading-4 text-3xl py-2">Live stream</h1>
+          <h1 className="text-sky-200 py-2">When unknown printer took type and scrambled it to make type specimen book centuries,</h1>
+        </div>
       </div>
+        
     </div>
-    <div> section 3
-    <div>
-      <h1>GAME TOURNAMENTS</h1>
-        <p>When unknown printer took type and scrambled it to make type specimen book centuries,</p>
+    <div className="relative rt-img3">
+      <div className="px-10 card">
+      <div className=' py-5'><Image className="absolute" src={icon3} alt=''/></div>
+        <div className="py-10">
+          <h1 className="text-center text-orange-500 leading-4 text-3xl py-2">Live stream</h1>
+          <h1 className="text-sky-200 py-2">When unknown printer took type and scrambled it to make type specimen book centuries,</h1>
+        </div>
       </div>
+        
     </div>
+</div>
 
-    </div>
       <div>
         <h1 className="revamp text-[36px] md:my-20 md:text-[46px] ">
           About Event
