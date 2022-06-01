@@ -7,6 +7,7 @@ import { HiMenuAlt4 } from "react-icons/hi"
 import BackgroundImg from "../assets/gaming-bg1.jpg"
 import { FaInstagramSquare, FaDiscord, FaWhatsapp, FaTelegram, FaLinkedin, FaYoutube, FaInstagram } from 'react-icons/fa'
 import { useState } from 'react'
+// import 'bootstrap/dist/css/bootstrap.min.css';
 
 function MyApp({ Component, pageProps }) {
   const [toggleMenu, setToggleMenu] = useState(false);
@@ -58,6 +59,11 @@ function MyApp({ Component, pageProps }) {
             <Link href="/Contact" className="text-lg justify-center">
               <li className="justify-items-center cursor-pointer hover:text-[#fdfd96] px-2">
                 Contact
+              </li>
+            </Link>
+            <Link href="/FAQ" className="text-lg justify-center">
+              <li className="justify-items-center cursor-pointer hover:text-[#fdfd96] px-2">
+                FAQ
               </li>
             </Link>
 {/*         <Link href='/Register'>
@@ -119,6 +125,11 @@ function MyApp({ Component, pageProps }) {
             <Link href="/Contact" className="text-lg justify-center">
               <div className="justify-items-center cursor-pointer py-3 hover:text-[#fdfd96] px-2">
                 Contact
+              </div>
+            </Link>
+            <Link href="/FAQ" className="text-lg justify-center">
+              <div className="justify-items-center cursor-pointer py-3 hover:text-[#fdfd96] px-2">
+                FAQ
               </div>
             </Link>
             {/* <Link href='/Register'>

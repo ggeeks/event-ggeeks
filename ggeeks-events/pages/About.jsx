@@ -19,7 +19,7 @@ import icon3 from '../assets/gaming-world3.png'
 
 function About() {
   return (
-    <div className=" ">
+    <div className="">
     <div className='grid grid-cols-3 '>
     <div className="relative rt-img1">
       <div className="px-10 card">

@@ -13,7 +13,7 @@ function Sponser() {
       <div className='py-10 '>
         <div className="grid md:grid-cols-3 grid-cols-1 w-5/6 md:mx-24 mx-12">
           <div className='p-3 '>
-            <Image src={anaitik} width={400} height={200} alt="anaitik" />
+            <Image src={anaitik} width={500} height={300} alt="anaitik" />
           </div>
           <div className='p-3'>
             <Image src={badelog} width={350} height={200} alt='badelog' />

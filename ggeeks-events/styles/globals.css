@@ -249,10 +249,10 @@ background-blend-mode: overlay, overlay, difference, difference, difference, nor
 background-image: url(../assets/gaming-bg2.jpg);
   background-repeat: no-repeat;
   /* background-size: averceluto; */
-  width:100vw;
+  /* width:100vw; */
   /* opacity:0.5; */
-  /* height:100vh; */
-  z-index: -1;
+  height:100vh;
+  /* z-index: -1; */
   /* object-fit: fill; */
   
 }

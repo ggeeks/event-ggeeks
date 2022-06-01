@@ -6,6 +6,7 @@ import Games from './Games'
 import Gallery from './Gallery'
 import Sponser from './Sponser'
 import Contact from './Contact'
+import FAQ from './FAQ'
 import Register from './Register'
 import Link from "next/link"
 function Home() {
@@ -38,6 +39,9 @@ function Home() {
       </div>
       <div className='py-10'>
         <Contact />
+      </div>
+      <div className='py-10'>
+        <FAQ />
       </div>
     </div>
   )
