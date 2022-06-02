@@ -10,6 +10,7 @@ import icon3 from '../assets/gaming-world3.png'
 
 function About() {
   return (
+
     <div className=" ">
       <div className="grid grid-cols-1 md:grid-cols-3 ">
         <div className="rt-img1 relative ">
@@ -27,6 +28,7 @@ function About() {
               </h1>
             </div>
           </div>
+
         </div>
 
         <div className="rt-img2 relative">
