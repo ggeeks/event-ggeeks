@@ -1,67 +1,80 @@
-
 import Link from 'next/link'
 import React from 'react'
 import Image from 'next/image'
 import EventLogo from '../assets/eventlogo.jpg'
 import Register from './Register'
-import bg1 from '../assets/gaming-world-bg1.png'
-import bg2 from '../assets/gaming-world-bg2.png'
-import bg3 from '../assets/gaming-world-bg3.png'
 import icon1 from '../assets/gaming-world1.png'
 import icon2 from '../assets/gaming-world2.png'
 import icon3 from '../assets/gaming-world3.png'
-// width={350} height={700} objectFit='none' 
 
-{/* <div class="relative w-40 h-40 rounded-full overflow-hidden">
-  <img src="https://www.w3schools.com/howto/img_avatar2.png" alt="Avatar" class="object-cover w-full h-full" />
-  <div class="absolute w-full py-2.5 bottom-0 inset-x-0 bg-blue-400 text-white text-xs text-center leading-4">this is a text</div>
-</div> */}
 
 function About() {
   return (
-    <div className="">
-    <div className='grid grid-cols-3 '>
-    <div className="relative rt-img1">
-      <div className="px-10 card">
-      <div className=' py-5'><Image className="absolute" src={icon1} alt=''/></div>
-        <div className="py-10">
-          <h1 className="text-center text-orange-500 leading-4 text-3xl py-2">Live stream</h1>
-          <h1 className="text-sky-200 py-2">When unknown printer took type and scrambled it to make type specimen book centuries,</h1>
+
+    <div className=" ">
+      <div className="grid grid-cols-1 md:grid-cols-3 ">
+        <div className="rt-img1 relative ">
+          <div className="md:px-10 px-20 py-28 ">
+            <div className=" py-5  ">
+              <Image className="  absolute" src={icon1} alt="" />
+            </div>
+            <div className="md:py-10  py-5 ">
+              <h1 className="py-2 text-center md:text-3xl leading-4  text-xl text-orange-500">
+                Live stream
+              </h1>
+              <h1 className=" py-2 text-sky-200">
+                When unknown printer took type and scrambled it to make type
+                specimen book centuries,
+              </h1>
+            </div>
+          </div>
+
+        </div>
+
+        <div className="rt-img2 relative">
+          <div className=" md:px-10 px-20 py-28">
+            <div className=" py-5">
+              <Image className="absolute" src={icon2} alt="" />
+            </div>
+            <div className="md:py-10 py-5 ">
+              <h1 className="py-2 text-center text-3xl leading-4 text-orange-500">
+                Live stream
+              </h1>
+              <h1 className="py-2 text-sky-200">
+                When unknown printer took type and scrambled it to make type
+                specimen book centuries,
+              </h1>
+            </div>
+          </div>
+        </div>
+        <div className="rt-img3 relative">
+          <div className="md:px-10 px-20  py-28">
+            <div className=" py-5">
+              <Image className="absolute" src={icon3} alt="" />
+            </div>
+            <div className="md:py-10 py-5">
+              <h1 className="py-2 text-center text-3xl leading-4 text-orange-500">
+                Live stream
+              </h1>
+              <h1 className="py-2 text-sky-200">
+                When unknown printer took type and scrambled it to make type
+                specimen book centuries,
+              </h1>
+            </div>
+          </div>
         </div>
       </div>
-        
-    </div>
-    <div className="relative rt-img2">
-      <div className="px-10 card">
-      <div className=' py-5'><Image className="absolute" src={icon2} alt=''/></div>
-        <div className="py-10 ">
-          <h1 className="text-center text-orange-500 leading-4 text-3xl py-2">Live stream</h1>
-          <h1 className="text-sky-200 py-2">When unknown printer took type and scrambled it to make type specimen book centuries,</h1>
-        </div>
-      </div>
-        
-    </div>
-    <div className="relative rt-img3">
-      <div className="px-10 card">
-      <div className=' py-5'><Image className="absolute" src={icon3} alt=''/></div>
-        <div className="py-10">
-          <h1 className="text-center text-orange-500 leading-4 text-3xl py-2">Live stream</h1>
-          <h1 className="text-sky-200 py-2">When unknown printer took type and scrambled it to make type specimen book centuries,</h1>
-        </div>
-      </div>
-        
-    </div>
-</div>
 
       <div>
         <h1 className="revamp text-[36px] md:my-20 md:text-[46px] ">
           About Event
-          <span className='flex justify-center text-2xl '>Know about Gamer days</span>
-          <div className='h-2 w-[40vw] justify-center px-20 mx-[24vw] eth-card'/>
+          <span className="flex justify-center text-2xl ">
+            Know about Gamer days
+          </span>
+          <div className="eth-card mx-[24vw] h-2 w-[40vw] justify-center px-20" />
         </h1>
-        
       </div>
-      <div className="grid md:grid-cols-2 grid-cols-1 justify-evenly ">
+      <div className="grid grid-cols-1 justify-evenly md:grid-cols-2 ">
         <div className="para-1 py-5 px-2 text-center text-lg md:px-20 md:text-2xl">
           <p>
             Gamer days 2.0 is a successor of Gamer Days. This event is held
@@ -81,8 +94,12 @@ function About() {
             click on the button above.
           </p>
         </div>
-        <div className="transition-transform px-10 py-3 animate-pulse">
-          <Image src={EventLogo} className=' hover:ease-in-out   rounded-3xl ' alt="" />
+        <div className="animate-pulse px-10 py-3 transition-transform">
+          <Image
+            src={EventLogo}
+            className=" rounded-3xl   hover:ease-in-out "
+            alt=""
+          />
         </div>
       </div>
 
