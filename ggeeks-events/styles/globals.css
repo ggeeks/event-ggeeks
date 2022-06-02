@@ -246,7 +246,7 @@ background-blend-mode: overlay, overlay, difference, difference, difference, nor
   background: linear-gradient(179.4deg, rgb(12, 20, 69) -16.9%, rgb(71, 30, 84) 119.9%);
 }
 .bg-img{
-background-image: url(../assets/gaming-bg2.jpg);
+background-image: url(../assets/gaming-bg1.jpg);
   background-repeat: no-repeat;
   /* background-size: averceluto; */
   /* width:100vw; */

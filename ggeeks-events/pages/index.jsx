@@ -29,6 +29,10 @@ function Home() {
         <Link href='./Register' to={<Register />}>
           <button className='md:text-2xl text-lg border md:px-4 white-glassmorphism hover:animate-none animate-bounce md:py-6 px-2 py-4 my-9  rounded-lg '>Register</button>
         </Link>
+        {/* <div>
+        <iframe src="https://free.timeanddate.com/countdown/i8cr1dax/n54/cf100/cm0/cu4/ct0/cs0/ca0/co0/cr0/ss0/cacfff/cpcfff/pc9f9/tc66c/fn3/fs275/szw320/szh135/iso2022-06-20T00:00:00/pl5/pr5/pt10/pb10" allowtransparency="true" frameborder="0" width="330" height="155"></iframe>
+        </div> */}
+
       </main>
       <div className='py-10'>
         <About />
