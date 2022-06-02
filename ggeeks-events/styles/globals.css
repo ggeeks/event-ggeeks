@@ -195,7 +195,7 @@ background-blend-mode: overlay, overlay, difference, difference, difference, nor
 }
 .bg-6{
   background-image: linear-gradient(to right top, #340616, #360c1a, #38121e, #391721, #3b1c25, #3f1b29, #421b2e, #441b33, #45173e, #40164b, #33195b, #091f6b);
-  height:100vh;
+  /* height:100vh; */
 }
 .eth-card {
   background-color:#a099ff;
@@ -264,19 +264,26 @@ background-image: url(../assets/gaming-bg2.jpg);
 .rt-img1{
   background-image: url("../assets/gaming-world-bg1.png");
   background-repeat: no-repeat;
-  height: 500px;
-  /* margin-right: -10px; */
+  /* padding:20px 10px; */
+ height:100vh; 
+ align-items: center;
+ background-position: center;
+  /* margin-left: -20px; */
 
 }
 .rt-img2{
   background-image: url("../assets/gaming-world-bg2.png");
   background-repeat: no-repeat;
-  height: 500px;
+  height:100vh; 
+ align-items: center;
+ background-position: center;
 
 }
 .rt-img3{
   background-image: url("../assets/gaming-world-bg3.png");
   background-repeat: no-repeat;
-  height: 500px;
+  height:100vh; 
+  align-items: center;
+  background-position: center;
 
 }
