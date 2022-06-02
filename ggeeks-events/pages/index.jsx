@@ -19,7 +19,7 @@ function Home() {
         <link rel="preconnect" href="https://fonts.gstatic.com" crossOrigin='true' />
         <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,900;1,100;1,400;1,700;1,900&display=swap" rel="stylesheet"></link>
         <link href="https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,300;0,700;0,800;0,900;1,700&family=Press+Start+2P&display=swap" rel="stylesheet" />
-        <title>GamingGeeks Events</title>
+        <title>Events - Gaming Geeks</title>
         <link rel="icon" href="/favicon.ico" />
       </Head>
 

@@ -53,7 +53,7 @@ function MyApp({ Component, pageProps }) {
             </Link> */}
             <Link href="/Sponser" className="text-lg justify-center">
               <li className="justify-items-center cursor-pointer hover:text-[#fdfd96] px-2">
-                Sponser
+                Sponsor
               </li>
             </Link>
             <Link href="/Contact" className="text-lg justify-center">
