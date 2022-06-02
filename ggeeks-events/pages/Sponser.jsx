@@ -9,7 +9,7 @@ import youth from '../assets/brand/youth-incorporated.png'
 function Sponser() {
   return (
     <div className=' revamp '>
-      <div className='text-5xl'>Sponsor</div>
+      <div className='text-5xl'>Sponsors</div>
       <div className='py-10 '>
         <div className="grid md:grid-cols-3 grid-cols-1 w-5/6 md:mx-24 mx-12">
           <div className='p-3 '>
