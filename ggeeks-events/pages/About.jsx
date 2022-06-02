@@ -11,7 +11,7 @@ import icon3 from '../assets/gaming-world3.png'
 function About() {
   return (
 
-    <div className=" ">
+    <div className="">
       <div className="grid grid-cols-1 md:grid-cols-3 ">
         <div className="rt-img1 relative ">
           <div className="md:px-10 px-20 py-28 ">

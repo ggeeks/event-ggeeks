@@ -3,7 +3,7 @@ import Faq from "react-faq-component";
 
 export default function FAQ() {
   return (
-    <div className="px-10">
+    <div className="px-10 white-glassmorphism">
       <Fragment>
     <Faq
       data={data}
