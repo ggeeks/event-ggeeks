@@ -13,16 +13,16 @@ function Sponser() {
       <div className='py-10 '>
         <div className="grid md:grid-cols-3 grid-cols-1 w-5/6 md:mx-24 mx-12">
           <div className='p-3 '>
-            <Image src={anaitik} width={500} height={300} alt="anaitik" />
+            <Image src={anaitik} width={250} height={150} alt="Anaitik" />
           </div>
           <div className='p-3'>
-            <Image src={badelog} width={350} height={200} alt='badelog' />
+            <Image src={badelog} width={250} height={150} alt='Badelog' />
           </div>
           {/* <div className='p-3'>
             <Image src={gfg} width={350} height={200} />
           </div> */}
           <div className='p-3'>
-            <Image src={give} width={350} height={200} />
+            <Image src={give} width={250} height={150} alt='Give My Certificate'/>
           </div>
           {/* <div className='p-3'>
             <Image src={travel} width={350} height={200} />
@@ -34,7 +34,7 @@ function Sponser() {
       </div>
       <div className=' text-center pt-5 justify-center'>
         <h1 className='md:text-2xl text-lg items-center my-2 '>Want to sponsor us?</h1>
-        <button className='rounded-2xl border md:text-2xl transition-300 text-lg white-glassmorphism mx-3 px-2 py-1 hover:text-orange-500 hover:bg-white shadow-md  shadow-orange-500'> Contact us</button>
+        <a href="mailto:ggeeks.platform@gmail.com"><button className='rounded-2xl border md:text-2xl transition-300 text-lg white-glassmorphism mx-3 px-2 py-1 hover:text-orange-500 hover:bg-white shadow-md  shadow-orange-500'>Contact us</button></a>
       </div>
 
     </div>
