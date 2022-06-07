@@ -14,7 +14,7 @@ function About() {
     <div className="">
       <div className="grid grid-cols-1 md:grid-cols-3 ">
         <div className="rt-img1 relative ">
-          <div className="md:px-10 px-20 py-28 ">
+          <div className="md:px-10 py-28 ">
             <div className=" py-5  ">
               <Image className="  absolute" src={icon1} alt="" />
             </div>
@@ -22,7 +22,7 @@ function About() {
               <h1 className="py-2 text-center md:text-3xl leading-4  text-xl text-orange-500">
                 Live stream
               </h1>
-              <h1 className=" py-2 text-sky-200">
+              <h1 className=" py-2 text-sky-200 md:text-[18px] text-[13px]">
                 When unknown printer took type and scrambled it to make type
                 specimen book centuries,
               </h1>
@@ -32,15 +32,15 @@ function About() {
         </div>
 
         <div className="rt-img2 relative">
-          <div className=" md:px-10 px-20 py-28">
+          <div className=" md:px-10 py-28">
             <div className=" py-5">
               <Image className="absolute" src={icon2} alt="" />
             </div>
             <div className="md:py-10 py-5 ">
-              <h1 className="py-2 text-center text-3xl leading-4 text-orange-500">
-                Live stream
+              <h1 className="py-2 text-center md:text-3xl leading-4  text-xl text-orange-500">
+                Gaming
               </h1>
-              <h1 className="py-2 text-sky-200">
+              <h1 className="py-2 text-sky-200 md:text-[18px] text-[13px]">
                 When unknown printer took type and scrambled it to make type
                 specimen book centuries,
               </h1>
@@ -48,15 +48,15 @@ function About() {
           </div>
         </div>
         <div className="rt-img3 relative">
-          <div className="md:px-10 px-20  py-28">
+          <div className="md:px-10  py-28">
             <div className=" py-5">
               <Image className="absolute" src={icon3} alt="" />
             </div>
-            <div className="md:py-10 py-5">
-              <h1 className="py-2 text-center text-3xl leading-4 text-orange-500">
-                Live stream
+            <div className="md:py-10 py-5 ">
+              <h1 className="py-2 text-center md:text-3xl leading-4  text-xl text-orange-500">
+                Tournaments
               </h1>
-              <h1 className="py-2 text-sky-200">
+              <h1 className="py-2 text-sky-200 md:text-[18px] text-[13px]">
                 When unknown printer took type and scrambled it to make type
                 specimen book centuries,
               </h1>

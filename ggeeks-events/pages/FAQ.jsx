@@ -3,7 +3,7 @@ import Faq from "react-faq-component";
 
 export default function FAQ() {
   return (
-    <div className="px-10 white-glassmorphism">
+    <div className="pl-5 white-glassmorphism">
       <Fragment>
     <Faq
       data={data}
@@ -11,15 +11,16 @@ export default function FAQ() {
         bgColor: "transparent",
         titleTextColor: "#fc9803",
         titleTextSize:"50px",
-        rowTitleColor: "#bdd8de",
-        rowTitleTextSize: "extraLarge",
+        rowTitleColor: "#fff",
+        rowTitleTextSize: "Large",
         rowContentColor: "#d8eff2",
         rowContentPaddingRight: "0",
         rowContentTextSize: "16px",
+        rowContentTextFontFamily: "para-1",
         rowContentPaddingTop: "10px",
         rowContentPaddingBottom: "10px",
-        rowContentPaddingLeft: "50px",
-        rowContentPaddingRight: "150px",
+        rowContentPaddingLeft: "10px",
+        rowContentPaddingRight: "10px",
         arrowColor: "white"
       }}
       config={{
