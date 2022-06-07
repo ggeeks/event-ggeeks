@@ -343,3 +343,10 @@ background-image: url(../assets/gaming-bg1.jpg);
   background-position: center;
 
 }
+
+.form-font{
+  font-family: 'Merriweather', serif;
+  font-family: 'Roboto Slab', serif;
+  font-weight: 400;
+  font-style: normal;
+}
