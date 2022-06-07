@@ -403,6 +403,11 @@
   "resolved" "https://registry.npmjs.org/minimist/-/minimist-1.2.6.tgz"
   "version" "1.2.6"
 
+"moment@^2.29.3":
+  "integrity" "sha512-c6YRvhEo//6T2Jz/vVtYzqBzwvPT95JBQ+smCytzf7c50oMZRsR/a4w88aD34I+/QVSfnoAnSBFPJHItlOMJVw=="
+  "resolved" "https://registry.npmjs.org/moment/-/moment-2.29.3.tgz"
+  "version" "2.29.3"
+
 "nanoid@^3.1.30", "nanoid@^3.3.3":
   "integrity" "sha512-MqBkQh/OHTS2egovRtLk45wEyNXwF+cokD+1YPf9u5VfJiRdAiRwB2froX5Co9Rh20xs4siNPm8naNotSD6RBw=="
   "resolved" "https://registry.npmjs.org/nanoid/-/nanoid-3.3.4.tgz"
