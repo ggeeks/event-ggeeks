@@ -7,6 +7,7 @@ import { HiMenuAlt4 } from "react-icons/hi"
 import BackgroundImg from "../assets/gaming-bg1.jpg"
 import { FaInstagramSquare, FaDiscord, FaWhatsapp, FaTelegram, FaLinkedin, FaYoutube, FaInstagram } from 'react-icons/fa'
 import { useState } from 'react'
+import axios from 'axios'
 // import 'bootstrap/dist/css/bootstrap.min.css';
 
 function MyApp({ Component, pageProps }) {
