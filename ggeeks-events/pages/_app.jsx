@@ -4,10 +4,9 @@ import Link from 'next/link'
 import Logo from "../assets/lone-logo.png"
 import { AiOutlineClose } from "react-icons/ai"
 import { HiMenuAlt4 } from "react-icons/hi"
-import BackgroundImg from "../assets/gaming-bg1.jpg"
-import { FaInstagramSquare, FaDiscord, FaWhatsapp, FaTelegram, FaLinkedin, FaYoutube, FaInstagram } from 'react-icons/fa'
+import { FaDiscord, FaWhatsapp, FaTelegram, FaLinkedin, FaYoutube, FaInstagram } from 'react-icons/fa'
 import { useState } from 'react'
-import axios from 'axios'
+
 // import 'bootstrap/dist/css/bootstrap.min.css';
 
 function MyApp({ Component, pageProps }) {
@@ -16,24 +15,24 @@ function MyApp({ Component, pageProps }) {
     <div className='text-white h-full overflow-x-hidden revamp  bg-img ' style={{backgroundImage:('../assets/gaming-bg1.jpg')}}>
      {/* <Image src={BackgroundImg}  objectFit='cover' className='w-screen h-screen' alt=''/> */}
       <header className="  revamp">
-      <nav className=" flex  justify-between   items-center p-4">
+      <nav className=" flex 2xl:text-5xl text-xl justify-between   items-center p-4">
         <div className="md:flex-[0.5] flex-initial bg-transparent z-10 justify-between  items-center">
           <Link href='/' alt=''>
           <div className="flex flex-row justify-center cursor-pointer items-center">
-            <div className="w-20 h-20 rounded-full items-center">
+            <div className="w-20 h-20 2xl:w-40 2xl:h-40  rounded-full items-center">
               <Image
                 src={Logo}
                 alt="home"
                 className="w-20 h-20 rounded-full  object-cover"
               />
             </div>
-          <h1 className='items-center text-xl py-5'><span className='text-orange-400'>Gaming </span>Geeks</h1>
+          <h1 className='items-center 2xl:text-7xl text-xl py-5'><span className='text-orange-400'>Gaming </span>Geeks</h1>
         </div>
         </Link>
         </div>
         <div className="text-white md:flex hidden  flex-row  items-center ">
           <div className="flex flex-row justify-evenly  navbar-brand items-center">
-            <ul className='flex text-xl '>
+            <ul className='flex  '>
               <Link
               href="/"
               className="text-lg block justify-evenly scroll-smooth"

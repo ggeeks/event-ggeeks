@@ -42,8 +42,8 @@ function Timer() {
       }
 
       return (
-        <div className='text-white md:text-5xl text-3xl white-glassmorphism'>
-            <div className='white-glassmorphism'>
+        <div className='text-white  lg:text-5xl 2xl:text-9xl md:4xl text-3xl white-glassmorphism'>
+            <div className='white-glassmorphism '>
           <div className="countdown-wrapper white-glassmorphism ">
             {days && (
               <div className="countdown-item ">
@@ -97,7 +97,7 @@ return(
     <Countdown
       timeTillDate="06 20 2022, 0:00 am"
       timeFormat="MM DD YYYY, h:mm a"
-      className='text-white white-glassmorphism'
+      className='text-white text-2xl white-glassmorphism'
     />,
     
    </div>

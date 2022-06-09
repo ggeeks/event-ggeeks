@@ -321,7 +321,7 @@ background-image: url(../assets/gaming-bg1.jpg);
   background-image: url("../assets/gaming-world-bg1.png");
   background-repeat: no-repeat;
   /* padding:20px 10px; */
- height:100vh; 
+ height:100%; 
  align-items: center;
  background-position: center;
   /* margin-left: -20px; */
