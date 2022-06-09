@@ -72,7 +72,7 @@ const ValorantTeam = () => {
         <input name="valorant-username" type="text" placeholder='Valorant Username[with hash id]' className='white-glassmorphism bg-transparent px-3 my-3 py-3' required onChange={(e)=>setValoUsername(e.target.value)} value={valoUsername}/>
         <input name="team-leader" type="text" placeholder='Team Leader(In Game Name)' className='white-glassmorphism bg-transparent px-3 my-3 py-3' required onChange={(e)=>setLeader(e.target.value)} value={teamLeader}/>
         <input name="leader-username" type="text" placeholder='Team leader Username[with hash id]' className='white-glassmorphism bg-transparent px-3 my-3 py-3' required onChange={(e)=>setLeaderUsername(e.target.value)} value={leaderUsername}/>
-        <button type="submit" className='md:text-2xl text-lg blue-glassmorphism hover:text-orange-500 md:w-2/5 w-3/5 justify-center rounded-xl my-3 px-3 py-4'>Register</button>
+        <div><button type="submit" className='md:text-2xl text-lg blue-glassmorphism hover:text-orange-500 md:w-2/5 w-3/5 justify-center rounded-xl my-3 px-3 py-4'>Register</button></div>
       </form>
     </div>
   </div>

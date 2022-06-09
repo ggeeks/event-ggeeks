@@ -32,7 +32,9 @@ function About() {
         </div>
 
         <div className="rt-img2 px-2 relative">
-          <div className="md:px-10 lg:py-28 md:py-10 xl:py-36 py-10 mx-0">
+
+          <div className=" md:px-10 lg:py-28 md:py-10 xl:py-36 py-10 mx-0">
+
             <div className=" py-5 pb-10">
               <Image className="absolute" src={icon2} alt="" />
             </div>
