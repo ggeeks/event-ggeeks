@@ -35,8 +35,10 @@ function Home() {
         {/* <div>
         <iframe src="https://free.timeanddate.com/countdown/i8cr1dax/n54/cf100/cm0/cu4/ct0/cs0/ca0/co0/cr0/ss0/cacfff/cpcfff/pc9f9/tc66c/fn3/fs275/szw320/szh135/iso2022-06-20T00:00:00/pl5/pr5/pt10/pb10" allowtransparency="true" frameborder="0" width="330" height="155"></iframe>
         </div> */}
-       
-        <Timer/>
+       <div className='lg:px-64 px-2'>
+         <Timer/>
+       </div>
+        
 
       </main>
       <div className='py-10'>
