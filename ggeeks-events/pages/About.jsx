@@ -74,7 +74,7 @@ function About() {
           <div className="eth-card mx-[24vw] h-2 w-[40vw] justify-center px-20" />
         </h1>
       </div>
-      <div className="grid grid-cols-1 justify-evenly md:grid-cols-2 ">
+      <div className="grid grid-cols-1 justify-evenly xl:grid-cols-2 ">
         <div className="para-1 py-5 px-2 text-center text-lg md:px-20 md:text-2xl">
           <p>
             Gamer days 2.0 is a successor of Gamer Days. This event is held
