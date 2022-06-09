@@ -30,39 +30,39 @@ const Solo = () => {
       <div className='py-5'>
         <div className='grid md:grid-cols-3 grid-cols-1  '>
         <Link  href='../forms/solo-form/AmongUs' to={<AmongUsSolo/>}  alt='amongus-solo'>
-          <div className='grad-border md:w-11/12 px-3 py-2 m-5 w-5/6'>
+          <div className='grad-border md:w-11/12 cursor-pointer px-3 py-2 m-5 w-5/6'>
             <Image src={Amongus} height={270} alt="among-us" />
             <h2 className='text-xl'>Among Us</h2>
             
           </div>
           </Link>
           <Link href='../forms/solo-form/Bgmi' to={<BgmiSolo/>} alt='BGMI'>
-          <div className='grad-border md:w-11/12 px-3 py-2 m-5 w-5/6'>
+          <div className='grad-border md:w-11/12 cursor-pointer px-3 py-2 m-5 w-5/6'>
             <Image src={bgmi}   alt="bgmi" />
             <h2 className='text-xl'>BGMI</h2>
           </div>
           </Link>
           <Link href='../forms/solo-form/Chess' to={<ChessSolo/>} alt='chess'>
-           <div className='grad-border md:w-11/12 px-3 py-2 m-5 w-5/6'>
+           <div className='grad-border md:w-11/12 cursor-pointer px-3 py-2 m-5 w-5/6'>
             <Image src={chess}   alt="chess-image" />
             <h2 className='text-xl'>Chess</h2>
           </div>
           </Link>
         
           <Link href='../forms/solo-form/CODM' alt='codm-image' to={<CODMSolo/>}>
-          <div className='grad-border md:w-11/12 px-3 py-2 m-5 w-5/6'>
+          <div className='grad-border md:w-11/12 cursor-pointer px-3 py-2 m-5 w-5/6'>
             <Image src={cod} height={900}   alt="cod" />
             <h2 className='text-xl'>Call of Duty</h2>
           </div>
           </Link>
           <Link href='../forms/solo-form/Skribble' alt='skribble' to={<SkribbleSolo/>}>
-          <div className='grad-border md:w-11/12 px-3 py-2 m-5 w-5/6'>
+          <div className='grad-border md:w-11/12 cursor-pointer px-3 py-2 m-5 w-5/6'>
             <Image src={skribbleImage} height={850}  alt="skribble-image" />
             <h2 className='text-xl'>Skribble</h2>
           </div>
           </Link>
           <Link href='../forms/solo-form/Valorant' alt='valorant' to={<ValorantSolo/>}> 
-          <div className='grad-border md:w-11/12 px-3 py-2 m-5 w-5/6' >
+          <div className='grad-border md:w-11/12 cursor-pointer px-3 py-2 m-5 w-5/6' >
             <Image src={valorant} height={650}  alt="valorant" />
             <h2 className='text-xl'>Valorant</h2>
           </div>

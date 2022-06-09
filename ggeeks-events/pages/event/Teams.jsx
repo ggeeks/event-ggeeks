@@ -21,13 +21,13 @@ const Teams = () => {
       <div className='py-5'>
         <div className='grid md:grid-cols-2 grid-cols-1'>
           <Link href='../forms/team-form/BgmiTeam' alt='bgmi-team' to={<BgmiTeam/>}>
-            <div className='grad-border md:w-11/12 px-3 py-2 m-5 w-5/6'>
+            <div className='grad-border md:w-11/12 cursor-pointer px-3 py-2 m-5 w-5/6'>
               <Image src={bgmi} alt="bgmi" />
               <h2 className='text-xl'>BGMI</h2>
             </div>
           </Link>
           <Link href='../forms/team-form/ValorantTeam' alt='valo-team' to={<ValorantTeam/>}>
-            <div className='grad-border md:w-11/12 px-3 py-2 m-5 w-5/6'>
+            <div className='grad-border md:w-11/12 px-3 cursor-pointer py-2 m-5 w-5/6'>
               <Image src={valorant} alt="valorant" />
               <h2 className='text-xl'>Valorant</h2>
             </div>
