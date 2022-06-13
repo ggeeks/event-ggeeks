@@ -3,16 +3,15 @@ import React from 'react'
 import Image from 'next/image'
 import EventLogo from '../assets/eventlogo.jpg'
 import Register from './Register'
-import icon1 from '../assets/gaming-world1.png'
-import icon2 from '../assets/gaming-world2.png'
-import icon3 from '../assets/gaming-world3.png'
+import Card from '../components/Card'
+
 
 
 function About() {
   return (
 
     <div className="">
-      <div className="grid grid-cols-1 lg:grid-cols-3 ">
+      {/* <div className="grid grid-cols-1 lg:grid-cols-3 ">
 
         <div className="rt-img1 px-2 relative ">
 
@@ -72,8 +71,8 @@ function About() {
             </div>
           </div>
         </div>
-      </div>
-
+      </div> */}
+  {/* <Card /> */}
       <div>
         <h1 className="revamp text-[36px] md:my-20 md:text-[46px] ">
           About Event
