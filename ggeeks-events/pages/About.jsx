@@ -83,7 +83,7 @@ function About() {
         </h1>
       </div>
       <div className="grid grid-cols-1 justify-evenly xl:grid-cols-2 ">
-        <div className="para-1 py-5 px-2 text-center text-lg md:px-20 md:text-2xl">
+        <div className="kdam py-5 px-2 text-center text-lg md:px-20 md:text-2xl">
           <p>
             Gamer days 2.0 is a successor of Gamer Days. This event is held
             every year. This is a week events in which every participant enjoy

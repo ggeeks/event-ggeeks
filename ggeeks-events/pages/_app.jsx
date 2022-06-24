@@ -12,102 +12,93 @@ import { useState } from 'react'
 function MyApp({ Component, pageProps }) {
   const [toggleMenu, setToggleMenu] = useState(false);
   return (
-    <div className='text-white h-full overflow-x-hidden revamp  bg-img ' style={{backgroundImage:('../assets/gaming-bg1.jpg')}}>
-     {/* <Image src={BackgroundImg}  objectFit='cover' className='w-screen h-screen' alt=''/> */}
+    <div className='text-white h-full overflow-x-hidden revamp  bg-img ' style={{ backgroundImage: ('../assets/gaming-bg1.jpg') }}>
+      {/* <Image src={BackgroundImg}  objectFit='cover' className='w-screen h-screen' alt=''/> */}
       <header className="  revamp">
-      <nav className=" flex 2xl:text-5xl text-xl justify-between   items-center p-4">
-        <div className="md:flex-[0.5] flex-initial bg-transparent z-10 justify-between  items-center">
-          <Link href='/' alt=''>
-          <div className="flex flex-row justify-center cursor-pointer items-center">
-            <div className="w-20 h-20 2xl:w-40 2xl:h-40  rounded-full items-center">
-              <Image
-                src={Logo}
-                alt="home"
-                className="w-20 h-20 rounded-full  object-cover"
-              />
-            </div>
-          <h1 className='items-center 2xl:text-7xl text-xl py-5'><span className='text-orange-400'>Gaming </span>Geeks</h1>
-        </div>
-        </Link>
-        </div>
-        <div className="text-white md:flex hidden  flex-row  items-center ">
-          <div className="flex flex-row justify-evenly  navbar-brand items-center">
-            <ul className='flex  '>
-              <Link
-              href="/"
-              className="text-lg block justify-evenly scroll-smooth"
-            >
-              <li className="justify-items-center cursor-pointer hover:text-[#fdfd96] px-2">
-                Home
-              </li>
+        <nav className=" flex md:text-2xl text-xl justify-between   items-center p-4">
+          <div className="md:flex-[0.5] flex-initial bg-transparent z-10 justify-between  items-center">
+            <Link href='/' alt=''>
+              <div className="flex flex-row justify-center cursor-pointer items-center">
+                <div className="w-20 h-20  rounded-full items-center">
+                  <Image
+                    src={Logo}
+                    alt="home"
+                    className="w-20 h-20 rounded-full  object-cover"
+                  />
+                </div>
+                <h1 className='items-center text-2xl py-5'><span className='text-orange-400'>Gaming </span>Geeks</h1>
+              </div>
             </Link>
-            {/* <Link href="/Games" className="text-lg justify-center">
-              <li className="justify-items-center hover:text-[#fdfd96] px-2">
-                Games
-              </li>
-            </Link> 
-            <Link href="/Gallery" className="text-lg justify-center">
-              <li className="justify-items-center hover:text-[#fdfd96] px-2">
-                Gallery
-              </li>
-            </Link> */}
-            <Link href="/Sponser" className="text-lg justify-center">
-              <li className="justify-items-center cursor-pointer hover:text-[#fdfd96] px-2">
-                Sponsor
-              </li>
-            </Link>
-            <Link href="/Contact" className="text-lg justify-center">
-              <li className="justify-items-center cursor-pointer hover:text-[#fdfd96] px-2">
-                Contact
-              </li>
-            </Link>
-            <Link href="/FAQ" className="text-lg justify-center">
-              <li className="justify-items-center cursor-pointer hover:text-[#fdfd96] px-2">
-                FAQ
-              </li>
-            </Link>
-{/*         <Link href='/Register'>
-              <li className='justify-items-center hover:text-[#fdfd96] px-2'>
-                Register
-              </li>
-            </Link> */}
-            </ul>
-            
           </div>
-        </div>
-        <div className="flex relative">
-          {toggleMenu ? (
-            <AiOutlineClose
-              fontSize={28}
-              className="text-white md:hidden cursor-pointer"
-              onClick={() => setToggleMenu(false)}
-            />
-          ) : (
-            <HiMenuAlt4
-              fontSize={28}
-              className="text-white md:hidden cursor-pointer"
-              onClick={() => setToggleMenu(true)}
-            />
-          )}
-          {toggleMenu && (
-            <ul
-              className="z-10 fixed top-0 -right-2 p-3 w-[50vw] h-screen shadow-xl md:hidden list-none
+          <div className="text-white md:flex hidden  flex-row  items-center ">
+            <div className="flex flex-row justify-evenly   items-center">
+              <ul className='flex  '>
+                <Link
+                  href="/"
+                  className="text-lg block justify-evenly scroll-smooth"
+                >
+                  <li className="justify-items-center cursor-pointer hover:text-[#fdfd96] px-2">
+                    Home
+                  </li>
+                </Link>
+
+                <Link href="/Sponser" className="text-lg justify-center">
+                  <li className="justify-items-center cursor-pointer hover:text-[#fdfd96] px-2">
+                    Sponsor
+                  </li>
+                </Link>
+                <Link href="/Contact" className="text-lg justify-center">
+                  <li className="justify-items-center cursor-pointer hover:text-[#fdfd96] px-2">
+                    Contact
+                  </li>
+                </Link>
+                <Link href="/FAQ" className="text-lg justify-center">
+                  <li className="justify-items-center cursor-pointer hover:text-[#fdfd96] px-2">
+                    FAQ
+                  </li>
+                </Link>
+                <Link href='/Register'>
+                  <button className='justify-items-center cursor-pointer text-red-400 hover:text-[#fdfd96] px-2'>
+                    Register
+                  </button>
+                </Link>
+              </ul>
+
+            </div>
+          </div>
+          <div className="flex relative">
+            {toggleMenu ? (
+              <AiOutlineClose
+                fontSize={28}
+                className="text-white md:hidden cursor-pointer"
+                onClick={() => setToggleMenu(false)}
+              />
+            ) : (
+              <HiMenuAlt4
+                fontSize={28}
+                className="text-white md:hidden cursor-pointer"
+                onClick={() => setToggleMenu(true)}
+              />
+            )}
+            {toggleMenu && (
+              <ul
+                className="z-10 fixed top-0 -right-2 p-3 w-[50vw] h-screen shadow-xl md:hidden list-none
                 flex flex-col justify-start items-center rounded-md blue-glassmorphism text-white animate-slide-in"
-            >
-              <li className="text-xl w-full my-2">
-                <AiOutlineClose onClick={() => setToggleMenu(false)} />
-              </li>
-              <div className='items-center'>
-              <ul className='flex flex-col text-xl'>
-              <Link
-              href="/"
-              className="text-lg block justify-center scroll-smooth"
-            >
-              <li className="justify-items-center cursor-pointer py-3 hover:text-[#fdfd96] px-2">
-                Home
-              </li>
-            </Link>
-            {/* <Link href="/Games" className=" text-lg justify-center">
+              >
+                <li className="text-xl w-full my-2">
+                  <AiOutlineClose onClick={() => setToggleMenu(false)} />
+                </li>
+                <div className='items-center'>
+                  <ul className='flex flex-col text-xl'>
+                    <Link
+                      href="/"
+                      className="text-lg block justify-center scroll-smooth"
+                    >
+                      <li className="justify-items-center cursor-pointer py-3 hover:text-[#fdfd96] px-2">
+                        Home
+                      </li>
+                    </Link>
+                    {/* <Link href="/Games" className=" text-lg justify-center">
               <li className="py-3 justify-items-center hover:text-[#fdfd96] px-2">
                 Games
               </li>
@@ -117,33 +108,33 @@ function MyApp({ Component, pageProps }) {
                 Gallery
               </li>
             </Link> */}
-            <Link href="/Sponser" className="text-lg justify-center">
-              <div className="justify-items-center cursor-pointer py-3 hover:text-[#fdfd96] px-2">
-                Sponser
-              </div>
-            </Link>
-            <Link href="/Contact" className="text-lg justify-center">
-              <div className="justify-items-center cursor-pointer py-3 hover:text-[#fdfd96] px-2">
-                Contact
-              </div>
-            </Link>
-            <Link href="/FAQ" className="text-lg justify-center">
-              <div className="justify-items-center cursor-pointer py-3 hover:text-[#fdfd96] px-2">
-                FAQ
-              </div>
-            </Link>
-            {/* <Link href='/Register'>
-              <li className='justify-items-center  py-3 hover:text-[#fdfd96] px-2'>
-                Register
-              </li>
-            </Link> */}
-            </ul>
+                    <Link href="/Sponser" className="text-lg justify-center">
+                      <div className="justify-items-center cursor-pointer py-3 hover:text-[#fdfd96] px-2">
+                        Sponser
+                      </div>
+                    </Link>
+                    <Link href="/Contact" className="text-lg justify-center">
+                      <div className="justify-items-center cursor-pointer py-3 hover:text-[#fdfd96] px-2">
+                        Contact
+                      </div>
+                    </Link>
+                    <Link href="/FAQ" className="text-lg justify-center">
+                      <div className="justify-items-center cursor-pointer py-3 hover:text-[#fdfd96] px-2">
+                        FAQ
+                      </div>
+                    </Link>
+                    <Link href='/Register'>
+                      <li className='justify-items-center text-red-400 py-3 hover:text-[#fdfd96] px-2'>
+                        Register
+                      </li>
+                    </Link>
+                  </ul>
                 </div>
               </ul>
-          )}
-        </div>
-      </nav>
-    </header>
+            )}
+          </div>
+        </nav>
+      </header>
       {/* <hr /> */}
       <div className='md:mx-20 md:my-7 mx-5 my-3  text-center'>
         <Component {...pageProps} />
@@ -159,8 +150,8 @@ function MyApp({ Component, pageProps }) {
                 </a>
               </div>
               <div className=''>
-                <a target='_blank' href='http://instagram.com/gamers.platform_'>
-                  <FaInstagram className='m-3'  />
+                <a target='_blank' href='http://instagram.com/ggeeks_insta'>
+                  <FaInstagram className='m-3' />
                 </a>
               </div>
               <div className=''>
@@ -170,7 +161,7 @@ function MyApp({ Component, pageProps }) {
               </div>
               <div className=''>
                 <a target='_blank' href='https://www.linkedin.com/company/gaming-geeks'>
-                  <FaLinkedin className='m-3'/>
+                  <FaLinkedin className='m-3' />
                 </a>
               </div>
               <div className=' '>
@@ -179,15 +170,15 @@ function MyApp({ Component, pageProps }) {
                 </a>
               </div>
               <div className=' '>
-                <a  target='_blank' alt='whatsapp' href='https://chat.whatsapp.com/CB1DwNyUm7C35wFi0IC5JE'>
+                <a target='_blank' alt='whatsapp' href='https://chat.whatsapp.com/CB1DwNyUm7C35wFi0IC5JE'>
                   <FaWhatsapp className='m-3' />
                 </a>
               </div>
             </div>
-          
-          <div className='text-center py-3'> 
-            <h1 className='md:text-xl text-[14px] '>© 2022 All right reserved</h1>
-          </div>
+
+            <div className='text-center py-3'>
+              <h1 className='md:text-xl text-[14px] '>© 2022 All right reserved</h1>
+            </div>
           </div>
         </div>
       </footer>

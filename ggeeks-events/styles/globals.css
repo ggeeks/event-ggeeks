@@ -5,61 +5,76 @@
 /* @import url('https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,300;0,700;0,800;0,900;1,700&family=Press+Start+2P&display=swap'); */
 @import url('https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,300;0,700;0,800;0,900;1,700&family=Press+Start+2P&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,900;1,100;1,400;1,700;1,900&display=swap');
-@font-face{
-    font-family: Revamped;
-    src:  url(../assets/font/Revamped.ttf);
-    /* url(../fonts/Revamped.woff2) format('woff2'), */
-    font-weight: 400;
-    font-style: normal;
+@import url('https://fonts.googleapis.com/css2?family=Kdam+Thmor+Pro&display=swap');
+
+@font-face {
+  font-family: Revamped;
+  src: url(../assets/font/Revamped.ttf);
+  /* url(../fonts/Revamped.woff2) format('woff2'), */
+  font-weight: 400;
+  font-style: normal;
 
 }
-/* @font-face{
-  font-family: Cyberway;
-  src: local(Cyberway), 
-  url(../font/Cyberway.woff) format('woff'),
-  /* url(../fonts/Revamped.woff2) format('woff2'), */
-  ;
 
+@font-face {
+  font-family: Cyberway;
+  src: url(../assets/font/Cyberway.ttf);
+  font-weight: 400;
+  font-style: normal;
+
+}
+
+.kdam {
+  font-family: 'Kdam Thmor Pro', sans-serif;
+  font-weight: 400;
+}
 
 .gradient-bg-welcome {
-  background-color:#0f0e13;
-  background-image: 
-    radial-gradient(at 0% 0%, hsla(253,16%,7%,1) 0, transparent 50%), 
-    radial-gradient(at 50% 0%, hsla(225,39%,30%,1) 0, transparent 50%), 
-    radial-gradient(at 100% 0%, hsla(339,49%,30%,1) 0, transparent 50%);
-    /* font-family: Revamped; */
-/* font-family: 'Press Start 2P', cursive; */
+  background-color: #0f0e13;
+  background-image:
+    radial-gradient(at 0% 0%, hsla(253, 16%, 7%, 1) 0, transparent 50%),
+    radial-gradient(at 50% 0%, hsla(225, 39%, 30%, 1) 0, transparent 50%),
+    radial-gradient(at 100% 0%, hsla(339, 49%, 30%, 1) 0, transparent 50%);
+  /* font-family: Revamped; */
+  /* font-family: 'Press Start 2P', cursive; */
 }
-.revamp{
-  font-family:Revamped;
+
+.revamp {
+  font-family: Revamped;
+}
+
+.cyberway {
+  font-family: Cyberway;
 }
 
 .gradient-bg-services {
-  background-color:#0f0e13;
-  background-image: 
-    radial-gradient(at 0% 0%, hsla(253,16%,7%,1) 0, transparent 50%), 
-    radial-gradient(at 50% 100%, hsla(225,39%,25%,1) 0, transparent 50%);
+  background-color: #0f0e13;
+  background-image:
+    radial-gradient(at 0% 0%, hsla(253, 16%, 7%, 1) 0, transparent 50%),
+    radial-gradient(at 50% 100%, hsla(225, 39%, 25%, 1) 0, transparent 50%);
 }
 
 .gradient-bg-transactions {
   background-color: #0f0e13;
-  background-image: 
-    radial-gradient(at 0% 100%, hsla(253,16%,7%,1) 0, transparent 50%), 
-    radial-gradient(at 50% 0%, hsla(225,39%,25%,1) 0, transparent 50%);
+  background-image:
+    radial-gradient(at 0% 100%, hsla(253, 16%, 7%, 1) 0, transparent 50%),
+    radial-gradient(at 50% 0%, hsla(225, 39%, 25%, 1) 0, transparent 50%);
 }
-.gradient-bg-main{
-  background: radial-gradient(100% 225% at 0% 0%, #DE3E3E 0%, #17115C 100%), 
-    radial-gradient(100% 225% at 100% 0%, #FF9040 0%, #FF0000 100%), 
-    linear-gradient(180deg, #CE63B7 0%, #ED6283 100%), 
-    radial-gradient(100% 120% at 75% 0%, #A74600 0%, #000000 100%), 
+
+.gradient-bg-main {
+  background: radial-gradient(100% 225% at 0% 0%, #DE3E3E 0%, #17115C 100%),
+    radial-gradient(100% 225% at 100% 0%, #FF9040 0%, #FF0000 100%),
+    linear-gradient(180deg, #CE63B7 0%, #ED6283 100%),
+    radial-gradient(100% 120% at 75% 0%, #A74600 0%, #000000 100%),
     linear-gradient(310deg, #0063D8 0%, #16009A 50%);
-background-blend-mode: overlay, color-dodge, color-burn, color-dodge, normal;
+  background-blend-mode: overlay, color-dodge, color-burn, color-dodge, normal;
 }
+
 .gradient-bg-footer {
   background-color: #0f0e13;
-  background-image: 
-    radial-gradient(at 0% 100%, hsla(253,16%,7%,1) 0, transparent 53%), 
-    radial-gradient(at 50% 150%, hsla(339,49%,30%,1) 0, transparent 50%);
+  background-image:
+    radial-gradient(at 0% 100%, hsla(253, 16%, 7%, 1) 0, transparent 53%),
+    radial-gradient(at 50% 150%, hsla(339, 49%, 30%, 1) 0, transparent 50%);
 }
 
 .blue-glassmorphism {
@@ -70,20 +85,26 @@ background-blend-mode: overlay, color-dodge, color-burn, color-dodge, normal;
   -webkit-backdrop-filter: blur(5px);
   border: 1px solid rgba(0, 0, 0, 0.3);
 }
+
 body::-webkit-scrollbar {
-  width: 12px;               /* width of the entire scrollbar */
+  width: 12px;
+  /* width of the entire scrollbar */
 }
 
 body::-webkit-scrollbar-track {
-  background: rgb(80, 78, 75);        /* color of the tracking area */
+  background: rgb(80, 78, 75);
+  /* color of the tracking area */
 }
 
 body::-webkit-scrollbar-thumb {
-  background-color: rgb(0, 238, 255);  /*  color of the scroll thumb */
-  border-radius: 20px;       /* roundness of the scroll thumb */
-  
-   
+  background-color: rgb(0, 238, 255);
+  /*  color of the scroll thumb */
+  border-radius: 20px;
+  /* roundness of the scroll thumb */
+
+
 }
+
 /* white glassmorphism */
 .white-glassmorphism {
   background: rgba(255, 255, 255, 0.05);
@@ -92,130 +113,153 @@ body::-webkit-scrollbar-thumb {
   -webkit-backdrop-filter: blur(5px);
   border: 1px solid rgba(255, 255, 255, 0.3);
 }
-.bg-animate{
+
+.bg-animate {
   background: linear-gradient(-45deg, #0500FF 0.49%, linear-gradient(238.72deg, #e0ee24 0%, #1F001C 100%), radial-gradient(100% 143.09% at 100% 0%, #000000 0%, #FFC700 100%), radial-gradient(100% 143.09% at 100% 0%, #5200FF 0%, #00113D 100%));
   /* background: linear-gradient(151.47deg, #0500FF 0.49%, rgba(1, 0, 26, 0) 32.86%), linear-gradient(238.72deg, #FFFFFF 0%, #1F001C 100%), radial-gradient(100% 143.09% at 100% 0%, #000000 0%, #FFC700 100%), radial-gradient(100% 143.09% at 100% 0%, #5200FF 0%, #00113D 100%), radial-gradient(59.5% 100% at 49.32% 0%, #FF8A00 0%, #001AFF 100%), linear-gradient(121.28deg, #DBFF00 0%, #3300FF 100%), linear-gradient(121.28deg, #FF8A00 0%, #001AFF 100%), linear-gradient(180deg, #33FF00 0%, #FF0000 100%), radial-gradient(70.71% 99% at 100% 39.75%, #8000FF 0%, #FF0000 100%), radial-gradient(70.41% 100% at 50% 0%, #D5B300 0%, #00AA96 100%); */
-  background-blend-mode: luminosity, soft-light, color-dodge, overlay, overlay, difference, difference, exclusion, difference, normal; 
+  background-blend-mode: luminosity, soft-light, color-dodge, overlay, overlay, difference, difference, exclusion, difference, normal;
   background-size: 800% 800%;
   animation: gradient 5s ease infinite;
-  height:100%;
- 
+  height: 100%;
+
 }
 
 @keyframes gradient {
   0% {
     background-position: 0% 25%;
   }
+
   25% {
     background-position: 50% 25%;
   }
-  50%{
+
+  50% {
     background-position: 100% 25%;
   }
+
   75% {
     background-position: 50% 75%;
   }
+
   100% {
     background-position: 0% 75%;
   }
 
 }
-.bg-animate1{
+
+.bg-animate1 {
   background: linear-gradient(121.28deg, #000000 0%, #FFFFFF 100%), linear-gradient(121.28deg, #FFB800 0%, #FFFFFF 100%), linear-gradient(140.54deg, #7000FF 0%, #001AFF 72.37%), linear-gradient(307.43deg, #FFE927 0%, #00114D 100%), radial-gradient(107% 142.8% at 15.71% 104.5%, #FFFFFF 0%, #A7AA00 100%), radial-gradient(100.22% 100% at 70.57% 0%, #7A3B00 0%, #1DAC92 100%);
-background-blend-mode: difference, soft-light, difference, difference, difference, exclusion;
-background-size: 400% 400%;
-animation: gradient1 10s ease infinite;
-height:100%;
+  background-blend-mode: difference, soft-light, difference, difference, difference, exclusion;
+  background-size: 400% 400%;
+  animation: gradient1 10s ease infinite;
+  height: 100%;
 }
 
 @keyframes gradient1 {
-0% {
-  background-position: 0% 25%;
-}
-25% {
-  background-position: 50% 25%;
-}
-50%{
-  background-position: 100% 25%;
-}
-75% {
-  background-position: 50% 75%;
-}
-100% {
-  background-position: 0% 75%;
-}
+  0% {
+    background-position: 0% 25%;
+  }
+
+  25% {
+    background-position: 50% 25%;
+  }
+
+  50% {
+    background-position: 100% 25%;
+  }
+
+  75% {
+    background-position: 50% 75%;
+  }
+
+  100% {
+    background-position: 0% 75%;
+  }
 
 
 }
-.bg-animate-2{
-background: linear-gradient(114.95deg, rgba(235, 0, 255, 0.5) 0%, rgba(0, 71, 255, 0) 34.35%),  linear-gradient(244.35deg, #FFB26A 0%, #3676B1 50.58%, #00A3FF 100%),  radial-gradient(100% 233.99% at 0% 100%, #B70000 0%, #AD00FF 100%), linear-gradient(307.27deg, #219D87 0.37%, #2650BA 50.19%, #2800C6 100%), radial-gradient(100% 140% at 100% 0%, #000 40%, #006C7A 49.48%, #760000 100%);
-background-blend-mode: hard-light, overlay, overlay, overlay, difference, difference, normal;
-/* background-size: 400% 400%;
+
+.bg-animate-2 {
+  background: linear-gradient(114.95deg, rgba(235, 0, 255, 0.5) 0%, rgba(0, 71, 255, 0) 34.35%), linear-gradient(244.35deg, #FFB26A 0%, #3676B1 50.58%, #00A3FF 100%), radial-gradient(100% 233.99% at 0% 100%, #B70000 0%, #AD00FF 100%), linear-gradient(307.27deg, #219D87 0.37%, #2650BA 50.19%, #2800C6 100%), radial-gradient(100% 140% at 100% 0%, #000 40%, #006C7A 49.48%, #760000 100%);
+  background-blend-mode: hard-light, overlay, overlay, overlay, difference, difference, normal;
+  /* background-size: 400% 400%;
 animation: gradient2 10s ease none;
 height:100%; */
 }
 
 @keyframes gradient2 {
-0% {
-  background-position: 0% 25%;
+  0% {
+    background-position: 0% 25%;
+  }
+
+  25% {
+    background-position: 50% 25%;
+  }
+
+  50% {
+    background-position: 100% 25%;
+  }
+
+  75% {
+    background-position: 50% 75%;
+  }
+
+  100% {
+    background-position: 0% 75%;
+  }
 }
-25% {
-  background-position: 50% 25%;
-}
-50%{
-  background-position: 100% 25%;
-}
-75% {
-  background-position: 50% 75%;
-}
-100% {
-  background-position: 0% 75%;
-}
-}
-.bg-1{
+
+.bg-1 {
   background: linear-gradient(115deg, rgb(211, 255, 215) 0%, rgb(0, 0, 0) 100%), radial-gradient(90% 100% at 50% 0%, rgb(200, 200, 200) 0%, rgb(22, 0, 45) 100%), radial-gradient(100% 100% at 80% 0%, rgb(250, 255, 0) 0%, rgb(36, 0, 0) 100%), radial-gradient(150% 210% at 100% 0%, rgb(112, 255, 0) 0%, rgb(20, 175, 125) 0%, rgb(0, 10, 255) 100%), radial-gradient(100% 100% at 100% 30%, rgb(255, 77, 0) 0%, rgba(0, 200, 255, 1) 100%), linear-gradient(60deg, rgb(255, 0, 0) 0%, rgb(120, 86, 255) 100%);
-background-blend-mode: overlay, overlay, difference, difference, difference, normal;
+  background-blend-mode: overlay, overlay, difference, difference, difference, normal;
 }
-.bg-2{
+
+.bg-2 {
   background: linear-gradient(125deg, #00FF57 0%, #010033 40%, #460043 70%, #F0FFC5 100%), linear-gradient(55deg, #0014C9 0%, #410060 100%), linear-gradient(300deg, #FFC700 0%, #001AFF 100%), radial-gradient(135% 215% at 115% 40%, #393939 0%, #393939 40%, #849561 calc(40% + 1px), #849561 60%, #EED690 calc(60% + 1px), #EED690 80%, #ECEFD8 calc(80% + 1px), #ECEFD8 100%), linear-gradient(125deg, #282D4F 0%, #282D4F 40%, #23103A calc(40% + 1px), #23103A 70%, #A0204C calc(70% + 1px), #A0204C 88%, #FF6C00 calc(88% + 1px), #FF6C00 100%);
-background-blend-mode: overlay, screen, overlay, overlay, normal;
+  background-blend-mode: overlay, screen, overlay, overlay, normal;
 }
-.bg-3{
+
+.bg-3 {
   background: linear-gradient(328.78deg, #030086 14.45%, #BD6177 84.36%), linear-gradient(301.28deg, #209B4A 0%, #7000FF 100%), radial-gradient(100% 138.56% at 100% 0%, #D50000 0%, #00FFE0 100%), radial-gradient(100% 148.07% at 0% 0%, #D50000 0%, #00FFFF 100%);
-/* background-blend-mode: soft-light, overlay, difference, normal; */
-background-blend-mode: overlay, overlay, difference, difference, difference, normal
+  /* background-blend-mode: soft-light, overlay, difference, normal; */
+  background-blend-mode: overlay, overlay, difference, difference, difference, normal
 }
-.bg-4{
+
+.bg-4 {
   background: linear-gradient(205.61deg, #FF0055 0%, #000066 69.37%);
-  height:100vh;
+  height: 100vh;
 }
-.bg-5{
+
+.bg-5 {
   background: linear-gradient(180deg, #00fffa 0%, #1f213c 52.02702702702703%, #000066 100%);
   /* height:100vh; */
 }
-.bg-6{
+
+.bg-6 {
   background-image: linear-gradient(to right top, #340616, #360c1a, #38121e, #391721, #3b1c25, #3f1b29, #421b2e, #441b33, #45173e, #40164b, #33195b, #091f6b);
   /* height:100vh; */
 }
+
 .eth-card {
-  background-color:#a099ff;
-  background-image: 
-    radial-gradient(at 83% 67%, rgb(152, 231, 156) 0, transparent 58%), 
-    radial-gradient(at 67% 20%, hsla(357,94%,71%,1) 0, transparent 59%), 
-    radial-gradient(at 88% 35%, hsla(222,81%,65%,1) 0, transparent 50%), 
-    radial-gradient(at 31% 91%, hsla(9,61%,61%,1) 0, transparent 52%), 
-    radial-gradient(at 27% 71%, hsla(336,91%,65%,1) 0, transparent 49%), 
-    radial-gradient(at 74% 89%, hsla(30,98%,65%,1) 0, transparent 51%), 
-    radial-gradient(at 53% 75%, hsla(174,94%,68%,1) 0, transparent 45%);
+  background-color: #a099ff;
+  background-image:
+    radial-gradient(at 83% 67%, rgb(152, 231, 156) 0, transparent 58%),
+    radial-gradient(at 67% 20%, hsla(357, 94%, 71%, 1) 0, transparent 59%),
+    radial-gradient(at 88% 35%, hsla(222, 81%, 65%, 1) 0, transparent 50%),
+    radial-gradient(at 31% 91%, hsla(9, 61%, 61%, 1) 0, transparent 52%),
+    radial-gradient(at 27% 71%, hsla(336, 91%, 65%, 1) 0, transparent 49%),
+    radial-gradient(at 74% 89%, hsla(30, 98%, 65%, 1) 0, transparent 51%),
+    radial-gradient(at 53% 75%, hsla(174, 94%, 68%, 1) 0, transparent 45%);
 }
+
 .grad-border {
   --angle: 0deg;
   border: 3px solid;
-  border-image: linear-gradient(var(--angle), red, yellow, violet, green, blue, orange, purple, cyan,pink) 1;
+  border-image: linear-gradient(var(--angle), red, yellow, violet, green, blue, orange, purple, cyan, pink) 1;
   animation: 10s rotate linear infinite;
   box-shadow: inset;
-  
-  
+
+
 }
 
 @keyframes rotate {
@@ -223,130 +267,139 @@ background-blend-mode: overlay, overlay, difference, difference, difference, nor
     --angle: 360deg;
   }
 }
+
 @property --angle {
   syntax: '<angle>';
   initial-value: 0deg;
   inherits: false;
 }
 
-.font-game{
+.font-game {
   font-family: 'Nunito', sans-serif;
   font-family: 'Press Start 2P', cursive;
   font-weight: 800;
 }
-.para-1{
+
+.para-1 {
   font-family: 'Roboto', sans-serif;
   font-weight: 400;
 }
-.plane-gradient{
+
+.plane-gradient {
   background: radial-gradient(circle at -8.9% 51.2%, rgb(255, 124, 0) 0%, rgb(255, 124, 0) 15.9%, rgb(255, 163, 77) 15.9%, rgb(255, 163, 77) 24.4%, rgb(19, 30, 37) 24.5%, rgb(19, 30, 37) 66%);
 }
 
-.plane-gradient-1{
+.plane-gradient-1 {
   background: linear-gradient(179.4deg, rgb(12, 20, 69) -16.9%, rgb(71, 30, 84) 119.9%);
 }
-.bg-img{
-background-image: url(../assets/gaming-bg1.jpg);
+
+.bg-img {
+  background-image: url(../assets/gaming-bg1.jpg);
   background-repeat: no-repeat;
   /* background-size: averceluto; */
   /* width:100vw; */
   /* opacity:0.5; */
-  height:100vh;
+  height: 100vh;
   /* z-index: -1; */
   /* object-fit: fill; */
-  
+
 }
 
 .countdown-wrapper {
-	display: flex;
-	align-items: center;
-	justify-content: center;
-	flex-wrap: wrap;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-wrap: wrap;
 }
 
 .countdown-item {
-	color: white;
-	font-size: 40px;
-	display: flex;
-	align-items: center;
-	justify-content: center;
-	flex-direction: column;
-    line-height: 30px;
-	margin: 10px;
-    padding-top: 10px;
-	position: relative;
-	width: 100px;
-	height: 100px;
+  color: white;
+  font-size: 60px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  line-height: 30px;
+  margin: 20px;
+  padding-top: 10px;
+  position: relative;
+  width: 100px;
+  height: 100px;
+  gap: 10px;
 }
 
 .countdown-item span {
-	color: #fff;
-	font-size: 12px;
-	font-weight: 600;
-	text-transform: uppercase;
+  color: #fff;
+  font-size: 20px;
+  text-transform: uppercase;
 }
+
 @media (max-width: 768px) {
   .countdown-item span {
-    font-weight:300;
-    font-size:10px;
+    font-weight: 300;
+    font-size: 10px;
   }
 }
 
 .countdown-svg {
-	position: absolute;
-	top: 0;
-	left: 0;
-	width: 100px;
-	height: 100px;
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 150px;
+  height: 150px;
   color: #fff;
 }
+
 @media (max-width: 768px) {
   .countdown-item {
     width: 40px;
     height: 40px;
     padding: 10px 12px;
-    font-size:20px;
+    font-size: 20px;
   }
+
   .countdown-svg {
     width: 50px;
     height: 50px;
   }
 }
 
-.card{
+.card {
   margin-right: 30px;
 }
 
-.rt-img1{
+.rt-img1 {
   background-image: url("../assets/gaming-world-bg1.png");
   background-repeat: no-repeat;
   padding: 110px 10px;
   margin-top: 0px;
- height:100vh; 
- align-items: center;
- background-position: center;
+  height: 100vh;
+  align-items: center;
+  background-position: center;
   /* margin-left: -20px; */
 
 }
-.rt-img2{
+
+.rt-img2 {
   background-image: url("../assets/gaming-world-bg2.png");
   background-repeat: no-repeat;
-  height:100vh; 
- align-items: center;
- background-position: center;
- padding: 110px 10px;
-}
-.rt-img3{
-  background-image: url("../assets/gaming-world-bg3.png");
-  background-repeat: no-repeat;
-  height:100vh; 
+  height: 100vh;
   align-items: center;
   background-position: center;
-  padding:110px 10px;
+  padding: 110px 10px;
+}
+
+.rt-img3 {
+  background-image: url("../assets/gaming-world-bg3.png");
+  background-repeat: no-repeat;
+  height: 100vh;
+  align-items: center;
+  background-position: center;
+  padding: 110px 10px;
 
 }
 
-.form-font{
+.form-font {
   font-family: 'Merriweather', serif;
   font-family: 'Roboto Slab', serif;
   font-weight: 400;

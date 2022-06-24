@@ -42,33 +42,33 @@ function Timer() {
       }
 
       return (
-        <div className='text-white  lg:text-5xl 2xl:text-9xl md:4xl text-3xl white-glassmorphism'>
+        <div className='text-white white-glassmorphism'>
             <div className='white-glassmorphism '>
           <div className="countdown-wrapper white-glassmorphism ">
             {days && (
-              <div className="countdown-item ">
-                <SVGCircle radius={daysRadius} />
+              <div className="countdown-item  ">
+                {/* <SVGCircle radius={daysRadius} /> */}
                 {days}
-                <span>days</span>
+                <span >days</span>
               </div>
             )}
             {hours && (
               <div className="countdown-item ">
-                <SVGCircle radius={hoursRadius} />
+                {/* <SVGCircle radius={hoursRadius} /> */}
                 {hours}
                 <span>hours</span>
               </div>
             )}
             {minutes && (
               <div className="countdown-item">
-                <SVGCircle radius={minutesRadius}/>
+                {/* <SVGCircle radius={minutesRadius}/> */}
                 {minutes}
                 <span>minutes</span>
               </div>
             )}
             {seconds && (
               <div className="countdown-item  ">
-                <SVGCircle radius={secondsRadius} />
+                {/* <SVGCircle radius={secondsRadius} /> */}
                 {seconds}
                 <span>seconds</span>
               </div>
@@ -95,15 +95,15 @@ return(
     <div className=''>
     
     <Countdown
-      timeTillDate="06 20 2022, 0:00 am"
+      timeTillDate="07 08 2022, 0:00 am"
       timeFormat="MM DD YYYY, h:mm a"
-      className='text-white text-2xl white-glassmorphism'
+      className='text-white text-2xl  white-glassmorphism'
     />,
     
    </div>
   )
 
-  // From stackoverflow: https://stackoverflow.com/questions/5736398/how-to-calculate-the-svg-path-for-an-arc-of-a-circle
+ 
   function polarToCartesian(centerX, centerY, radius, angleInDegrees) {
     var angleInRadians = ((angleInDegrees - 90) * Math.PI) / 180.0
 
