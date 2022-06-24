@@ -1,62 +1,58 @@
-import React, { Fragment } from "react";
-import Faq from "react-faq-component";
+import React, { Fragment } from 'react'
+import Faq from 'react-faq-component'
 
 export default function FAQ() {
   return (
-    <div className="pl-5 white-glassmorphism kdam">
+    <div className="white-glassmorphism kdam pl-5">
       <Fragment>
-    <Faq
-      data={data}
-      styles={{
-        bgColor: "transparent",
-        titleTextColor: "#fc9803",
-        titleTextSize:"50px",
-        rowTitleColor: "#fff",
-        rowTitleTextSize: "Large",
-        rowContentColor: "#d8eff2",
-        rowContentPaddingRight: "0",
-        rowContentTextSize: "16px",
-        rowContentTextFontFamily: "para-1",
-        rowContentPaddingTop: "10px",
-        rowContentPaddingBottom: "10px",
-        rowContentPaddingLeft: "10px",
-        rowContentPaddingRight: "10px",
-        arrowColor: "white"
-      }}
-      config={{
-        animate: true
-      }}
-    />
-  </Fragment></div>
-    
-  );
+        <Faq
+          data={data}
+          styles={{
+            bgColor: 'transparent',
+            titleTextColor: '#fc9803',
+            titleTextSize: '50px',
+            rowTitleColor: '#fff',
+            rowTitleTextSize: 'Large',
+            rowContentColor: '#d8eff2',
+            rowContentPaddingRight: '0',
+            rowContentTextSize: '16px',
+            rowContentTextFontFamily: 'para-1',
+            rowContentPaddingTop: '10px',
+            rowContentPaddingBottom: '10px',
+            rowContentPaddingLeft: '10px',
+            rowContentPaddingRight: '10px',
+            arrowColor: 'white',
+          }}
+          config={{
+            animate: true,
+          }}
+        />
+      </Fragment>
+    </div>
+  )
 }
 
-
 const data = {
-  title: "FAQ",
+  title: 'FAQ',
   rows: [
     {
-      title: "How to register? Is it free?",
-      content: "Just Click on register button on the top of this page to register into GamerDays2.0 .Yes, registering into GamerDays2.0 is absolutely free."
+      title: 'How do I Register for the Event?',
+      content: 'Click on the Register Button on the top of this page to Register for Gamer Days 2.0. ',
     },
     {
-      title: "What is maximum number of games I can register for?",
+      title: 'Do I need to pay for the registration of the Event?',
       content:
-        "No limit, you can register for as many as games you want to participate in."
+        'No, It is free for everyone.',
     },
     {
-      title: "What is team limit for Bgmi or valorant?",
+      title: 'What is maximum number of games I can register for?',
       content:
-        "It's maximum 4 members for bgmi and 5 members for valorant respectively."
+        'You can Register for as many games as you want.',
     },
+    
     {
-      title: "Why would I participate in this event?What is the package version",
-      content: "You'll win exciting prizes and goodies along with a thrilling gameplay experience with fellow gamers from diffrent colleges."
+      title: 'Want more questions?',
+      content: "Feel free to contact us on our social media platforms or through the 'Contact Us' given above.",
     },
-    {
-      title: "Want more questions?",
-      content: "Feel free to drop your questions at discord server."
-    }
-  ]
-};
+  ],
+}

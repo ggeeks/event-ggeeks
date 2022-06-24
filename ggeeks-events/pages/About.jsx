@@ -2,12 +2,12 @@ import Link from 'next/link'
 import React from 'react'
 import Image from 'next/image'
 import EventLogo from '../assets/eventlogo.jpg'
-import Register from './Register'
+import Register from './register'
 import Card from '../components/Card'
 
 
 
-function About() {
+function about() {
   return (
 
     <div className="">
@@ -93,7 +93,7 @@ function About() {
           <p>
             games can be played Individual and in team. For{' '}
             <Link
-              href="/Register"
+              href="/register"
               to={<Register />}
               className="text-indigo-400"
             >
@@ -116,4 +116,4 @@ function About() {
   )
 }
 
-export default About
+export default about

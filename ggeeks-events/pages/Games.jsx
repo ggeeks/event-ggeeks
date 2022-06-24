@@ -1,6 +1,6 @@
 import React from 'react'
 
-function Games() {
+function games() {
   return (
     <div className='h-[67vh]'>
       <div>
@@ -15,4 +15,4 @@ function Games() {
   )
 }
 
-export default Games
+export default games

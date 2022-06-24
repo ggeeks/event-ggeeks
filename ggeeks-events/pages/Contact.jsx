@@ -1,6 +1,6 @@
 import React from 'react'
 
-function Contact() {
+function contact() {
   return (
     <div className='justify-center'>
       <div><h1 className='md:text-5xl text-2xl px-5 py-3'> Contact Us</h1></div>
@@ -21,4 +21,4 @@ function Contact() {
   )
 }
 
-export default Contact
+export default contact

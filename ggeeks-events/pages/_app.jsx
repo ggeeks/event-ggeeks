@@ -42,22 +42,22 @@ function MyApp({ Component, pageProps }) {
                   </li>
                 </Link>
 
-                <Link href="/Sponser" className="text-lg justify-center">
+                <Link href="/sponsor" className="text-lg justify-center">
                   <li className="justify-items-center cursor-pointer hover:text-[#fdfd96] px-2">
                     Sponsor
                   </li>
                 </Link>
-                <Link href="/Contact" className="text-lg justify-center">
+                <Link href="/contact" className="text-lg justify-center">
                   <li className="justify-items-center cursor-pointer hover:text-[#fdfd96] px-2">
                     Contact
                   </li>
                 </Link>
-                <Link href="/FAQ" className="text-lg justify-center">
+                <Link href="/faq" className="text-lg justify-center">
                   <li className="justify-items-center cursor-pointer hover:text-[#fdfd96] px-2">
                     FAQ
                   </li>
                 </Link>
-                <Link href='/Register'>
+                <Link href='/register'>
                   <button className='justify-items-center cursor-pointer text-red-400 hover:text-[#fdfd96] px-2'>
                     Register
                   </button>
@@ -108,22 +108,22 @@ function MyApp({ Component, pageProps }) {
                 Gallery
               </li>
             </Link> */}
-                    <Link href="/Sponser" className="text-lg justify-center">
+                    <Link href="/sponsor" className="text-lg justify-center">
                       <div className="justify-items-center cursor-pointer py-3 hover:text-[#fdfd96] px-2">
                         Sponser
                       </div>
                     </Link>
-                    <Link href="/Contact" className="text-lg justify-center">
+                    <Link href="/contact" className="text-lg justify-center">
                       <div className="justify-items-center cursor-pointer py-3 hover:text-[#fdfd96] px-2">
                         Contact
                       </div>
                     </Link>
-                    <Link href="/FAQ" className="text-lg justify-center">
+                    <Link href="/faq" className="text-lg justify-center">
                       <div className="justify-items-center cursor-pointer py-3 hover:text-[#fdfd96] px-2">
                         FAQ
                       </div>
                     </Link>
-                    <Link href='/Register'>
+                    <Link href='/register'>
                       <li className='justify-items-center text-red-400 py-3 hover:text-[#fdfd96] px-2'>
                         Register
                       </li>

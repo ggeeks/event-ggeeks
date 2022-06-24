@@ -1,13 +1,13 @@
 
 import Head from 'next/head'
 // import Image from 'next/image'
-import About from './About'
+import About from './about'
 // import Games from './Games'
-import Timer from './Timer'
-import Sponser from './Sponser'
-import Contact from './Contact'
-import FAQ from './FAQ'
-import Register from './Register'
+import Timer from './timer'
+import Sponser from './sponsor'
+import Contact from './contact'
+import FAQ from './faq'
+import Register from './register'
 import Link from "next/link"
 function Home() {
   return (
@@ -32,7 +32,7 @@ function Home() {
       <main className=' revamp  mb-[20vh] items-center justify-center '>
         <h1 className='text-[50px]  md:text-[76px] '>Gamer Days 2.0</h1>
         {/* <h1 className='md:text-[40px] text-3xl py-5 '>Date TBA soon </h1> */}
-        <Link href='./Register' to={<Register />}>
+        <Link href='/register' to={<Register />}>
           <button className='md:text-2xl text-lg border md:px-4 white-glassmorphism hover:animate-none animate-bounce md:py-6 px-2 py-4 my-9  rounded-lg '>Register</button>
         </Link>
         {/* <div>

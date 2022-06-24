@@ -1,7 +1,7 @@
 import React, {useState} from 'react'
 import { IoIosArrowBack } from 'react-icons/io'
 import Link from "next/link"
-import Solo from '../../event/Solo'
+import Solo from '../../event/solo'
 import axios from 'axios'
 
 function Cod() {
@@ -46,7 +46,7 @@ function Cod() {
   return (
     
     <div className='justify-center'>
-      <Link href='../../event/Solo' to={<Solo />} alt='solo'>
+      <Link href='../../event/solo' to={<Solo />} alt='solo'>
         <div className='text-left flex flex-row'>
           <IoIosArrowBack className='text-xl items-center m-1' />
           <button className=' text-xl' >Back</button>
