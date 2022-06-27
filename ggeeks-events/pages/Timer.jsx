@@ -98,7 +98,7 @@ return(
       timeTillDate="07 08 2022, 0:00 am"
       timeFormat="MM DD YYYY, h:mm a"
       className='text-white text-2xl  white-glassmorphism'
-    />,
+    />
     
    </div>
   )
