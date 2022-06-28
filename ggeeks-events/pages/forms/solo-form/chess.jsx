@@ -36,6 +36,7 @@ function ChessForm() {
 
     axios.post("https://sheet.best/api/sheets/c6af5f12-f762-4a1d-aa89-af8b71c054d9", data).then(response=>{
       // console.log(response);
+      alert("YOU HAVE BEEN REGISTERED SUCCESSFULLY!");
       setName('');
       setEmail('');
       setInstitute('');
@@ -43,7 +44,7 @@ function ChessForm() {
       setPhone('');
     });
 
-    alert("YOU HAVE BEEN REGISTERED SUCCESSFULLY!");
+    
   }
 
   return (

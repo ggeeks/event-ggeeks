@@ -38,6 +38,7 @@ const BgmiTeam = () => {
 
     axios.post("https://sheet.best/api/sheets/fa84e59b-05d9-49c9-9c82-e370efab3ef4", data).then(response=>{
       // console.log(response);
+      alert("YOUR TEAM HAVE BEEN REGISTERED SUCCESSFULLY!");
       setName('');
       setEmail('');
       setInstitute('');
@@ -46,7 +47,7 @@ const BgmiTeam = () => {
       setLeader('');
     });
 
-    alert("YOUR TEAM HAVE BEEN REGISTERED SUCCESSFULLY!");
+    
   }
 
   return (

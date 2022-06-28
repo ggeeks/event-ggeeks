@@ -36,14 +36,16 @@ function Bgmi (){
 
     axios.post("https://sheet.best/api/sheets/648b0e88-3e07-4c47-81e2-02de9e7e07e4", data).then(response=>{
       // console.log(response);
+      alert("YOU HAVE BEEN REGISTERED SUCCESSFULLY!");
       setName('');
       setEmail('');
       setInstitute('');
       setDiscord('');
       setPhone('');
+      
     });
 
-    alert("YOU HAVE BEEN REGISTERED SUCCESSFULLY!");
+    
   }
 
   return(  

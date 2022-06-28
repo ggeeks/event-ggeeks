@@ -38,6 +38,7 @@ function Valorant (){
 
     axios.post("https://sheet.best/api/sheets/9c7bcb6a-fe66-40e7-8d7e-12ff93322a20", data).then(response=>{
       // console.log(response);
+      alert("YOU HAVE BEEN REGISTERED SUCCESSFULLY!");
       setName('');
       setEmail('');
       setInstitute('');
@@ -46,7 +47,7 @@ function Valorant (){
       setValoUsername('');
     });
 
-    alert("YOU HAVE BEEN REGISTERED SUCCESSFULLY!");
+    
   }
 
 return (
