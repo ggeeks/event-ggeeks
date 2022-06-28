@@ -33,7 +33,7 @@ function Skribble (){
       Discord:discord
     }
 
-    axios.post("https://sheet.best/api/sheets/52a9f161-e157-4353-bd8b-7ba1e1f60912", data).then(response=>{
+    axios.post("https://sheet.best/api/sheets/14133b73-4937-4f87-843c-72cd1162b938", data).then(response=>{
       // console.log(response);
       setName('');
       setEmail('');
