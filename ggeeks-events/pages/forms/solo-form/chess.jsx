@@ -41,7 +41,9 @@ function ChessForm() {
       setInstitute('');
       setDiscord('');
       setPhone('');
-    })
+    });
+
+    alert("YOU HAVE BEEN REGISTERED SUCCESSFULLY!");
   }
 
   return (

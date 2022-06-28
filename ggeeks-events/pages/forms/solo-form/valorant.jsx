@@ -44,7 +44,9 @@ function Valorant (){
       setDiscord('');
       setPhone('');
       setValoUsername('');
-    })
+    });
+
+    alert("YOU HAVE BEEN REGISTERED SUCCESSFULLY!");
   }
 
 return (

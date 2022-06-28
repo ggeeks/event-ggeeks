@@ -50,7 +50,10 @@ const ValorantTeam = () => {
       setLeader('');
       setValoUsername('');
       setLeaderUsername('');
-    })
+    });
+
+    alert("YOUR TEAM HAVE BEEN REGISTERED SUCCESSFULLY!");
+
   }
 
   return (

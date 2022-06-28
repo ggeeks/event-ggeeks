@@ -44,7 +44,9 @@ const BgmiTeam = () => {
       setDiscord('');
       setPhone('');
       setLeader('');
-    })
+    });
+
+    alert("YOUR TEAM HAVE BEEN REGISTERED SUCCESSFULLY!");
   }
 
   return (

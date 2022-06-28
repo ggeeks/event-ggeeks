@@ -40,7 +40,9 @@ function Skribble (){
       setInstitute('');
       setDiscord('');
       setPhone('');
-    })
+    });
+
+    alert("YOU HAVE BEEN REGISTERED SUCCESSFULLY!");
   }
 
 return(
