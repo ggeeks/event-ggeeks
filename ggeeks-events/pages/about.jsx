@@ -84,29 +84,16 @@ function about() {
       </div>
       <div className="grid grid-cols-1 justify-evenly xl:grid-cols-2 ">
         <div className="kdam py-5 px-2 text-center text-lg md:px-20 md:text-2xl">
-          <p>
-            Gamer days 2.0 is a successor of Gamer Days. This event is held
-            every year. This is a week events in which every participant enjoy
-            the games during this period of time. there are various games we
-            played like BGMI(BattleGround mobile india), chess, ludo , etc.
-          </p>
-          <p>
-            games can be played Individual and in team. For{' '}
-            <Link
-              href="/register"
-              to={<Register />}
-              className="text-indigo-400"
-            >
-              <span className="text-yellow-400">registration</span>
-            </Link>{' '}
-            click on the button above.
+          <p className="py-8">
+          Gamer Days 2.0 is a Week Long Gaming Event. It is a successor of Gamer Days Event held in November 2021. This event is your chance to compete with Pro players. On top of that, this event also gives you a chance to win incredible prizes.
           </p>
         </div>
-        <div className="animate-pulse px-10 py-3 transition-transform">
+        <div className="px-10 py-3 transition-transform">
           <Image
             src={EventLogo}
             className=" rounded-3xl   hover:ease-in-out "
             alt=""
+            width={500} height={350}
           />
         </div>
       </div>
