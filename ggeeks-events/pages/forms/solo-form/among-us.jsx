@@ -35,12 +35,12 @@ function AmongUs (){
 
     axios.post("https://sheet.best/api/sheets/fb4b2b5c-2de7-40b6-9b23-4bf6c7eec0d8", data).then(response=>{
       // console.log(response);
-      alert("YOU HAVE BEEN REGISTERED SUCCESSFULLY!");
       setName('');
       setEmail('');
       setInstitute('');
       setDiscord('');
       setPhone('');
+      alert("YOU HAVE BEEN REGISTERED SUCCESSFULLY!");
       
     });
 

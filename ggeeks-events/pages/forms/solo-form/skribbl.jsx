@@ -35,12 +35,12 @@ function Skribble (){
 
     axios.post("https://sheet.best/api/sheets/14133b73-4937-4f87-843c-72cd1162b938", data).then(response=>{
       // console.log(response);
-      alert("YOU HAVE BEEN REGISTERED SUCCESSFULLY!");
       setName('');
       setEmail('');
       setInstitute('');
       setDiscord('');
       setPhone('');
+      alert("YOU HAVE BEEN REGISTERED SUCCESSFULLY!");
     });
     
   }
