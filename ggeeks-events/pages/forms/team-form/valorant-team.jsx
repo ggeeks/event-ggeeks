@@ -42,6 +42,7 @@ const ValorantTeam = () => {
 
     axios.post("https://sheet.best/api/sheets/ff2e289f-731d-411d-bb48-c28b122a4297", data).then(response=>{
       // console.log(response);
+      alert("YOUR TEAM HAVE BEEN REGISTERED SUCCESSFULLY!");
       setName('');
       setEmail('');
       setInstitute('');
@@ -50,7 +51,10 @@ const ValorantTeam = () => {
       setLeader('');
       setValoUsername('');
       setLeaderUsername('');
-    })
+    });
+
+    
+
   }
 
   return (

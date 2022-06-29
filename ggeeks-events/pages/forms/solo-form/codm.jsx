@@ -36,12 +36,15 @@ function Cod() {
 
     axios.post("https://sheet.best/api/sheets/ae51993c-9064-408c-a5cd-99a8fd32441c", data).then(response=>{
       // console.log(response);
+      alert("YOU HAVE BEEN REGISTERED SUCCESSFULLY!");
       setName('');
       setEmail('');
       setInstitute('');
       setDiscord('');
       setPhone('');
-    })
+    });
+
+    
   }
   return (
     
