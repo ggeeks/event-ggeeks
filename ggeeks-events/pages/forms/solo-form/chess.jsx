@@ -26,15 +26,28 @@ function ChessForm() {
   const handleSubmit =(e)=>{
     e.preventDefault();
     // console.log(name,email,phone,institute,discord);
-    const data ={
+    const data =[{
       Name:name,
       Email:email,
       Phone:phoneNumber,
       Institute:institute,
       Discord:discord
-    }
+    }]
 
-    axios.post("https://sheet.best/api/sheets/c6af5f12-f762-4a1d-aa89-af8b71c054d9", data).then(response=>{
+    // axios.post("https://sheet.best/api/sheets/c6af5f12-f762-4a1d-aa89-af8b71c054d9", data).then(response=>{
+    //   // console.log(response);
+    //   setName('');
+    //   setEmail('');
+    //   setInstitute('');
+    //   setDiscord('');
+    //   setPhone('');
+    //   alert("YOU HAVE BEEN REGISTERED SUCCESSFULLY!");
+    // });
+
+    const SteinStore = require("stein-js-client");
+    const store = new SteinStore("https://api.steinhq.com/v1/storages/62bdfee0bca21f053ea176f6");
+
+    store.append("Sheet1", data).then(response=>{
       // console.log(response);
       setName('');
       setEmail('');
@@ -42,8 +55,8 @@ function ChessForm() {
       setDiscord('');
       setPhone('');
       alert("YOU HAVE BEEN REGISTERED SUCCESSFULLY!");
+      
     });
-
     
   }
 

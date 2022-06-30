@@ -25,11 +25,12 @@ const ValorantTeam = () => {
   const [teamLeader, setLeader] = useState('');
   const [valoUsername, setValoUsername] = useState('');
   const [leaderUsername, setLeaderUsername] = useState('');
+  const [teamName, setTeamName] = useState('');
 
   const handleSubmit =(e)=>{
     e.preventDefault();
     // console.log(name,email,phone,institute,discord);
-    const data ={
+    const data =[{
       Name:name,
       Email:email,
       Phone:phoneNumber,
@@ -37,10 +38,27 @@ const ValorantTeam = () => {
       Discord:discord,
       TeamLeader:teamLeader,
       ValoUsername:valoUsername,
-      LeaderUsername:leaderUsername
-    }
+      LeaderUsername:leaderUsername,
+      TeamName:teamName
+    }]
 
-    axios.post("https://sheet.best/api/sheets/ff2e289f-731d-411d-bb48-c28b122a4297", data).then(response=>{
+    // axios.post("https://sheet.best/api/sheets/ff2e289f-731d-411d-bb48-c28b122a4297", data).then(response=>{
+    //   // console.log(response);
+    //   setName('');
+    //   setEmail('');
+    //   setInstitute('');
+    //   setDiscord('');
+    //   setPhone('');
+    //   setLeader('');
+    //   setValoUsername('');
+    //   setLeaderUsername('');
+    //   alert("YOUR TEAM HAVE BEEN REGISTERED SUCCESSFULLY!");
+    // });
+
+    const SteinStore = require("stein-js-client");
+    const store = new SteinStore("https://api.steinhq.com/v1/storages/62be001e4906bb0537516e6d");
+
+    store.append("Sheet1", data).then(response=>{
       // console.log(response);
       setName('');
       setEmail('');
@@ -50,7 +68,9 @@ const ValorantTeam = () => {
       setLeader('');
       setValoUsername('');
       setLeaderUsername('');
-      alert("YOUR TEAM HAVE BEEN REGISTERED SUCCESSFULLY!");
+      setTeamName('');
+      alert("YOU HAVE BEEN REGISTERED SUCCESSFULLY!");
+      
     });
 
     
@@ -76,6 +96,7 @@ const ValorantTeam = () => {
         <input name="valorant-username" type="text" placeholder='Valorant Username[with hash id]' className='white-glassmorphism bg-transparent px-3 my-3 py-3' required onChange={(e)=>setValoUsername(e.target.value)} value={valoUsername}/>
         <input name="team-leader" type="text" placeholder='Team Leader(In Game Name)' className='white-glassmorphism bg-transparent px-3 my-3 py-3' required onChange={(e)=>setLeader(e.target.value)} value={teamLeader}/>
         <input name="leader-username" type="text" placeholder='Team leader Username[with hash id]' className='white-glassmorphism bg-transparent px-3 my-3 py-3' required onChange={(e)=>setLeaderUsername(e.target.value)} value={leaderUsername}/>
+        <input name="team-name" type="text" placeholder='Team Name' className='white-glassmorphism bg-transparent px-3 my-3 py-3' required onChange={(e)=>setTeamName(e.target.value)} value={teamName}/>
         <div><button type="submit" className='md:text-2xl text-lg blue-glassmorphism hover:text-orange-500 md:w-2/5 w-3/5 justify-center rounded-xl my-3 px-3 py-4'>Register</button></div>
       </form>
     </div>

@@ -25,15 +25,28 @@ function Skribble (){
   const handleSubmit =(e)=>{
     e.preventDefault();
     // console.log(name,email,phone,institute,discord);
-    const data ={
+    const data =[{
       Name:name,
       Email:email,
       Phone:phoneNumber,
       Institute:institute,
       Discord:discord
-    }
+    }]
 
-    axios.post("https://sheet.best/api/sheets/14133b73-4937-4f87-843c-72cd1162b938", data).then(response=>{
+    // axios.post("https://sheet.best/api/sheets/14133b73-4937-4f87-843c-72cd1162b938", data).then(response=>{
+    //   // console.log(response);
+    //   setName('');
+    //   setEmail('');
+    //   setInstitute('');
+    //   setDiscord('');
+    //   setPhone('');
+    //   alert("YOU HAVE BEEN REGISTERED SUCCESSFULLY!");
+    // });
+
+    const SteinStore = require("stein-js-client");
+    const store = new SteinStore("https://api.steinhq.com/v1/storages/62bdfd704906bb0537516e0f");
+
+    store.append("Sheet1", data).then(response=>{
       // console.log(response);
       setName('');
       setEmail('');
@@ -41,6 +54,7 @@ function Skribble (){
       setDiscord('');
       setPhone('');
       alert("YOU HAVE BEEN REGISTERED SUCCESSFULLY!");
+      
     });
     
   }

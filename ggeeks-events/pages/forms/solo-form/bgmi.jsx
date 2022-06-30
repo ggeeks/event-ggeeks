@@ -3,7 +3,6 @@ import React, {useState}  from 'react'
 import { IoIosArrowBack } from 'react-icons/io'
 import Solo from '../../event/solo'
 import axios from 'axios'
-
 function Bgmi (){
   // const scriptURL = 'https://script.google.com/macros/s/AKfycbz6ZlUuaqOp6eTaqcV8U9ocWg7TEVNythyy4VywRXrPSLKq1X5gZco6K9TwQkOuPyd-QQ/exec'
   // const form = document.forms['BGMI-Form']
@@ -26,15 +25,30 @@ function Bgmi (){
   const handleSubmit =(e)=>{
     e.preventDefault();
     // console.log(name,email,phone,institute,discord);
-    const data ={
+    const data =[{
       Name:name,
       Email:email,
       Phone:phoneNumber,
       Institute:institute,
       Discord:discord
-    }
+    }]
 
-    axios.post("https://sheet.best/api/sheets/648b0e88-3e07-4c47-81e2-02de9e7e07e4", data).then(response=>{
+    // axios.post("https://sheet.best/api/sheets/648b0e88-3e07-4c47-81e2-02de9e7e07e4", data).then(response=>{
+    //   // console.log(response);
+    //   setName('');
+    //   setEmail('');
+    //   setInstitute('');
+    //   setDiscord('');
+    //   setPhone('');
+    //   alert("YOU HAVE BEEN REGISTERED SUCCESSFULLY!");
+      
+    // });
+
+
+    const SteinStore = require("stein-js-client");
+    const store = new SteinStore("https://api.steinhq.com/v1/storages/62bdddee4906bb05375167c7");
+
+    store.append("Sheet1", data).then(response=>{
       // console.log(response);
       setName('');
       setEmail('');

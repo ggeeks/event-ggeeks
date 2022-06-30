@@ -27,16 +27,30 @@ function Valorant (){
   const handleSubmit =(e)=>{
     e.preventDefault();
     // console.log(name,email,phone,institute,discord);
-    const data ={
+    const data =[{
       Name:name,
       Email:email,
       Phone:phoneNumber,
       Institute:institute,
       Discord:discord,
       ValoUsername:valoUsername
-    }
+    }]
 
-    axios.post("https://sheet.best/api/sheets/9c7bcb6a-fe66-40e7-8d7e-12ff93322a20", data).then(response=>{
+    // axios.post("https://sheet.best/api/sheets/9c7bcb6a-fe66-40e7-8d7e-12ff93322a20", data).then(response=>{
+    //   // console.log(response);
+    //   setName('');
+    //   setEmail('');
+    //   setInstitute('');
+    //   setDiscord('');
+    //   setPhone('');
+    //   setValoUsername('');
+    //   alert("YOU HAVE BEEN REGISTERED SUCCESSFULLY!");
+    // });
+
+    const SteinStore = require("stein-js-client");
+    const store = new SteinStore("https://api.steinhq.com/v1/storages/62bdff3bbca21f053ea17702");
+
+    store.append("Sheet1", data).then(response=>{
       // console.log(response);
       setName('');
       setEmail('');
@@ -45,6 +59,7 @@ function Valorant (){
       setPhone('');
       setValoUsername('');
       alert("YOU HAVE BEEN REGISTERED SUCCESSFULLY!");
+      
     });
 
     

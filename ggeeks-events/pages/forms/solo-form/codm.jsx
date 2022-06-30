@@ -26,15 +26,28 @@ function Cod() {
   const handleSubmit =(e)=>{
     e.preventDefault();
     // console.log(name,email,phone,institute,discord);
-    const data ={
+    const data =[{
       Name:name,
       Email:email,
       Phone:phoneNumber,
       Institute:institute,
       Discord:discord
-    }
+    }]
 
-    axios.post("https://sheet.best/api/sheets/ae51993c-9064-408c-a5cd-99a8fd32441c", data).then(response=>{
+    // axios.post("https://sheet.best/api/sheets/ae51993c-9064-408c-a5cd-99a8fd32441c", data).then(response=>{
+    //   // console.log(response);
+    //   setName('');
+    //   setEmail('');
+    //   setInstitute('');
+    //   setDiscord('');
+    //   setPhone('');
+    //   alert("YOU HAVE BEEN REGISTERED SUCCESSFULLY!");
+    // });
+
+    const SteinStore = require("stein-js-client");
+    const store = new SteinStore("https://api.steinhq.com/v1/storages/62bdfe294906bb0537516e30");
+
+    store.append("Sheet1", data).then(response=>{
       // console.log(response);
       setName('');
       setEmail('');
@@ -42,6 +55,7 @@ function Cod() {
       setDiscord('');
       setPhone('');
       alert("YOU HAVE BEEN REGISTERED SUCCESSFULLY!");
+      
     });
 
     
