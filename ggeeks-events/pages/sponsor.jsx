@@ -6,6 +6,7 @@ import hover from "../assets/brand/hover-robotix.png"
 import interview from '../assets/brand/interview-buddy.png'
 import mentor from '../assets/brand/mentor-x.png'
 import revUP from '../assets/brand/rev-up.png' 
+import hackClub from '../assets/brand/hack-club.png' 
 
 
 function Sponser() {
@@ -31,6 +32,14 @@ function Sponser() {
           </div>
           <div className='p-3'>
             <Image src={revUP} width={250} height={150} alt="RevUp"/>
+          </div>
+        </div>
+      </div>
+      <div className='py-5 text-3xl'>Community Partner</div>
+      <div className='py-10 '>
+        <div className="grid md:grid-cols-1 grid-cols-1 w-5/6 md:mx-24 mx-12">
+          <div className='p-3 '>
+            <Image src={hackClub} width={300} height={100} alt="HackClub" />
           </div>
         </div>
       </div>
