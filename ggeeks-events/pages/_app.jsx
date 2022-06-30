@@ -12,7 +12,7 @@ import { useState } from 'react'
 function MyApp({ Component, pageProps }) {
   const [toggleMenu, setToggleMenu] = useState(false);
   return (
-    <div className='text-white h-full overflow-x-hidden revamp  bg-img ' style={{ backgroundImage: ('../assets/gaming-bg1.jpg') }}>
+    <div className='transparent-10 text-white h-full overflow-x-hidden revamp  bg-img ' style={{ backgroundImage: ('../assets/gaming-bg1.jpg') }}>
       {/* <Image src={BackgroundImg}  objectFit='cover' className='w-screen h-screen' alt=''/> */}
       <header className="  revamp">
         <nav className=" flex md:text-2xl text-xl justify-between   items-center p-4">

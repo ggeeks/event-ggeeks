@@ -13,7 +13,6 @@
   /* url(../fonts/Revamped.woff2) format('woff2'), */
   font-weight: 400;
   font-style: normal;
-
 }
 
 @font-face {
@@ -21,7 +20,27 @@
   src: url(../assets/font/Cyberway.ttf);
   font-weight: 400;
   font-style: normal;
+}
 
+/* Custom Scrollbar */
+/* width */
+::-webkit-scrollbar {
+  width: 5px;
+}
+/* Track */
+::-webkit-scrollbar-track {
+  /* background: #000000; */
+  border-radius: 5px;
+}
+/* Handle */
+::-webkit-scrollbar-thumb {
+  background: #aebdff;
+  width: 8vh;
+  border-radius: 5px;
+}
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+  background: #7886c7;
 }
 
 .kdam {
@@ -281,8 +300,10 @@ height:100%; */
 }
 
 .para-1 {
-  font-family: 'Roboto', sans-serif;
+  font-family: 'Kdam Thmor Pro', sans-serif;
   font-weight: 400;
+  line-height: 1.7;
+  letter-spacing: 1.25px;
 }
 
 .plane-gradient {
@@ -294,7 +315,7 @@ height:100%; */
 }
 
 .bg-img {
-  background-image: url(../assets/gaming-bg1.jpg);
+  background-image: url(../assets/gaming-bg5.jpg);
   background-repeat: no-repeat;
   /* background-size: averceluto; */
   /* width:100vw; */

@@ -51,7 +51,7 @@ const data = {
     },
     
     {
-      title: 'Want more questions?',
+      title: 'Have more questions?',
       content: "Feel free to contact us on our social media platforms or through the 'Contact Us' given above.",
     },
   ],
