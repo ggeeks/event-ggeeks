@@ -3,7 +3,7 @@ import React, { useState } from 'react'
 import { IoIosArrowBack } from 'react-icons/io'
 import Solo from '../../event/solo'
 import axios from 'axios'
-function AmongUs (){
+function StumbleGuys (){
   // const scriptURL = 'https://script.google.com/macros/s/AKfycbxdM4v_gkgI_O0vt-qVEO4jfDnCOd8PH5sKfTvMIMb3cm1Oe_II2Rj_WTBxu7dzO4r9/exec'
   // const form = document.forms['Amongus-Form']
   // form.addEventListener('submit', e => {
@@ -62,7 +62,7 @@ function AmongUs (){
   }
 
 return (
-    // Among Us
+    // Stumble Guys
   <div className='justify-center'> 
     <Link href='../../event/solo' to={<Solo/>} alt='solo'>
     <div className='text-left flex flex-row'>
@@ -70,7 +70,7 @@ return (
           <button className=' text-xl' >Back</button>
         </div>
     </Link>
-    <div ><h1 className='md:text-5xl text-2xl px-5 py-3'> Among Us</h1></div>
+    <div ><h1 className='md:text-5xl text-2xl px-5 py-3'> Stumble Guys</h1></div>
     <div className='md:px-40 md:py-10 px-10 py-3 form-font'>
       <form name="Amongus-Form" action="" method="POST" className='grid grid-cols-1  md:px-10 px-2 justify-center form-font' onSubmit={handleSubmit}>
         <input name="name" type="text" placeholder='Name' className='white-glassmorphism my-3 bg-transparent px-3 py-5' required onChange={(e)=>setName(e.target.value)} value={name}/>
@@ -84,4 +84,4 @@ return (
   </div>
 )
 }
-export default AmongUs
+export default StumbleGuys

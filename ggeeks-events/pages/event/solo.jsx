@@ -2,14 +2,14 @@ import React from 'react'
 import Register from '../register'
 import Link from 'next/link'
 import { IoIosArrowBack } from "react-icons/io"
-import Amongus from "../../assets/games/among-us.png"
+import StumbleGuys from "../../assets/games/stumble-guys.png"
 import bgmi from "../../assets/games/bgmi.png"
 import chess from "../../assets/games/chess.png"
 import cod from "../../assets/games/cod.png"
 import skribbleImage from "../../assets/games/skribble.png"
 import valorant from "../../assets/games/valorant.png"
 import Image from 'next/image'
-import AmongUsSolo from "../forms/solo-form/among-us"
+import StumbleGuysSolo from "../forms/solo-form/stumble-guys"
 import BgmiSolo from "../forms/solo-form/bgmi"
 import ChessSolo from "../forms/solo-form/chess"
 import CODMSolo from "../forms/solo-form/codm"
@@ -29,10 +29,10 @@ const Solo = () => {
       <h1 className='text-3xl'>Solo Registration</h1>
       <div className='py-5'>
         <div className='grid md:grid-cols-3 grid-cols-1  '>
-        <Link  href='../forms/solo-form/among-us' to={<AmongUsSolo/>}  alt='amongus-solo'>
+        <Link  href='../forms/solo-form/stumble-guys' to={<StumbleGuysSolo/>}  alt='StumbleGuys-solo'>
           <div className='blue-glassmorphism md:w-11/12 cursor-pointer px-3 py-2 m-5 w-5/6'>
-            <Image src={Amongus} height={270} alt="among-us" />
-            <h2 className='text-xl'>Among Us</h2>
+            <Image src={StumbleGuys} height={1100} alt="stumble-guys" />
+            <h2 className='text-xl'>Stumble Guys</h2>
             
           </div>
           </Link>
