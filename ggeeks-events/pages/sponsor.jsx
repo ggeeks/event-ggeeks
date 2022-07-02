@@ -35,14 +35,14 @@ function Sponser() {
           </div>
         </div>
       </div>
-      <div className='py-5 text-3xl'>Community Partner</div>
+      {/* <div className='py-5 text-3xl'>Title Sponsor</div>
       <div className='py-10 '>
         <div className="grid md:grid-cols-1 grid-cols-1 w-5/6 md:mx-24 mx-12">
           <div className='p-3 '>
-            <Image src={hackClub} width={300} height={100} alt="HackClub" />
+            <Image src={gfg} width={300} height={100} alt="Geeks for Geeks" />
           </div>
         </div>
-      </div>
+      </div> */}
       <div className=' text-center pt-5 justify-center'>
         <h1 className='md:text-2xl text-lg items-center my-2 '>Want to sponsor us?</h1>
         <a href="mailto:ggeeks.platform@gmail.com"><button className='rounded-2xl border md:text-2xl transition-300 text-lg white-glassmorphism mx-3 px-2 py-1 hover:text-orange-500 hover:bg-white shadow-md  shadow-orange-500'>Contact us</button></a>

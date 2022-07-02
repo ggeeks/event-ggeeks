@@ -28,15 +28,16 @@ function Valorant (){
     e.preventDefault();
     // console.log(name,email,phone,institute,discord);
     const data ={
-      Name:name,
-      Email:email,
-      Phone:phoneNumber,
-      Institute:institute,
-      Discord:discord,
-      ValoUsername:valoUsername
+      name:name,
+      email:email,
+      phoneNumber:phoneNumber,
+      institute:institute,
+      discord:discord,
+      valoUsername:valoUsername
     }
 
-    axios.post("https://sheet.best/api/sheets/9c7bcb6a-fe66-40e7-8d7e-12ff93322a20", data).then(response=>{
+    // axios.post("https://sheet.best/api/sheets/9c7bcb6a-fe66-40e7-8d7e-12ff93322a20", data).then(response=>{
+    axios.post("https://event-website-backend.herokuapp.com/api/valorantSolo", data).then(response=>{
       // console.log(response);
       setName('');
       setEmail('');
@@ -66,7 +67,7 @@ return (
         <input name="email" type="email" placeholder='E-mail' className='white-glassmorphism bg-transparent my-3 px-3 py-5 font-nuito' required onChange={(e)=>setEmail(e.target.value)} value={email}/>
         <input name="institute" type="text" placeholder='Institute' className='white-glassmorphism bg-transparent my-3 px-3 py-5' required onChange={(e)=>setInstitute(e.target.value)} value={institute}/>
         <input name="discord" type="text" placeholder='Discord Username' className='white-glassmorphism bg-transparent px-3 my-3 py-5' required onChange={(e)=>setDiscord(e.target.value)} value={discord}/>
-        <input name="valorant-username" type="text" placeholder='Valorant Username[with hash id]' className='white-glassmorphism bg-transparent px-3 my-3 py-3' required onChange={(e)=>setValoUsername(e.target.value)} value={valoUsername}/>
+        <input name="valorant-username" type="text" placeholder='Valorant Username[with hash id]' className='white-glassmorphism bg-transparent px-3 my-3 py-5' required onChange={(e)=>setValoUsername(e.target.value)} value={valoUsername}/>
         <div><button type="submit" className='md:text-2xl text-lg blue-glassmorphism hover:text-orange-500 md:w-2/5 w-3/5 justify-center rounded-xl my-3 px-3 py-4'>Register</button></div>
       </form>
     </div>  

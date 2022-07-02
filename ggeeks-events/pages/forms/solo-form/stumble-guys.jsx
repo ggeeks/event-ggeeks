@@ -23,9 +23,9 @@ function AmongUs() {
     }
     axios
       .post(
-        'https://sheet.best/api/sheets/fb4b2b5c-2de7-40b6-9b23-4bf6c7eec0d8',
+        // 'https://sheet.best/api/sheets/fb4b2b5c-2de7-40b6-9b23-4bf6c7eec0d8',
         // 'https://script.google.com/macros/s/AKfycbxdM4v_gkgI_O0vt-qVEO4jfDnCOd8PH5sKfTvMIMb3cm1Oe_II2Rj_WTBxu7dzO4r9/exec',
-        // 'http://localhost:3300/api/skribbl',
+        'https://event-website-backend.herokuapp.com/api/stumbleGuys',
         data
       )
       .then((response) => {
@@ -49,11 +49,11 @@ function AmongUs() {
         </div>
       </Link>
       <div>
-        <h1 className="px-5 py-3 text-2xl md:text-5xl"> Among Us</h1>
+        <h1 className="px-5 py-3 text-2xl md:text-5xl">Stumble Guys</h1>
       </div>
       <div className="form-font px-10 py-3 md:px-40 md:py-10">
         <form
-          name="Amongus-Form"
+          name="StumbleGuys-Form"
           action=""
           method="POST"
           className="form-font grid  grid-cols-1 justify-center px-2 md:px-10"

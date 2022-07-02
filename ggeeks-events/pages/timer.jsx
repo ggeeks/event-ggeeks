@@ -95,7 +95,7 @@ return(
     <div className=''>
     
     <Countdown
-      timeTillDate="07 08 2022, 0:00 am"
+      timeTillDate="07 13 2022, 9:00 pm"
       timeFormat="MM DD YYYY, h:mm a"
       className='text-white text-2xl  white-glassmorphism'
     />

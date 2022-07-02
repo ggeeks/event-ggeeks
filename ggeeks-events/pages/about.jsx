@@ -5,8 +5,6 @@ import EventLogo from '../assets/eventlogo.jpg'
 import Register from './register'
 import Card from '../components/Card'
 
-
-
 function about() {
   return (
 

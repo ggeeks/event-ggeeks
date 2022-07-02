@@ -22,25 +22,29 @@ function Cod() {
   const [email, setEmail] = useState('');
   const [institute, setInstitute] = useState('');
   const [discord, setDiscord] = useState('');
+  const [username, setUsername] = useState('');
 
   const handleSubmit =(e)=>{
     e.preventDefault();
     // console.log(name,email,phone,institute,discord);
     const data ={
-      Name:name,
-      Email:email,
-      Phone:phoneNumber,
-      Institute:institute,
-      Discord:discord
+      name:name,
+      email:email,
+      phoneNumber:phoneNumber,
+      institute:institute,
+      discord:discord,
+      username:username
     }
 
-    axios.post("https://sheet.best/api/sheets/ae51993c-9064-408c-a5cd-99a8fd32441c", data).then(response=>{
+    // axios.post("https://sheet.best/api/sheets/ae51993c-9064-408c-a5cd-99a8fd32441c", data).then(response=>{
+    axios.post("https://event-website-backend.herokuapp.com/api/codmSolo", data).then(response=>{
       // console.log(response);
       setName('');
       setEmail('');
       setInstitute('');
       setDiscord('');
       setPhone('');
+      setUsername('');
       alert("YOU HAVE BEEN REGISTERED SUCCESSFULLY!");
     });
 
@@ -55,7 +59,7 @@ function Cod() {
           <button className=' text-xl' >Back</button>
         </div>
       </Link>
-      <div><h1 className='md:text-5xl text-2xl px-5 py-3'> CODM: Call Of Duty Mobile</h1></div>
+      <div><h1 className='md:text-5xl text-2xl px-5 py-3'>Call Of Duty Mobile</h1></div>
       <div className='md:px-40 md:py-10 px-10 py-3'>
       <form name="CODM-Form" action="" method="POST" className='grid grid-cols-1  md:px-10 px-2 justify-center form-font' onSubmit={handleSubmit}>
         <input name="name" type="text" placeholder='Name' className='white-glassmorphism my-3 bg-transparent px-3 py-5' required onChange={(e)=>setName(e.target.value)} value={name}/>
@@ -63,6 +67,7 @@ function Cod() {
         <input name="email" type="email" placeholder='E-mail' className='white-glassmorphism bg-transparent my-3 px-3 py-5 font-nuito' required onChange={(e)=>setEmail(e.target.value)} value={email}/>
         <input name="institute" type="text" placeholder='Institute' className='white-glassmorphism bg-transparent my-3 px-3 py-5' required onChange={(e)=>setInstitute(e.target.value)} value={institute}/>
         <input name="discord" type="text" placeholder='Discord Username' className='white-glassmorphism bg-transparent px-3 my-3 py-5' required onChange={(e)=>setDiscord(e.target.value)} value={discord}/>
+        <input name="username" type="text" placeholder='CODM Username' className='white-glassmorphism bg-transparent px-3 my-3 py-5' required onChange={(e)=>setUsername(e.target.value)} value={username}/>
         <div><button type="submit" className='md:text-2xl text-lg blue-glassmorphism hover:text-orange-500 md:w-2/5 w-3/5 justify-center rounded-xl my-3 px-3 py-4'>Register</button></div>
       </form>
       </div>
