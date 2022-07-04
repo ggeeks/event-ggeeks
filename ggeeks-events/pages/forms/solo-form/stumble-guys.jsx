@@ -15,7 +15,7 @@ function AmongUs() {
     e.preventDefault()
     // console.log(name,email,phoneNumber,institute,discord);
     const data = {
-      name  : name,
+      name: name,
       email: email,
       phoneNumber: phoneNumber,
       institute: institute,
@@ -48,6 +48,21 @@ function AmongUs() {
           <button className=" text-xl">Back</button>
         </div>
       </Link>
+      <div>
+        <div>
+          <h5 className='capitalize'>Description</h5>
+        </div>
+        <ul>
+          <li>
+            Winner will be the last one standing in the game
+
+          </li>
+          <li>
+            Winner may be decided through one or more rounds depending upon the number of Participants.
+
+          </li>
+        </ul>
+      </div>
       <div>
         <h1 className="px-5 py-3 text-2xl md:text-5xl">Stumble Guys</h1>
       </div>

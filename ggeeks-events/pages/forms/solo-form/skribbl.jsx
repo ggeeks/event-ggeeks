@@ -25,12 +25,12 @@ function Skribble() {
   const handleSubmit = (e) => {
     e.preventDefault()
     // console.log(name,email,phone,institute,discord);
-    const data ={
-      name:name,
-      email:email,
-      phoneNumber:phoneNumber,
-      institute:institute,
-      discord:discord,
+    const data = {
+      name: name,
+      email: email,
+      phoneNumber: phoneNumber,
+      institute: institute,
+      discord: discord,
     }
 
     // axios.post("https://sheet.best/api/sheets/14133b73-4937-4f87-843c-72cd1162b938", data).then(response=>{
@@ -55,6 +55,18 @@ function Skribble() {
           <button className=" text-xl">Back</button>
         </div>
       </Link>
+      <div>
+        <div>
+          <h1>DESCRIPTION</h1>
+        </div>
+        <ul>
+          <li>
+            Winning Criteria: Winner of Round 2
+          </li>
+          Eligibility Criteria for Round 2: Top Player of Every Match will go in Round 2
+          <li></li>
+        </ul>
+      </div>
       <div>
         <h1 className="px-5 py-3 text-2xl md:text-5xl"> Skribbl</h1>
       </div>
