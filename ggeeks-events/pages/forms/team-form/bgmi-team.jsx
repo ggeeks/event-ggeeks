@@ -63,6 +63,28 @@ const BgmiTeam = () => {
         </div>
     </Link>
     <div><h1 className='md:text-5xl text-2xl px-5 py-3'>BattleGround Mobile India</h1></div>
+
+    <div className="text-left para-1 white-glassmorphism px-10 py-10">
+        <h1 className='text-3xl  text-left revamp pb-5 text-orange-400'>DESCRIPTION</h1>
+        <div >
+          <h6 className=' text-emerald-200'>ROUND 1</h6>
+          <li>Date- 18 july </li>
+          <li>Day: Monday</li>
+          <li>Time- 9 p.m. onwards</li>
+          <li>Members-100</li>
+          <li>Teams - 25</li>
+          <li>Map - Erangle</li>
+          <br/>
+            <h6 className=' text-emerald-200'>ROUND 2</h6>
+          <li>Date- 18 july </li>
+          <li>Day: Monday</li>
+          <li>Time- 10 p.m. onwards</li>
+          <li>Teams - Top 2</li>
+          <li>Map - Team Deathmatch</li>
+            <br/>
+            <p>Kindly keep your game updated before the match day.</p>
+            </div>
+        </div>
     <div className=' md:px-40 md:py-10 px-10 py-3'>
     <form name="BGMI(team)-Form" action="" method="POST" className='grid grid-cols-1  md:px-10 px-2 justify-center form-font' onSubmit={handleSubmit}>
         <lable className="text-[21px] text-left px-2">Name:</lable>
@@ -82,26 +104,6 @@ const BgmiTeam = () => {
         <div><button type="submit" className='md:text-2xl text-lg blue-glassmorphism hover:text-orange-500 md:w-2/5 w-3/5 justify-center rounded-xl my-3 px-3 py-4'>Register</button></div>
       </form>
     </div>
-    <div className="text-left para-1 white-glassmorphism px-10 py-10">
-        <h1 className='text-3xl  text-center revamp pb-5 text-orange-400'>DESCRIPTION</h1>
-        <div >
-          <h6 className='underline text-emerald-200'>ROUND 1</h6>
-          <li>Date: 18 November 2021</li>
-          <li>Day: Thursday</li>
-          <li>Time: 10 PM Onwards</li>
-          <li>Map: Erangel-Squad</li>
-          <br/>
-            <h6 className='underline text-emerald-200'>ROUND 2</h6>
-            <li>Date: 18 November 2021</li>
-            <li>Day: Thursday</li>
-            <li>Time: After Round 1</li>
-            <li>Map: Livik-Solo</li>
-            <br/>
-              <h6 className='underline text-emerald-200'>INSTRUCTIONS FOR FILLING THIS FORM</h6>
-              <p>Everyone has to fill this Form.</p>
-              <p>Team Leader should be Unique for a SQUAD/TRIO/DUO, This will be used for pairing you with your Team.</p>
-            </div>
-        </div>
   </div>
   )
 }

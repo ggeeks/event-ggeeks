@@ -52,6 +52,20 @@ function AmongUs() {
       <div>
         <h1 className="px-5 py-3 text-2xl md:text-5xl">Stumble Guys</h1>
       </div>
+
+      <div className='para-1 text-left white-glassmorphism px-10 py-10'>
+      <div >
+           <div className='text-left'>
+             <h5 className='text-3xl  text-left revamp pb-4 text-orange-400'>DESCRIPTION</h5>
+             <h6 className='text-emerald-200'>ROUND 1</h6>
+             <li>Date- 14 july 2022 </li>
+             <li>Day: Thursday</li>
+             <li>Time - 9 p.m. onwards</li>
+             <li>Total players in a round - 32</li>
+             <li>*Any Network issue will not be considered</li>
+              </div>
+          </div>
+      </div>
       <div className="form-font px-10 py-3 md:px-40 md:py-10">
         <form
           name="StumbleGuys-Form"
@@ -115,21 +129,7 @@ function AmongUs() {
           </div>
         </form>
       </div>
-      <div className="text-left para-1 white-glassmorphism px-10 py-10">
-        <div>
-          <h5 className='text-3xl  text-center revamp pb-5 text-orange-400'>DESCRIPTION</h5>
-        </div>
-        <ul>
-          <li>
-            Winner will be the last one standing in the game
-
-          </li>
-          <li>
-            Winner may be decided through one or more rounds depending upon the number of Participants.
-
-          </li>
-        </ul>
-      </div>
+      
     </div>
   )
 }

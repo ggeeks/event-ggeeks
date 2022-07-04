@@ -55,9 +55,24 @@ function Skribble() {
           <button className=" text-xl">Back</button>
         </div>
       </Link>
-      
+     
       <div>
         <h1 className="px-5 py-3 text-2xl md:text-5xl"> Skribbl</h1>
+      </div>
+
+      <div className='para-1 text-left white-glassmorphism px-10 py-10'>
+      <div >
+           <div className='text-left'>
+             <h5 className='text-3xl  text-left revamp pb-4 text-orange-400'>DESCRIPTION</h5>
+              <h6 className='text-emerald-200'>ROUND 1</h6>
+             <li>Date- 15 july 2022 </li>
+             <li>Day: Friday</li>
+             <li>Time - 9 p.m. onwards</li>
+             <li>Rounds - Acc. To Players</li>
+             <li>*Any Network issue will not be considered</li>
+             <li>Disqualification- If any player uses Foul language in chat box</li>
+              </div>
+          </div>
       </div>
       <div className="px-10 py-3 md:px-40 md:py-10">
         <form
@@ -126,18 +141,6 @@ function Skribble() {
             </button>
           </div>
         </form>
-      </div>
-      <div className="text-left para-1 white-glassmorphism px-10 py-10">
-        <div>
-          <h1 className='text-3xl  text-center revamp pb-5 text-orange-400'>DESCRIPTION</h1>
-        </div>
-        <ul>
-          <li>
-            Winning Criteria: Winner of Round 2
-          </li>
-          Eligibility Criteria for Round 2: Top Player of Every Match will go in Round 2
-          <li></li>
-        </ul>
       </div>
     </div>
   )
