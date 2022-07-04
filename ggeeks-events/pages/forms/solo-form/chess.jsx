@@ -40,10 +40,25 @@ function Chess() {
           <button className=" text-xl">Back</button>
         </div>
       </Link>
-      
+
       <div>
         <h1 className="px-5 py-3 text-2xl md:text-5xl">Chess</h1>
       </div>
+
+      <div className='para-1 text-left white-glassmorphism px-10 py-10'>
+        <div >
+          <h5 className='text-left revamp md:text-3xl text-3xl text-orange-400 pb-5'>DESCRIPTION</h5>
+          <div >
+            <li>Date- 13 july 2022</li>
+            <li>Day: Wednesday</li>
+            <li>Time - 9 p.m. onwards</li>
+            <li>Platform - lichess.org <a href="http://lichess.org">Lichess</a></li>
+            <li>Mode - 2 minutes + 1sec (increment)</li>
+          </div>
+        </div>
+      </div>
+      
+      
       <div className="form-font px-10 py-3 md:px-40 md:py-10">
         <form
           name="Chess-Form"
@@ -108,19 +123,7 @@ function Chess() {
         </form>
       </div>
 
-      <div className='para-1 text-left white-glassmorphism px-10 py-10'>
-        <div >
-          <h5 className='text-center revamp md:text-3xl text-3xl text-orange-400 pb-5'>DESCRIPTION</h5>
-          <div >
-            <li>Date: released soon</li>
-            <li>Day: Monday</li>
-            <li>Type: Arena</li>
-            <li>Platform: <a href="http://lichess.org">Lichess</a></li>
-            <li>Time: 09 PM Onwards</li>
-            <li>Format: 2 minutes + 1 second Increment per move</li>
-          </div>
-        </div>
-      </div>
+      
     </div>
   )
 }

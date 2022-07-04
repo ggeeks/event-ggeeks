@@ -60,6 +60,28 @@ return (
         </div>
     </Link>
     <div><h1 className='md:text-5xl text-2xl px-5 py-3'> Valorant</h1></div>
+
+    <div className="text-left para-1 white-glassmorphism px-10 py-10">
+        <h1 className='text-3xl  text-lrft revamp pb-4 text-orange-400'>DESCRIPTION</h1>
+        <div >
+          <h6 className=' text-emerald-200'>ROUND 1</h6>
+          <li>Date- 17 july</li>
+          <li>Day - Sunday</li>
+          <li>Time- 9:00 pm Onwards</li>
+          <li>Match type-Solo</li>
+          <li>Free for all (10 players)</li>
+          <br/>
+            <h6 className=' text-emerald-200'>ROUND 2</h6>
+            <li>Date- 17 july</li>
+            <li>Day - Sunday</li>
+            <li>Time- 10:00 pm Onwards</li>
+            <li>Match type-Solo</li>
+            <li>Free for all (10 players)</li>
+            <br/>
+              <p>Kindly keep your game updated before match day.</p>
+            </div>
+        </div>
+
     <div className='md:px-40 md:py-10 px-10 py-3'>
     <form name="Valorant-Form" action="" method="POST" className='grid grid-cols-1  md:px-10 px-2 justify-center form-font' onSubmit={handleSubmit}>
     <lable className="text-[21px] text-left px-2">Name:</lable>
