@@ -130,6 +130,7 @@ function AmongUs() {
           </div>
         </form>
       </div>
+      
     </div>
   )
 }

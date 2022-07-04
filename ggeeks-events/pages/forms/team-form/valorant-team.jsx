@@ -77,12 +77,19 @@ const ValorantTeam = () => {
     <div><h1 className=' md:text-5xl text-2xl px-5 py-3'>Valorant</h1></div>
     <div className='md:px-40 md:py-10 px-10 py-3'>
     <form name="Valorant-Form" action="" method="POST" className='grid grid-cols-1  md:px-10 px-2 justify-center form-font' onSubmit={handleSubmit}>
+    <lable className="text-[21px] text-left px-2">Name:</lable>
         <input name="name" type="text" placeholder='Name' className='white-glassmorphism my-3 bg-transparent px-3 py-5' required onChange={(e)=>setName(e.target.value)} value={name}/>
+        <lable className="text-[21px] text-left px-2">Phone Number:</lable>
         <input name="phone-number" type="number" placeholder='Phone Number' className='white-glassmorphism my-3 bg-transparent px-3 py-5' required onChange={(e)=>setPhone(e.target.value)} value={phoneNumber}/>
+        <lable className="text-[21px] text-left px-2">Email:</lable>
         <input name="email" type="email" placeholder='E-mail' className='white-glassmorphism bg-transparent my-3 px-3 py-5 font-nuito' required onChange={(e)=>setEmail(e.target.value)} value={email}/>
+        <lable className="text-[21px] text-left px-2">Institute:</lable>
         <input name="institute" type="text" placeholder='Institute' className='white-glassmorphism bg-transparent my-3 px-3 py-5' required onChange={(e)=>setInstitute(e.target.value)} value={institute}/>
+        <lable className="text-[21px] text-left px-2">Discord Username:</lable>
         <input name="discord" type="text" placeholder='Discord Username' className='white-glassmorphism bg-transparent px-3 my-3 py-5' required onChange={(e)=>setDiscord(e.target.value)} value={discord}/>
+        <lable className="text-[21px] text-left px-2">Valorant Username[with hash id]:</lable>
         <input name="valorant-username" type="text" placeholder='Valorant Username[with hash id]' className='white-glassmorphism bg-transparent px-3 my-3 py-5' required onChange={(e)=>setValoUsername(e.target.value)} value={valoUsername}/>
+        <lable className="text-[21px] text-left px-2">Team leader Username[with hash id]:</lable>
         <input name="leader-username" type="text" placeholder='Team leader Username[with hash id]' className='white-glassmorphism bg-transparent px-3 my-3 py-5' required onChange={(e)=>setLeaderUsername(e.target.value)} value={leaderUsername}/>
         <div><button type="submit" className='md:text-2xl text-lg blue-glassmorphism hover:text-orange-500 md:w-2/5 w-3/5 justify-center rounded-xl my-3 px-3 py-4'>Register</button></div>
       </form>

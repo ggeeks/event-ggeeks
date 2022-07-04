@@ -59,7 +59,6 @@ function Cod() {
           <button className=' text-xl' >Back</button>
         </div>
       </Link>
-
       <div><h1 className='md:text-5xl text-2xl px-5 py-3'>Call Of Duty Mobile</h1></div>
       <div className='text-left p-6 mx-12 para-1 white-glassmorphism'>
         <h5 className='text-center revamp md:text-2xl text-xl'>DESCRIPTION</h5>
@@ -89,6 +88,27 @@ function Cod() {
           <input name="username" type="text" placeholder='CODM Username' className='white-glassmorphism bg-transparent px-3 my-3 py-5' required onChange={(e) => setUsername(e.target.value)} value={username} />
           <div><button type="submit" className='md:text-2xl text-lg blue-glassmorphism hover:text-orange-500 md:w-2/5 w-3/5 justify-center rounded-xl my-3 px-3 py-4'>Register</button></div>
         </form>
+      </div>
+
+      <div className='para-1 text-left white-glassmorphism px-10 py-10'>
+      <div  >
+                            <h5 className='text-3xl  text-left revamp pb-5 text-orange-400'>DESCRIPTION</h5>
+                            <div className='text-left'>
+                                <h6 className=' text-emerald-200'>ROUND 1</h6>
+                                <li>Date: TBA</li>
+                                <li>Day: Wednesday</li>
+                                <li>Time: TBA</li>
+                                <li>Map: Random</li>
+                                <li>Type: Multiplayer-Free for All</li>
+                                <br/>
+                                <h6 className='text-emerald-200'>ROUND 2</h6>
+                                <li>Date:TBA</li>
+                                <li>Day: Wednesday</li>
+                                <li>Time: After Round 1</li>
+                                <li>Map: Random</li>
+                                <li>Type: Multiplayer-Free for All</li>
+                            </div>
+                        </div>
       </div>
     </div>
   )
