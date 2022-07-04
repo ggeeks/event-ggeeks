@@ -67,6 +67,7 @@ function Skribble() {
           className="form-font grid  grid-cols-1 justify-center px-2 md:px-10"
           onSubmit={handleSubmit}
         >
+          <lable className="text-[21px] text-left px-2">Name:</lable>
           <input
             name="name"
             type="text"
@@ -76,6 +77,7 @@ function Skribble() {
             onChange={(e) => setName(e.target.value)}
             value={name}
           />
+          <lable className="text-[21px] text-left px-2">Phone Number:</lable>
           <input
             name="phone-number"
             type="number"
@@ -85,6 +87,7 @@ function Skribble() {
             onChange={(e) => setPhone(e.target.value)}
             value={phoneNumber}
           />
+          <lable className="text-[21px] text-left px-2">Email:</lable>
           <input
             name="email"
             type="email"
@@ -94,6 +97,7 @@ function Skribble() {
             onChange={(e) => setEmail(e.target.value)}
             value={email}
           />
+          <lable className="text-[21px] text-left px-2">Institute:</lable>
           <input
             name="institute"
             type="text"
@@ -103,6 +107,7 @@ function Skribble() {
             onChange={(e) => setInstitute(e.target.value)}
             value={institute}
           />
+          <lable className="text-[21px] text-left px-2">Discord Username:</lable>
           <input
             name="discord"
             type="text"
