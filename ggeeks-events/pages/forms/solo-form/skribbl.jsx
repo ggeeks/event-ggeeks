@@ -55,18 +55,7 @@ function Skribble() {
           <button className=" text-xl">Back</button>
         </div>
       </Link>
-      <div>
-        <div>
-          <h1>DESCRIPTION</h1>
-        </div>
-        <ul>
-          <li>
-            Winning Criteria: Winner of Round 2
-          </li>
-          Eligibility Criteria for Round 2: Top Player of Every Match will go in Round 2
-          <li></li>
-        </ul>
-      </div>
+      
       <div>
         <h1 className="px-5 py-3 text-2xl md:text-5xl"> Skribbl</h1>
       </div>
@@ -78,6 +67,7 @@ function Skribble() {
           className="form-font grid  grid-cols-1 justify-center px-2 md:px-10"
           onSubmit={handleSubmit}
         >
+          <lable className="text-[21px] text-left px-2">Name:</lable>
           <input
             name="name"
             type="text"
@@ -87,6 +77,7 @@ function Skribble() {
             onChange={(e) => setName(e.target.value)}
             value={name}
           />
+          <lable className="text-[21px] text-left px-2">Phone Number:</lable>
           <input
             name="phone-number"
             type="number"
@@ -96,6 +87,7 @@ function Skribble() {
             onChange={(e) => setPhone(e.target.value)}
             value={phoneNumber}
           />
+          <lable className="text-[21px] text-left px-2">Email:</lable>
           <input
             name="email"
             type="email"
@@ -105,6 +97,7 @@ function Skribble() {
             onChange={(e) => setEmail(e.target.value)}
             value={email}
           />
+          <lable className="text-[21px] text-left px-2">Institute:</lable>
           <input
             name="institute"
             type="text"
@@ -114,6 +107,7 @@ function Skribble() {
             onChange={(e) => setInstitute(e.target.value)}
             value={institute}
           />
+          <lable className="text-[21px] text-left px-2">Discord Username:</lable>
           <input
             name="discord"
             type="text"
@@ -132,6 +126,18 @@ function Skribble() {
             </button>
           </div>
         </form>
+      </div>
+      <div className="text-left para-1 white-glassmorphism px-10 py-10">
+        <div>
+          <h1 className='text-3xl  text-center revamp pb-5 text-orange-400'>DESCRIPTION</h1>
+        </div>
+        <ul>
+          <li>
+            Winning Criteria: Winner of Round 2
+          </li>
+          Eligibility Criteria for Round 2: Top Player of Every Match will go in Round 2
+          <li></li>
+        </ul>
       </div>
     </div>
   )
