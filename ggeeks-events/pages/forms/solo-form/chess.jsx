@@ -40,6 +40,19 @@ function Chess() {
           <button className=" text-xl">Back</button>
         </div>
       </Link>
+      <div className='para-1 text-left'>
+      <div >
+                            <h5 className='text-center revamp md:text-3xl text-xl'>DESCRIPTION</h5>
+                            <div >
+                                <li>Date: released soon</li>
+                                <li>Day: Monday</li>
+                                <li>Type: Arena</li>
+                                <li>Platform: <a href="http://lichess.org">Lichess</a></li>
+                                <li>Time: 09 PM Onwards</li>
+                                <li>Format: 2 minutes + 1 second Increment per move</li>
+                            </div>
+                        </div>
+      </div>
       <div>
         <h1 className="px-5 py-3 text-2xl md:text-5xl">Chess</h1>
       </div>

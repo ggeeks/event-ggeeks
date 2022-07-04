@@ -59,6 +59,26 @@ function Cod() {
           <button className=' text-xl' >Back</button>
         </div>
       </Link>
+      <div className='para-1 text-left'>
+      <div className='para-1 text-left'  >
+                            <h5 className='text-xl revamp'>DESCRIPTION</h5>
+                            <div className='text-left'>
+                                <h6>ROUND 1</h6>
+                                <li>Date: TBA</li>
+                                <li>Day: Wednesday</li>
+                                <li>Time: TBA</li>
+                                <li>Map: Random</li>
+                                <li>Type: Multiplayer-Free for All</li>
+                                <br/>
+                                <h6>ROUND 2</h6>
+                                <li>Date:TBA</li>
+                                <li>Day: Wednesday</li>
+                                <li>Time: After Round 1</li>
+                                <li>Map: Random</li>
+                                <li>Type: Multiplayer-Free for All</li>
+                            </div>
+                        </div>
+      </div>
       <div><h1 className='md:text-5xl text-2xl px-5 py-3'>Call Of Duty Mobile</h1></div>
       <div className='md:px-40 md:py-10 px-10 py-3'>
       <form name="CODM-Form" action="" method="POST" className='grid grid-cols-1  md:px-10 px-2 justify-center form-font' onSubmit={handleSubmit}>

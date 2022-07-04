@@ -42,6 +42,26 @@ function Bgmi (){
           <button className=' text-xl' >Back</button>
         </div>
     </Link>
+      <div className="text-left para-1">
+        <h1 className='text-center text-2xl'>DESCRIPTION</h1>
+        <div >
+          <h6>ROUND 1</h6>
+          <li>Date: 18 November 2021</li>
+          <li>Day: Thursday</li>
+          <li>Time: 10 PM Onwards</li>
+          <li>Map: Erangel-Squad</li>
+          <br/>
+            <h6>ROUND 2</h6>
+            <li>Date: 18 November 2021</li>
+            <li>Day: Thursday</li>
+            <li>Time: After Round 1</li>
+            <li>Map: Livik-Solo</li>
+            <br/>
+              <h6>INSTRUCTIONS FOR FILLING THIS FORM</h6>
+              <p>Everyone has to fill this Form.</p>
+              <p>Team Leader should be Unique for a SQUAD/TRIO/DUO, This will be used for pairing you with your Team.</p>
+            </div>
+        </div>
     <div><h1 className='md:text-5xl text-2xl px-5 py-3'>BattleGround Mobile India</h1></div>
     <div className='md:px-40 md:py-10 px-10 py-3'>
     <form name="BGMI-Form" action="" method="POST" className='grid grid-cols-1  md:px-10 px-2 justify-center form-font' onSubmit={handleSubmit}>
