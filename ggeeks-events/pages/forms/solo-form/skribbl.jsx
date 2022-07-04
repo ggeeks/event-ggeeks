@@ -56,19 +56,14 @@ function Skribble() {
         </div>
       </Link>
       <div>
-        <div>
-          <h1>DESCRIPTION</h1>
-        </div>
-        <ul>
-          <li>
-            Winning Criteria: Winner of Round 2
-          </li>
-          Eligibility Criteria for Round 2: Top Player of Every Match will go in Round 2
-          <li></li>
-        </ul>
-      </div>
-      <div>
         <h1 className="px-5 py-3 text-2xl md:text-5xl"> Skribbl</h1>
+      </div>
+      <div className="text-left p-6 mx-12 para-1 white-glassmorphism">
+        <div><h5 className="text-center revamp md:text-2xl text-xl">DESCRIPTION</h5></div>
+        <ul className="text-center py-5">
+          <li><b>Winning Criteria:</b> Winner of Round 2&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</li>
+          <li><b>&nbsp;Eligibility Criteria for Round 2:</b>  Top Player of Every Match will go in Round 2</li>
+        </ul>
       </div>
       <div className="px-10 py-3 md:px-40 md:py-10">
         <form

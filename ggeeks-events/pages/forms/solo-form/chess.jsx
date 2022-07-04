@@ -40,11 +40,14 @@ function Chess() {
           <button className=" text-xl">Back</button>
         </div>
       </Link>
-      <div className='para-1 text-left'>
+      <div>
+        <h1 className="px-5 py-3 text-2xl md:text-5xl">Chess</h1>
+      </div>
+      <div className='text-left p-6 mx-12 para-1 white-glassmorphism'>
         <div >
-          <h5 className='text-center revamp md:text-3xl text-xl'>DESCRIPTION</h5>
+          <h5 className='text-center revamp md:text-2xl text-xl'>DESCRIPTION</h5>
           <div >
-            <li>Date: released soon</li>
+            <li>Date: 13 July 2022</li>
             <li>Day: Monday</li>
             <li>Type: Arena</li>
             <li>Platform: <a href="http://lichess.org">Lichess</a></li>
@@ -52,9 +55,6 @@ function Chess() {
             <li>Format: 2 minutes + 1 second Increment per move</li>
           </div>
         </div>
-      </div>
-      <div>
-        <h1 className="px-5 py-3 text-2xl md:text-5xl">Chess</h1>
       </div>
       <div className="form-font px-10 py-3 md:px-40 md:py-10">
         <form
@@ -64,6 +64,7 @@ function Chess() {
           className="form-font grid  grid-cols-1 justify-center px-2 md:px-10"
           onSubmit={handleSubmit}
         >
+        <label className="text-[21px] text-left px-2" >Name:</label>
           <input
             name="name"
             type="text"
@@ -73,6 +74,7 @@ function Chess() {
             onChange={(e) => setName(e.target.value)}
             value={name}
           />
+          <label className="text-[21px] text-left px-2" >Phone Number:</label>
           <input
             name="phone-number"
             type="number"
@@ -82,6 +84,7 @@ function Chess() {
             onChange={(e) => setPhone(e.target.value)}
             value={phoneNumber}
           />
+          <label className="text-[21px] text-left px-2" >E-mail:</label>
           <input
             name="email"
             type="email"
@@ -91,6 +94,7 @@ function Chess() {
             onChange={(e) => setEmail(e.target.value)}
             value={email}
           />
+          <label className="text-[21px] text-left px-2" >Institute:</label>
           <input
             name="institute"
             type="text"
@@ -100,6 +104,7 @@ function Chess() {
             onChange={(e) => setInstitute(e.target.value)}
             value={institute}
           />
+          <label className="text-[21px] text-left px-2" >Discord Username:</label>
           <input
             name="discord"
             type="text"
