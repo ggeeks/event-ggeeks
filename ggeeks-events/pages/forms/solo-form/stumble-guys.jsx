@@ -50,12 +50,11 @@ function AmongUs() {
       </Link>
       <div>
         <div>
-          <h5 className='capitalize'>Description</h5>
+          <h5 className='capitalize text-3xl'>Description</h5>
         </div>
-        <ul>
+        <ul className='para-1 text-left'>
           <li>
             Winner will be the last one standing in the game
-
           </li>
           <li>
             Winner may be decided through one or more rounds depending upon the number of Participants.

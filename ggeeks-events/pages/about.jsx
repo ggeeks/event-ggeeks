@@ -96,7 +96,57 @@ function about() {
         </div>
       </div>
 
-      {/*  */}
+      <div>
+        <h1 className="revamp text-[36px] md:my-20 md:text-[46px] ">
+          Schedule
+          </h1>
+       <div className='justify-center text-center md:px-[20vw] px-[5vw] items-center '>
+        <table className='blue-glassmorphism  text-center justify-center para-1 text-2xl'>
+          <tr className='text-center py-10 '>
+            <th className='text-2xl py-3 px-10'>Days</th>
+            <th className='text-2xl py-3 px-10'>Game Name</th>
+            <th className='text-2xl py-3 px-10'>Date</th>
+          </tr>
+          <tr>
+            <th>Day 1</th>
+            <th className='text-2xl py-3 px-10 text-left'>Chess</th>
+            <th className='text-2xl py-3 px-10 text-left'>13 July, 2022</th>
+
+          </tr> <tr>
+            <th>Day 2</th>
+            <th className='text-2xl py-3 px-10 text-left'>Stumble Guys</th>
+            <th className='text-2xl py-3 px-10 text-left'>14 July, 2022</th>
+
+          </tr> <tr>
+            <th>Day 3</th>
+            <th className='text-2xl py-3 px-10 text-left'>Skribbl</th>
+            <th className='text-2xl py-3 px-10 text-left'>15 July, 2022</th>
+
+          </tr> 
+          <tr>
+            <th>Day 4</th>
+            <th className='text-2xl py-3 px-10 text-left'>CODM</th>
+            <th className='text-2xl py-3 px-10 text-left'>16 July, 2022</th>
+
+          </tr>
+          <tr>
+            <th>Day 5</th>
+            <th className='text-2xl py-3 px-10 text-left'> Valorant</th>
+            <th className='text-2xl py-3 px-10 text-left'>17 July, 2022</th>
+
+          </tr>
+          <tr>
+            <th>Day 6</th>
+            <th className='text-2xl py-3 px-10 text-left'>BGMI</th>
+            <th className='text-2xl py-3 px-10 text-left'>18 July, 2022</th>
+
+          </tr>
+
+        </table>
+       </div>
+
+      </div>
+     
     </div>
   )
 }

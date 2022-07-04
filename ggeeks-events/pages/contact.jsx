@@ -6,7 +6,7 @@ function contact() {
       <div><h1 className='md:text-5xl text-2xl px-5 py-3'> Contact Us</h1></div>
       <div className='py-2'>
         <div>
-        <form action="" method="get" className=' grid grid-cols-1  md:px-10 px-2 justify-center '>
+        <form action="" method="POST" className=' grid grid-cols-1  md:px-10 px-2 justify-center '>
           <input type="text" placeholder='Name' className='white-glassmorphism bg-transparent my-3 px-3 py-3' />
           <input type="number" placeholder='Phone Number' className='white-glassmorphism bg-transparent my-3 px-3 py-3 ' />
           <input type="email" placeholder='E-mail' className='white-glassmorphism bg-transparent my-3 px-3 py-3' />
