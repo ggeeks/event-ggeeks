@@ -48,7 +48,6 @@ function AmongUs() {
           <button className=" text-xl">Back</button>
         </div>
       </Link>
-      
       <div>
         <h1 className="px-5 py-3 text-2xl md:text-5xl">Stumble Guys</h1>
       </div>

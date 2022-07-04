@@ -1,8 +1,5 @@
-
 import Head from 'next/head'
-// import Image from 'next/image'
 import About from './about'
-// import Games from './Games'
 import Timer from './timer'
 import Sponser from './sponsor'
 import Contact from './contact'
@@ -41,9 +38,11 @@ function Home() {
         <div className='lg:px-64 px-2'>
           <Timer />
         </div>
+       
 
 
       </main>
+       
       <div className='py-10'>
         <About />
       </div>
