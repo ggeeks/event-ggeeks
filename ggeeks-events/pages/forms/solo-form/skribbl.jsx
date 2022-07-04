@@ -55,18 +55,7 @@ function Skribble() {
           <button className=" text-xl">Back</button>
         </div>
       </Link>
-      <div>
-        <div>
-          <h1>DESCRIPTION</h1>
-        </div>
-        <ul>
-          <li>
-            Winning Criteria: Winner of Round 2
-          </li>
-          Eligibility Criteria for Round 2: Top Player of Every Match will go in Round 2
-          <li></li>
-        </ul>
-      </div>
+      
       <div>
         <h1 className="px-5 py-3 text-2xl md:text-5xl"> Skribbl</h1>
       </div>
@@ -132,6 +121,18 @@ function Skribble() {
             </button>
           </div>
         </form>
+      </div>
+      <div className="text-left para-1 white-glassmorphism px-10 py-10">
+        <div>
+          <h1 className='text-3xl  text-center revamp pb-5 text-orange-400'>DESCRIPTION</h1>
+        </div>
+        <ul>
+          <li>
+            Winning Criteria: Winner of Round 2
+          </li>
+          Eligibility Criteria for Round 2: Top Player of Every Match will go in Round 2
+          <li></li>
+        </ul>
       </div>
     </div>
   )

@@ -48,21 +48,7 @@ function AmongUs() {
           <button className=" text-xl">Back</button>
         </div>
       </Link>
-      <div>
-        <div>
-          <h5 className='capitalize'>Description</h5>
-        </div>
-        <ul>
-          <li>
-            Winner will be the last one standing in the game
-
-          </li>
-          <li>
-            Winner may be decided through one or more rounds depending upon the number of Participants.
-
-          </li>
-        </ul>
-      </div>
+      
       <div>
         <h1 className="px-5 py-3 text-2xl md:text-5xl">Stumble Guys</h1>
       </div>
@@ -128,6 +114,21 @@ function AmongUs() {
             </button>
           </div>
         </form>
+      </div>
+      <div className="text-left para-1 white-glassmorphism px-10 py-10">
+        <div>
+          <h5 className='text-3xl  text-center revamp pb-5 text-orange-400'>DESCRIPTION</h5>
+        </div>
+        <ul>
+          <li>
+            Winner will be the last one standing in the game
+
+          </li>
+          <li>
+            Winner may be decided through one or more rounds depending upon the number of Participants.
+
+          </li>
+        </ul>
       </div>
     </div>
   )
