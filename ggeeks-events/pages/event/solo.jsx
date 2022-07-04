@@ -29,39 +29,56 @@ const Solo = () => {
       <div className="py-5">
         <div className="grid grid-cols-1 md:grid-cols-3  ">
           <Link href="../forms/solo-form/chess" to={<ChessSolo />} alt="chess">
-            <div className="blue-glassmorphism m-5 w-5/6 cursor-pointer px-3 py-2 md:w-11/12">
+            <div className='m-5 w-5/6 cursor-pointer px-3 py-2 md:w-11/12'>
+              <div className="blue-glassmorphism m-5 w-5/6 cursor-pointer px-3 py-2 md:w-11/12">
               <Image src={chess} height={970} alt="chess-image" />
               <h2 className="text-xl">Chess</h2>
+              
             </div>
+            <button className=' px-2 py-1  rounded-lg text-xl hover:bg-gradient-to-r hover:from-pink-500 hover:to-purple-500 bg-gradient-to-r from-purple-500 to-pink-500' onClick={()=>(<ChessSolo/>)}>Register</button>
+            </div>
+            
           </Link>
+          
           <Link
             href="../forms/solo-form/stumble-guys"
             to={<StumbleGuys />}
             alt="stumble-guys"
           >
-            <div className="blue-glassmorphism m-5 w-5/6 cursor-pointer px-3 py-2 md:w-11/12">
+            <div className='m-5 w-5/6 cursor-pointer px-3 py-2 md:w-11/12'>
+              <div className="blue-glassmorphism m-5 w-5/6 cursor-pointer px-3 py-2 md:w-11/12">
               <Image src={stumbleGuys} height={1020} alt="stumble-guys" />
               <h2 className="text-xl">Stumble Guys</h2>
             </div>
+            <button className=' px-2 py-1  rounded-lg text-xl hover:bg-gradient-to-r hover:from-pink-500 hover:to-purple-500 bg-gradient-to-r from-purple-500 to-pink-500' onClick={()=>(<ChessSolo/>)}>Register</button>
+            </div>
+            
           </Link>
           <Link
             href="../forms/solo-form/skribbl"
             alt="skribble"
             to={<SkribbleSolo />}
           >
-            <div className="blue-glassmorphism m-5 w-5/6 cursor-pointer px-3 py-2 md:w-11/12">
+            <div className='m-5 w-5/6 cursor-pointer px-3 py-2 md:w-11/12'>
+              <div className="blue-glassmorphism m-5 w-5/6 cursor-pointer px-3 py-2 md:w-11/12">
               <Image src={skribbleImage} height={850} alt="skribble-image" />
               <h2 className="text-xl">Skribbl</h2>
             </div>
+            <button className=' px-2 py-1  rounded-lg text-xl hover:bg-gradient-to-r hover:from-pink-500 hover:to-purple-500 bg-gradient-to-r from-purple-500 to-pink-500'>Register</button>
+            </div>
+            
           </Link>
           <Link
             href="../forms/solo-form/codm"
             alt="codm-image"
             to={<CODMSolo />}
           >
+            <div className='m-5 w-5/6 cursor-pointer px-3 py-2 md:w-11/12'>
             <div className="blue-glassmorphism m-5 w-5/6 cursor-pointer px-3 py-2 md:w-11/12">
               <Image src={cod} height={950} alt="cod" />
               <h2 className="text-xl">Call of Duty</h2>
+            </div>
+            <button className=' px-2 py-1  rounded-lg text-xl hover:bg-gradient-to-r hover:from-pink-500 hover:to-purple-500 bg-gradient-to-r from-purple-500 to-pink-500'>Register</button>
             </div>
           </Link>
           
@@ -70,6 +87,7 @@ const Solo = () => {
             alt="valorant"
             to={<ValorantSolo />}
           >
+            <div className='m-5 w-5/6 cursor-pointer px-3 py-2 md:w-11/12'>
             <div className=" blue-glassmorphism m-5 w-5/6 cursor-pointer rounded-2xl px-3 py-2 md:w-11/12">
               <Image
                 src={valorant}
@@ -79,12 +97,17 @@ const Solo = () => {
               />
               <h2 className="text-xl">Valorant</h2>
             </div>
+            <button className=' px-2 py-1  rounded-lg text-xl hover:bg-gradient-to-r hover:from-pink-500 hover:to-purple-500 bg-gradient-to-r from-purple-500 to-pink-500'>Register</button>
+            </div>
           </Link>
 
           <Link href="../forms/solo-form/bgmi" to={<BgmiSolo />} alt="BGMI">
+            <div className='m-5 w-5/6  px-3 py-2 md:w-11/12'>
             <div className="blue-glassmorphism m-5 w-5/6 cursor-pointer px-3 py-2 md:w-11/12">
               <Image src={bgmi} alt="bgmi" />
               <h2 className="text-xl">BGMI</h2>
+            </div>
+            <button className=' px-2 py-1  rounded-lg text-xl hover:bg-gradient-to-r hover:from-pink-500 hover:to-purple-500 bg-gradient-to-r from-purple-500 to-pink-500'>Register</button>
             </div>
           </Link>
 

@@ -39,6 +39,55 @@ function Register() {
         </div>
 
       </div>
+      <div className=''>
+        <h1 className='text-xl md:text-3xl py-10'>Terms & condition </h1>
+        <div className='justify-start text-left para-1 px-20 white-glassmorphism'>
+          <ul className='px-10 py-5'>
+            <li className='text-xl py-3'>
+              <strong>GENERAL</strong>
+            </li>
+            <ul className=' px-6 text-lg '>
+              <li>Must Subscribe/Follow/Join us on all our Social Platforms.</li>
+              <li>No network issues will be Entertained.</li>
+              <li>If anyone finds out another player Cheating or Violating any rule, You have to report to us with Adequate Proof.</li>
+              <li>Gaming Geeks’ Decisions in Any/All Situations is Final and Binding.</li>
+            </ul>
+            <li className='text-xl py-3'>
+              <strong>DISQUALIFICATION</strong>
+              <ul className='px-6 text-lg '>
+                <li>Use of any unfair means during or before the game.</li>
+                <li>Usage of any kind of FOUL language in the chat box.</li>
+              </ul>
+            </li>
+            <li className='text-xl py-3'><strong>CHESS</strong>
+              <ul className='px-6 text-lg '>
+                <li>Winning Criteria: Winner from Leaderboard</li>
+              </ul>
+            </li>
+            <li className='text-xl py-3'><strong>CODM</strong>
+              <ul className='px-6 text-lg '>
+                <li>Winning Criteria: Winner of Round 2</li>
+                <li>Eligibility Criteria for Round 2: Top Player of Every Match will go in Round 2</li>
+              </ul>
+            </li>
+            <li className='text-xl py-3'><strong>SKRIBBL</strong>
+              <ul className='px-6 text-lg '>
+                <li>Winning Criteria: Winner of Round 2</li>
+                <li>Eligibility Criteria for Round 2: Top Player of Every Match will go in Round 2</li>
+              </ul>
+            </li>
+            <li className='text-xl py-3'><strong>BGMI</strong>
+              <ul className='px-6 text-lg '>
+                <li>Winning Criteria: Chicken Dinner Player of Round 2</li>
+                <li>Eligibility Criteria for Round 2: Top 2 Squads of Every Match will go in Round 2</li>
+              </ul>
+            </li>
+
+
+          </ul>
+
+        </div>
+      </div>
 
     </div>
   )
