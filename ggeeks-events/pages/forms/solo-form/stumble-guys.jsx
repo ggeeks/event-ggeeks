@@ -113,13 +113,13 @@ function AmongUs() {
       </div>
       <div className="para-1 text-left white-glassmorphism px-10 py-10">
         <div><h5 className="text-3xl  text-left revamp pb-5 text-orange-400">DESCRIPTION</h5></div>
-        <ul>
+        <div className='text-left'>
           <li>ROUND 1</li>
           <li>Date- 14 july 2022 </li>
           <li>Day- Thursday</li>
           <li>Time - 09 PM Onwards</li>
           <li>Total players in a round - 32</li>
-        </ul>
+        </div>
       </div>
       <div className="form-font px-10 py-3 md:px-40 md:py-10">
         <form
