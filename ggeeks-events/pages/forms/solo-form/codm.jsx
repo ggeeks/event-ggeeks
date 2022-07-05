@@ -74,7 +74,7 @@ function Cod() {
           <input name="institute" type="text" placeholder='Institute' className='white-glassmorphism bg-transparent my-3 px-3 py-5' required onChange={(e) => setInstitute(e.target.value)} value={institute} />
           <label className="text-[19px] kdam text-left px-2" >Discord Username:</label>
           <input name="discord" type="text" placeholder='Discord Username' className='white-glassmorphism bg-transparent px-3 my-3 py-5' required onChange={(e) => setDiscord(e.target.value)} value={discord} />
-          <label className="text-[19px] kdam text-left px-2" >BGMI Username:</label>
+          <label className="text-[19px] kdam text-left px-2" >CODM Username:</label>
           <input name="username" type="text" placeholder='CODM Username' className='white-glassmorphism bg-transparent px-3 my-3 py-5' required onChange={(e) => setUsername(e.target.value)} value={username} />
 
           <div><button type="submit" className='md:text-2xl text-lg blue-glassmorphism hover:text-orange-500 md:w-2/5 w-3/5 justify-center rounded-xl my-3 px-3 py-4'>Register</button></div>
