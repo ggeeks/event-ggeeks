@@ -66,10 +66,11 @@ function Skribble() {
           <div className='text-left'>
             <li>Date: 15 July 2022</li>
             <li>Day: Friday</li>
+            <li>Time: 09 PM Onwards</li>
             <li>
               Platform: <a href="https://skribbl-ggeeks.herokuapp.com/"><u>Skribbl(ggeeks)</u></a>
             </li>
-            <li>Time: 09 PM Onwards</li>
+            
           </div>
         </div>
       </div>

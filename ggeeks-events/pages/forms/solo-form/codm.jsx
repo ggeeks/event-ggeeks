@@ -59,6 +59,9 @@ function Cod() {
             <li>Time: After Round 1</li>
             <li>Map: Random</li>
             <li>Type: Multiplayer-Free for All</li>
+
+            <br/>
+            <p>Kindly keep your game updated before the match day.</p>
           </div>
         </div>
       </div>
