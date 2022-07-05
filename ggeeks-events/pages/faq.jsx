@@ -4,7 +4,7 @@ import Faq from 'react-faq-component'
 export default function FAQ() {
   return (
     <div className='h-[60vh]'>
-<div className="white-glassmorphism kdam  pl-5">
+<div className="white-glassmorphism kdam  pl-5 text-left">
       <Fragment>
         <Faq
           data={data}
@@ -14,14 +14,15 @@ export default function FAQ() {
             titleTextSize: '50px',
             rowTitleColor: '#fff',
             rowTitleTextSize: 'Large',
-            rowContentColor: '#d8eff2',
+            rowContentColor: '#6ee7b7',
             rowContentPaddingRight: '0',
             rowContentTextSize: '16px',
             rowContentTextFontFamily: 'para-1',
-            rowContentPaddingTop: '10px',
+            rowContentPaddingTop: '0px',
             rowContentPaddingBottom: '10px',
-            rowContentPaddingLeft: '10px',
+            rowContentPaddingLeft: '0px',
             rowContentPaddingRight: '10px',
+            rowContent: 'left',
             arrowColor: 'white',
           }}
           config={{

@@ -32,7 +32,7 @@ function Register() {
 
   return (
     <div className='revamp' >
-      <div><h1 className='md:text-5xl text-2xl'>Register</h1></div>
+      <div><h1 className='md:text-5xl text-2xl tracking-wider'>Register</h1></div>
       {/* <div className='flex md:flex-row flex-col justify-evenly'>
         <div className='justify-center'>
           <h1 className='md:text-3xl text-lg px-5 py-3'>

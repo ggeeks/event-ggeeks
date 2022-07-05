@@ -97,7 +97,7 @@ function about() {
       </div>
 
       <div>
-        <h1 className="revamp text-[36px] md:my-20 md:text-[46px] ">
+        <h1 className="revamp text-[36px] md:my-20 md:text-[46px] tracking-wider">
           Schedule
           </h1>
        <div className='justify-center text-center xl:pl-[21vw] px-[5vw] items-center '>
