@@ -15,11 +15,12 @@ import Link from 'next/link'
 // import { IoIosArrowBack } from 'react-icons/io'
 import stumbleGuys from '../assets/games/stumble-guys.png'
 import bgmi from '../assets/games/bgmi.jpg'
-import bgmiTeam from '../assets/games/bgmi-team.jpg'
+import bgmiTeam from '../assets/games/bgmi-team.png'
 import chess from '../assets/games/chess.png'
 import cod from '../assets/games/cod.png'
 import skribbleImage from '../assets/games/skribble.png'
 import valorant from '../assets/games/valorant.png'
+import transparent from '../assets/games/transparent.png'
 import Image from 'next/image'
 import StumbleGuys from './forms/solo-form/stumble-guys'
 import BgmiSolo from './forms/solo-form/bgmi'
@@ -145,6 +146,11 @@ function Register() {
             <button className=' px-2 py-1  rounded-lg text-xl hover:bg-gradient-to-r hover:from-pink-500 hover:to-purple-500 bg-gradient-to-r from-purple-500 to-pink-500'>Register</button>
             </div>
           </Link>
+            <div className='m-5 w-5/6  px-3 py-2 md:w-11/12'>
+            
+           
+            </div>
+          {/* </Link>  */}
           <Link href="../forms/team-form/bgmi-team" to={<BgmiTeam />} alt="BGMI">
             <div className='m-5 w-5/6  px-3 py-2 md:w-11/12'>
             <div className="blue-glassmorphism m-5 w-5/6 cursor-pointer px-3 py-2 md:w-11/12">
@@ -156,6 +162,10 @@ function Register() {
           </Link>          
 
         </div>
+        {/* <div className=''> */}
+          
+        {/* </div> */}
+        
       </div>
 
       <div className=''>
