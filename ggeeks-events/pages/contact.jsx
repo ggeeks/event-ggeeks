@@ -38,7 +38,7 @@ function contact() {
       <div><h1 className='md:text-5xl text-2xl px-5 py-3'> Contact Us</h1></div>
       <div className='py-2'>
         <div>
-          <form action="" method="POST" className=' grid grid-cols-1  md:px-10 px-2 justify-center ' onSubmit={handleSubmit}>
+          <form action="" method="POST" className='para-1 grid grid-cols-1  md:px-10 px-2 justify-center ' onSubmit={handleSubmit}>
             <input type="text" placeholder='Name' className='white-glassmorphism bg-transparent my-3 px-3 py-3' required onChange={(e) => setName(e.target.value)} value={name} />
             <input type="tel" placeholder='Phone Number' className='white-glassmorphism bg-transparent my-3 px-3 py-3 '  pattern='([0-9]){10}'
             minLength={10}
