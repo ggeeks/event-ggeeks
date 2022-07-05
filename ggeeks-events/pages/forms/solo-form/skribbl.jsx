@@ -59,11 +59,19 @@ function Skribble() {
         <h1 className="px-5 py-3 text-2xl md:text-5xl"> Skribbl</h1>
       </div>
       <div className="para-1 text-left white-glassmorphism px-10 py-10">
-        <div><h5 className="text-3xl  text-left revamp pb-5 text-orange-400">DESCRIPTION</h5></div>
-        <ul className="text-left py-5">
-          <li><b>Winning Criteria:</b> Winner of Round 2</li>
-          <li><b>Eligibility Criteria for Round 2:</b>  Top Player of Every Match will go in Round 2</li>
-        </ul>
+        <div>
+          <h5 className="text-3xl  text-left revamp pb-5 text-orange-400">
+            DESCRIPTION
+          </h5>
+          <div className='text-left'>
+            <li>Date: 15 July 2022</li>
+            <li>Day: Friday</li>
+            <li>
+              Platform: <a href="https://skribbl-ggeeks.herokuapp.com/"><u>Skribbl(ggeeks)</u></a>
+            </li>
+            <li>Time: 09 PM Onwards</li>
+          </div>
+        </div>
       </div>
       <div className="px-10 py-3 md:px-40 md:py-10">
         <form
