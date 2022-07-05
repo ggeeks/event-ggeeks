@@ -49,12 +49,12 @@ function Skribble() {
 
   return (
     <div className="justify-center">
-      <Link href="../../event/solo" to={<Solo />} alt="solo">
+      {/* <Link href="../../event/solo" to={<Solo />} alt="solo">
         <div className="flex flex-row text-left">
           <IoIosArrowBack className="m-1 items-center text-xl" />
           <button className=" text-xl">Back</button>
         </div>
-      </Link>
+      </Link> */}
       <div>
         <h1 className="px-5 py-3 text-2xl md:text-5xl"> Skribbl</h1>
       </div>

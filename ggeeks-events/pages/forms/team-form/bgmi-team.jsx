@@ -56,12 +56,12 @@ const BgmiTeam = () => {
 
   return (
     <div className='justify-center'> 
-      <Link href='../../event/team' to={<Teams/>} alt='teams'>
+      {/* <Link href='../../event/team' to={<Teams/>} alt='teams'>
     <div className='text-left flex flex-row'>
           <IoIosArrowBack className='text-xl items-center m-1' />
           <button className=' text-xl' >Back</button>
         </div>
-    </Link>
+    </Link> */}
     {/* <div>
       <div className='text-3xl text-center'>
         <h1>DESCRIPTION</h1>

@@ -53,12 +53,12 @@ function Valorant (){
 
 return (
     <div className='justify-center'> 
-    <Link href='../../event/solo' to={<Solo/>} alt='solo'>
+    {/* <Link href='../../event/solo' to={<Solo/>} alt='solo'>
     <div className='text-left flex flex-row'>
           <IoIosArrowBack className='text-xl items-center m-1' />
           <button className=' text-xl' >Back</button>
         </div>
-    </Link>
+    </Link> */}
     <div><h1 className='md:text-5xl text-2xl px-5 py-3'> Valorant</h1></div>
 
     <div className="text-left para-1 white-glassmorphism px-10 py-10">

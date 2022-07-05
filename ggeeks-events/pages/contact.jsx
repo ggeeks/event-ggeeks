@@ -22,7 +22,7 @@ function contact() {
 
     axios.post(
       // 'https://sheet.best/api/sheets/fb4b2b5c-2de7-40b6-9b23-4bf6c7eec0d8',
-      'https://event-website-backend.herokuapp.com/api/bgmiSolo', data).then((response) => {
+      'https://event-website-backend.herokuapp.com/api/contact', data).then((response) => {
         setName('')
         setEmail('')
         setInstitute('')

@@ -35,12 +35,12 @@ function Cod() {
   }
   return (
     <div className='justify-center'>
-      <Link href='../../event/solo' to={<Solo />} alt='solo'>
+      {/* <Link href='../../event/solo' to={<Solo />} alt='solo'>
         <div className='text-left flex flex-row'>
           <IoIosArrowBack className='text-xl items-center m-1' />
           <button className=' text-xl' >Back</button>
         </div>
-      </Link>
+      </Link> */}
       <div><h1 className='md:text-5xl text-2xl px-5 py-3'>Call Of Duty Mobile</h1></div>
       <div className='para-1 text-left white-glassmorphism px-10 py-10'>
         <div>

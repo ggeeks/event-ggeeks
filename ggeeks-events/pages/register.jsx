@@ -7,12 +7,15 @@
 // import Solo from './event/solo.jsx'
 // import Teams from "./event/team.jsx"
 
+
 import React from 'react'
 // import Register from '../register'
+import BgmiTeam from '../pages/forms/team-form/bgmi-team'
 import Link from 'next/link'
-import { IoIosArrowBack } from 'react-icons/io'
+// import { IoIosArrowBack } from 'react-icons/io'
 import stumbleGuys from '../assets/games/stumble-guys.png'
-import bgmi from '../assets/games/bgmi.png'
+import bgmi from '../assets/games/bgmi.jpg'
+import bgmiTeam from '../assets/games/bgmi-team.jpg'
 import chess from '../assets/games/chess.png'
 import cod from '../assets/games/cod.png'
 import skribbleImage from '../assets/games/skribble.png'
@@ -142,6 +145,15 @@ function Register() {
             <button className=' px-2 py-1  rounded-lg text-xl hover:bg-gradient-to-r hover:from-pink-500 hover:to-purple-500 bg-gradient-to-r from-purple-500 to-pink-500'>Register</button>
             </div>
           </Link>
+          <Link href="../forms/team-form/bgmi-team" to={<BgmiTeam />} alt="BGMI">
+            <div className='m-5 w-5/6  px-3 py-2 md:w-11/12'>
+            <div className="blue-glassmorphism m-5 w-5/6 cursor-pointer px-3 py-2 md:w-11/12">
+              <Image src={bgmiTeam} alt="bgmi" />
+              <h2 className="text-xl">BGMI-Team</h2>
+            </div>
+            <button className=' px-2 py-1  rounded-lg text-xl hover:bg-gradient-to-r hover:from-pink-500 hover:to-purple-500 bg-gradient-to-r from-purple-500 to-pink-500'>Register</button>
+            </div>
+          </Link>          
 
         </div>
       </div>

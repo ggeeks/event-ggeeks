@@ -177,7 +177,7 @@ function MyApp({ Component, pageProps }) {
             </div>
 
             <div className='text-center py-3'>
-              <h1 className='md:text-xl text-[14px] '>© 2022 All right reserved</h1>
+              <h1 className='md:text-xl text-[14px] '>© 2022 All rights reserved</h1>
             </div>
           </div>
         </div>
