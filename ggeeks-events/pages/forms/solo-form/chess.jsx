@@ -67,18 +67,30 @@ function Chess() {
       <div className="form-font px-10 py-3 md:px-40 md:py-10">
         <form name="Chess-Form" action="" method="POST" className="form-font grid  grid-cols-1 justify-center px-2 md:px-10" onSubmit={handleSubmit}>
           <label className="px-2 text-left text-[19px] kdam ">Name:</label>
-          <input name="name" type="text" placeholder="Name" className="white-glassmorphism my-3 bg-transparent px-3 py-5" required onChange={(e) => setName(e.target.value)} value={name} />
+          <input name="name" type="text" placeholder="Name" className="white-glassmorphism my-3 bg-transparent px-3 py-5" required={true} onChange={(e) => setName(e.target.value)} value={name} />
           <label className="px-2 text-left text-[19px] kdam">Phone Number:</label>
-          <input name="phone-number" type="number" placeholder="Phone Number" className="white-glassmorphism my-3 bg-transparent px-3 py-5" required onChange={(e) => setPhone(e.target.value)} value={phoneNumber} />
+          <input 
+          name="phone-number" 
+          type="tel" 
+          placeholder="Phone Number" 
+          pattern='([0-9]){10}'
+            minLength={10}
+            maxLength={10}
+            title="Enter a valid phone number" 
+            className="white-glassmorphism my-3 bg-transparent px-3 py-5" 
+            required={true} onChange={(e) => setPhone(e.target.value)} 
+            value={phoneNumber} />
           <label className="px-2 text-left text-[19px] kdam">E-mail:</label>
           <input
             name="email"
             type="email"
             placeholder="E-mail"
             className="white-glassmorphism my-3 bg-transparent px-3 py-5 font-nuito"
-            required
+            required={true}
             onChange={(e) => setEmail(e.target.value)}
             value={email}
+            pattern="[a-z0-9._%+-]+@[a-z0-9.-]+\.[a-z]{2,}$"
+            title='someone@example.com'
           />
           <label className="px-2 text-left text-[19px] kdam">Institute:</label>
           <input
@@ -86,7 +98,7 @@ function Chess() {
             type="text"
             placeholder="Institute"
             className="white-glassmorphism my-3 bg-transparent px-3 py-5"
-            required
+            required={true}
             onChange={(e) => setInstitute(e.target.value)}
             value={institute}
           />
@@ -98,7 +110,7 @@ function Chess() {
             type="text"
             placeholder="Discord Username"
             className="white-glassmorphism my-3 bg-transparent px-3 py-5"
-            required
+            required={true}
             onChange={(e) => setDiscord(e.target.value)}
             value={discord}
           />

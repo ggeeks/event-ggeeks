@@ -135,7 +135,7 @@ function AmongUs() {
             type="text"
             placeholder="Name"
             className="white-glassmorphism my-3 bg-transparent px-3 py-5"
-            required
+            required={true}
             // validateName={validateName(name)}
             onChange={(e) => setName(e.target.value)}
             value={name}
@@ -144,13 +144,16 @@ function AmongUs() {
           <label className="text-[19px] kdam text-left px-2" >Phone Number</label>
           <input
             name="phone-number"
-            type="number"
+            type="tel"
             placeholder="Phone Number"
             className="white-glassmorphism my-3 bg-transparent px-3 py-5"
-            required
+            required={true}
             onChange={(e) => setPhone(e.target.value)}
             value={phoneNumber}
-            rule={validatePhone(phoneNumber)}
+            pattern='([0-9]){10}'
+            minLength={10}
+            maxLength={10}
+            title="Enter a valid phone number"
 
           />
           <label className="text-[19px] kdam text-left px-2" >Email</label>
@@ -159,11 +162,12 @@ function AmongUs() {
             type="email"
             placeholder="E-mail"
             className="white-glassmorphism my-3 bg-transparent px-3 py-5 font-nuito"
-            required
+            required={true}
             rule={validateEmail(email)}
             onChange={(e) => setEmail(e.target.value)}
             value={email}
-          // pattern={`${!/^[a-zA-Z0-9.!#$%&’*+/=?^_`{|}~-]+@[a-zA-Z0-9-]+(?:\.[a-zA-Z0-9-]+)*$/.test(email)}`}
+            pattern="[a-z0-9._%+-]+@[a-z0-9.-]+\.[a-z]{2,}$"
+            title='someone@example.com'
           />
           <label className="text-[19px] kdam text-left px-2" >Institute:</label>
           <input
@@ -171,7 +175,7 @@ function AmongUs() {
             type="text"
             placeholder="Institute"
             className="white-glassmorphism my-3 bg-transparent px-3 py-5"
-            required
+            required={true}
             onChange={(e) => setInstitute(e.target.value)}
             value={institute}
           />
@@ -181,7 +185,7 @@ function AmongUs() {
             type="text"
             placeholder="Discord Username"
             className="white-glassmorphism my-3 bg-transparent px-3 py-5"
-            required
+            required={true}
 
             onChange={(e) => setDiscord(e.target.value)}
             value={discord}

@@ -87,19 +87,23 @@ function Skribble() {
             type="text"
             placeholder="Name"
             className="white-glassmorphism my-3 bg-transparent px-3 py-5"
-            required
+            required={true}
             onChange={(e) => setName(e.target.value)}
             value={name}
           />
           <lable className="text-[19px] kdam text-left px-2">Phone Number:</lable>
           <input
             name="phone-number"
-            type="number"
+            type="tel"
             placeholder="Phone Number"
             className="white-glassmorphism my-3 bg-transparent px-3 py-5"
-            required
+            required={true}
             onChange={(e) => setPhone(e.target.value)}
             value={phoneNumber}
+            pattern='([0-9]){10}'
+            minLength={10}
+            maxLength={10}
+            title="Enter a valid phone number"
           />
           <lable className="text-[19px] kdam text-left px-2">Email:</lable>
           <input
@@ -107,9 +111,11 @@ function Skribble() {
             type="email"
             placeholder="E-mail"
             className="white-glassmorphism my-3 bg-transparent px-3 py-5 font-nuito"
-            required
+            required={true}
             onChange={(e) => setEmail(e.target.value)}
             value={email}
+            pattern="[a-z0-9._%+-]+@[a-z0-9.-]+\.[a-z]{2,}$"
+          title='someone@example.com'
           />
           <lable className="text-[19px] kdam text-left px-2">Institute:</lable>
           <input
@@ -117,7 +123,7 @@ function Skribble() {
             type="text"
             placeholder="Institute"
             className="white-glassmorphism my-3 bg-transparent px-3 py-5"
-            required
+            required={true}
             onChange={(e) => setInstitute(e.target.value)}
             value={institute}
           />
@@ -127,7 +133,7 @@ function Skribble() {
             type="text"
             placeholder="Discord Username"
             className="white-glassmorphism my-3 bg-transparent px-3 py-5"
-            required
+            required={true}
             onChange={(e) => setDiscord(e.target.value)}
             value={discord}
           />

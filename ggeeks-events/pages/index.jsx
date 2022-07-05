@@ -27,7 +27,9 @@ function Home() {
       </Head>
 
       <main className=' revamp  mb-[20vh] items-center justify-center '>
-        <h1 className='text-[50px]  md:text-[76px] tracking-wider'>Gamer Days 2.0</h1>
+
+        <h1 className='text-[50px] tracking-[.15em] md:text-[76px] '>Gamer Days 2.0</h1>
+
         {/* <h1 className='md:text-[40px] text-3xl py-5 '>Date TBA soon </h1> */}
         <Link href='/register' to={<Register />}>
           <button className='md:text-2xl text-lg border md:px-4 white-glassmorphism hover:animate-none animate-bounce md:py-6 px-2 py-4 my-9  rounded-lg '>Register</button>
