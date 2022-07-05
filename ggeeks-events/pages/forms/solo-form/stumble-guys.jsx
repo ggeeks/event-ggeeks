@@ -1,15 +1,75 @@
-import Link from 'next/link'
+// import Link from 'next/link'
 import React, { useState } from 'react'
-import { IoIosArrowBack } from 'react-icons/io'
-import Solo from '../../event/solo'
 import axios from 'axios'
-import { Form } from 'react-bootstrap'
+// import { useForm } from "react-hook-form";
+
 function AmongUs() {
   const [name, setName] = useState('')
   const [phoneNumber, setPhone] = useState('')
   const [email, setEmail] = useState('')
   const [institute, setInstitute] = useState('')
   const [discord, setDiscord] = useState('')
+
+  const validateName = (name) => {
+    if (name.length < 3) {
+      return 'Name must be at least 3 characters long';
+    }
+    if (name.length > 20) {
+      return 'Name must be less than 20 characters long';
+    }
+    if (!/^[a-zA-Z]+$/.test(name)) {
+      return 'Name must be alphabetic';
+    }
+    return '';
+  }
+  const validatePhone = (phoneNumber) => {
+    if (phoneNumber.length < 10) {
+      return 'Phone Number must be at least 10 characters long';
+    }
+    if (phoneNumber.length > 10) {
+      return 'Phone Number must be less than 10 characters long';
+    }
+    if (!/^[0-9]+$/.test(phoneNumber)) {
+      return 'Phone Number must be numeric';
+    }
+    return '';
+  }
+  const validateEmail = (email) => {
+    if (email.length < 3) {
+      return 'Email must be at least 3 characters long';
+    }
+    if (email.length > 20) {
+      return 'Email must be less than 20 characters long';
+    }
+    if (!/^[a-zA-Z0-9.!#$%&’*+/=?^_`{|}~-]+@[a-zA-Z0-9-]+(?:\.[a-zA-Z0-9-]+)*$/.test(email)) {
+      return 'Email must be valid';
+    }
+    return '';
+  }
+  const validateInstitute = (institute) => {
+    if (institute.length < 3) {
+      return 'Institute must be at least 3 characters long';
+    }
+    if (institute.length > 20) {
+      return 'Institute must be less than 20 characters long';
+    }
+    if (!/^[a-zA-Z]+$/.test(institute)) {
+      return 'Institute must be alphabetic';
+    }
+    return '';
+  }
+  const validateDiscord = (discord) => {
+    if (discord.length < 3) {
+      return 'Discord Username must be at least 3 characters long';
+    }
+    if (discord.length > 20) {
+      return 'Discord Username must be less than 20 characters long';
+    }
+    if (!/^[a-zA-Z0-9]+$/.test(discord)) {
+      return 'Discord Username must be alphanumeric';
+    }
+    return '';
+  }
 
   const handleSubmit = (e) => {
     e.preventDefault()
@@ -54,12 +114,11 @@ function AmongUs() {
       <div className="para-1 text-left white-glassmorphism px-10 py-10">
         <div><h5 className="text-3xl  text-left revamp pb-5 text-orange-400">DESCRIPTION</h5></div>
         <ul>
-          <li>
-            Winner: The last one standing in the game
-          </li>
-          <li className="">
-            Winner may be decided through one or more rounds depending upon the number of Participants.
-          </li>
+          <li>ROUND 1</li>
+          <li>Date- 14 july 2022 </li>
+          <li>Day- Thursday</li>
+          <li>Time - 09 PM Onwards</li>
+          <li>Total players in a round - 32</li>
         </ul>
       </div>
       <div className="form-font px-10 py-3 md:px-40 md:py-10">
@@ -77,8 +136,10 @@ function AmongUs() {
             placeholder="Name"
             className="white-glassmorphism my-3 bg-transparent px-3 py-5"
             required
+            // validateName={validateName(name)}
             onChange={(e) => setName(e.target.value)}
             value={name}
+
           />
           <label className="text-[19px] kdam text-left px-2" >Phone Number</label>
           <input
@@ -89,6 +150,8 @@ function AmongUs() {
             required
             onChange={(e) => setPhone(e.target.value)}
             value={phoneNumber}
+            rule={validatePhone(phoneNumber)}
+
           />
           <label className="text-[19px] kdam text-left px-2" >Email</label>
           <input
@@ -97,8 +160,10 @@ function AmongUs() {
             placeholder="E-mail"
             className="white-glassmorphism my-3 bg-transparent px-3 py-5 font-nuito"
             required
+            rule={validateEmail(email)}
             onChange={(e) => setEmail(e.target.value)}
             value={email}
+          // pattern={`${!/^[a-zA-Z0-9.!#$%&’*+/=?^_`{|}~-]+@[a-zA-Z0-9-]+(?:\.[a-zA-Z0-9-]+)*$/.test(email)}`}
           />
           <label className="text-[19px] kdam text-left px-2" >Institute:</label>
           <input
@@ -117,6 +182,7 @@ function AmongUs() {
             placeholder="Discord Username"
             className="white-glassmorphism my-3 bg-transparent px-3 py-5"
             required
+
             onChange={(e) => setDiscord(e.target.value)}
             value={discord}
           />
@@ -130,7 +196,7 @@ function AmongUs() {
           </div>
         </form>
       </div>
-      
+
     </div>
   )
 }
