@@ -49,7 +49,7 @@ function Cod() {
             <h6 className=' text-emerald-200'>ROUND 1</h6>
             <li>Date: 16 July 2022</li>
             <li>Day: Saturday</li>
-            <li>Time: TBA</li>
+            <li>Time: 9:00 pm Onwards</li>
             <li>Map: Random</li>
             <li>Type: Multiplayer-Free for All</li>
             <br />

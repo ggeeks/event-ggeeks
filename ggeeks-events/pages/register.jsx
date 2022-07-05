@@ -159,14 +159,14 @@ function Register() {
       </div>
 
       <div className=''>
-        <h1 className='text-xl md:text-3xl py-10 text-orange-400'>Terms & condition </h1>
-        <div className='justify-start text-left para-1 px-20 white-glassmorphism'>
-          <ul className='px-10 py-5'>
+        <h1 className='text-xl md:text-3xl py-10 text-orange-400'>Terms & conditions </h1>
+        <div className='justify-start text-left para-1 px-10 white-glassmorphism'>
+          <ul className=' py-5'>
             <li className='text-xl py-3'>
               <strong className='text-orange-400'>GENERAL</strong>
             </li>
-            <ul className=' px-6 text-lg '>
-              <li>Must Subscribe/Follow/Join us on all our Social Platforms.</li>
+            <ul className=' px-6  text-lg '>
+              <li>Must Subscribe /Follow/ Join us on all our Social Platforms.</li>
               <li>No network issues will be Entertained.</li>
               <li>If anyone finds out another player Cheating or Violating any rule, You have to report to us with Adequate Proof.</li>
               <li>Gaming Geeks’ Decisions in Any/All Situations is Final and Binding.</li>
