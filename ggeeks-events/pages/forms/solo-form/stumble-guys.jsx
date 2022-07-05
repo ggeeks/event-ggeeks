@@ -51,8 +51,8 @@ function AmongUs() {
       <div>
         <h1 className="px-5 py-3 text-2xl md:text-5xl">Stumble Guys</h1>
       </div>
-      <div className="text-left p-6 mx-12 para-1 white-glassmorphism">
-        <div><h5 className="text-center revamp md:text-2xl text-xl">DESCRIPTION</h5></div>
+      <div className="para-1 text-left white-glassmorphism px-10 py-10">
+        <div><h5 className="text-3xl  text-left revamp pb-5 text-orange-400">DESCRIPTION</h5></div>
         <ul>
           <li>
             Winner: The last one standing in the game
@@ -70,7 +70,7 @@ function AmongUs() {
           className="form-font grid  grid-cols-1 justify-center px-2 md:px-10"
           onSubmit={handleSubmit}
         >
-          <label className="text-[21px] text-left px-2" >Name:</label>
+          <label className="text-[19px] kdam text-left px-2" >Name:</label>
           <input
             name="name"
             type="text"
@@ -80,7 +80,7 @@ function AmongUs() {
             onChange={(e) => setName(e.target.value)}
             value={name}
           />
-          <label className="text-[21px] text-left px-2" >Phone No.:</label>
+          <label className="text-[19px] kdam text-left px-2" >Phone Number</label>
           <input
             name="phone-number"
             type="number"
@@ -90,7 +90,7 @@ function AmongUs() {
             onChange={(e) => setPhone(e.target.value)}
             value={phoneNumber}
           />
-          <label className="text-[21px] text-left px-2" >Email:</label>
+          <label className="text-[19px] kdam text-left px-2" >Email</label>
           <input
             name="email"
             type="email"
@@ -100,7 +100,7 @@ function AmongUs() {
             onChange={(e) => setEmail(e.target.value)}
             value={email}
           />
-          <label className="text-[21px] text-left px-2" >Institute:</label>
+          <label className="text-[19px] kdam text-left px-2" >Institute:</label>
           <input
             name="institute"
             type="text"
@@ -110,7 +110,7 @@ function AmongUs() {
             onChange={(e) => setInstitute(e.target.value)}
             value={institute}
           />
-          <label className="text-[21px] text-left px-2" >Discord:</label>
+          <label className="text-[19px] text-left px-2" >Discord:</label>
           <input
             name="discord"
             type="text"

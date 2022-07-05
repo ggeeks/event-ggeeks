@@ -65,17 +65,17 @@ return (
         <h1 className='text-3xl  text-lrft revamp pb-4 text-orange-400'>DESCRIPTION</h1>
         <div >
           <h6 className=' text-emerald-200'>ROUND 1</h6>
-          <li>Date- 17 july</li>
-          <li>Day - Sunday</li>
-          <li>Time- 9:00 pm Onwards</li>
-          <li>Match type-Solo</li>
+          <li>Date: 17 July 2022</li>
+          <li>Day: Sunday</li>
+          <li>Time: 9:00 pm Onwards</li>
+          <li>Match type: Solo</li>
           <li>Free for all (10 players)</li>
           <br/>
             <h6 className=' text-emerald-200'>ROUND 2</h6>
-            <li>Date- 17 july</li>
-            <li>Day - Sunday</li>
-            <li>Time- 10:00 pm Onwards</li>
-            <li>Match type-Solo</li>
+            <li>Date: 17 July 2022</li>
+            <li>Day: Sunday</li>
+            <li>Time: 10:00 pm Onwards</li>
+            <li>Match type: Solo</li>
             <li>Free for all (10 players)</li>
             <br/>
               <p>Kindly keep your game updated before match day.</p>
@@ -84,17 +84,17 @@ return (
 
     <div className='md:px-40 md:py-10 px-10 py-3'>
     <form name="Valorant-Form" action="" method="POST" className='grid grid-cols-1  md:px-10 px-2 justify-center form-font' onSubmit={handleSubmit}>
-    <lable className="text-[21px] text-left px-2">Name:</lable>
+    <lable className="text-[19px] kdam text-left px-2">Name:</lable>
         <input name="name" type="text" placeholder='Name' className='white-glassmorphism my-3 bg-transparent px-3 py-5' required onChange={(e)=>setName(e.target.value)} value={name}/>
-        <lable className="text-[21px] text-left px-2">Phone Number:</lable>
+        <lable className="text-[19px] kdam text-left px-2">Phone Number:</lable>
         <input name="phone-number" type="number" placeholder='Phone Number' className='white-glassmorphism my-3 bg-transparent px-3 py-5' required onChange={(e)=>setPhone(e.target.value)} value={phoneNumber}/>
-        <lable className="text-[21px] text-left px-2">Email:</lable>
+        <lable className="text-[19px] kdam text-left px-2">Email:</lable>
         <input name="email" type="email" placeholder='E-mail' className='white-glassmorphism bg-transparent my-3 px-3 py-5 font-nuito' required onChange={(e)=>setEmail(e.target.value)} value={email}/>
-        <lable className="text-[21px] text-left px-2">Institute:</lable>
+        <lable className="text-[19px] kdam text-left px-2">Institute:</lable>
         <input name="institute" type="text" placeholder='Institute' className='white-glassmorphism bg-transparent my-3 px-3 py-5' required onChange={(e)=>setInstitute(e.target.value)} value={institute}/>
-        <lable className="text-[21px] text-left px-2">Discord Username:</lable>
+        <lable className="text-[19px] kdam text-left px-2">Discord Username:</lable>
         <input name="discord" type="text" placeholder='Discord Username' className='white-glassmorphism bg-transparent px-3 my-3 py-5' required onChange={(e)=>setDiscord(e.target.value)} value={discord}/>
-        <lable className="text-[21px] text-left px-2">Valorant Username (with HashID:)</lable>
+        <lable className="text-[19px] kdam text-left px-2">Valorant Username (with HashID):</lable>
         <input name="valorant-username" type="text" placeholder='Valorant Username[with hash id]' className='white-glassmorphism bg-transparent px-3 my-3 py-5' required onChange={(e)=>setValoUsername(e.target.value)} value={valoUsername}/>
         <div><button type="submit" className='md:text-2xl text-lg blue-glassmorphism hover:text-orange-500 md:w-2/5 w-3/5 justify-center rounded-xl my-3 px-3 py-4'>Register</button></div>
       </form>

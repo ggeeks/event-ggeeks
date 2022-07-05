@@ -58,11 +58,11 @@ function Skribble() {
       <div>
         <h1 className="px-5 py-3 text-2xl md:text-5xl"> Skribbl</h1>
       </div>
-      <div className="text-left p-6 mx-12 para-1 white-glassmorphism">
-        <div><h5 className="text-center revamp md:text-2xl text-xl">DESCRIPTION</h5></div>
-        <ul className="text-center py-5">
-          <li><b>Winning Criteria:</b> Winner of Round 2&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</li>
-          <li><b>&nbsp;Eligibility Criteria for Round 2:</b>  Top Player of Every Match will go in Round 2</li>
+      <div className="para-1 text-left white-glassmorphism px-10 py-10">
+        <div><h5 className="text-3xl  text-left revamp pb-5 text-orange-400">DESCRIPTION</h5></div>
+        <ul className="text-left py-5">
+          <li><b>Winning Criteria:</b> Winner of Round 2</li>
+          <li><b>Eligibility Criteria for Round 2:</b>  Top Player of Every Match will go in Round 2</li>
         </ul>
       </div>
       <div className="px-10 py-3 md:px-40 md:py-10">
@@ -73,7 +73,7 @@ function Skribble() {
           className="form-font grid  grid-cols-1 justify-center px-2 md:px-10"
           onSubmit={handleSubmit}
         >
-          <lable className="text-[21px] text-left px-2">Name:</lable>
+          <lable className="text-[19px] kdam text-left px-2">Name:</lable>
           <input
             name="name"
             type="text"
@@ -83,7 +83,7 @@ function Skribble() {
             onChange={(e) => setName(e.target.value)}
             value={name}
           />
-          <lable className="text-[21px] text-left px-2">Phone Number:</lable>
+          <lable className="text-[19px] kdam text-left px-2">Phone Number:</lable>
           <input
             name="phone-number"
             type="number"
@@ -93,7 +93,7 @@ function Skribble() {
             onChange={(e) => setPhone(e.target.value)}
             value={phoneNumber}
           />
-          <lable className="text-[21px] text-left px-2">Email:</lable>
+          <lable className="text-[19px] kdam text-left px-2">Email:</lable>
           <input
             name="email"
             type="email"
@@ -103,7 +103,7 @@ function Skribble() {
             onChange={(e) => setEmail(e.target.value)}
             value={email}
           />
-          <lable className="text-[21px] text-left px-2">Institute:</lable>
+          <lable className="text-[19px] kdam text-left px-2">Institute:</lable>
           <input
             name="institute"
             type="text"
@@ -113,7 +113,7 @@ function Skribble() {
             onChange={(e) => setInstitute(e.target.value)}
             value={institute}
           />
-          <lable className="text-[21px] text-left px-2">Discord Username:</lable>
+          <lable className="text-[19px] kdam text-left px-2">Discord Username:</lable>
           <input
             name="discord"
             type="text"
