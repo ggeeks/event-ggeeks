@@ -4,7 +4,7 @@ import Faq from 'react-faq-component'
 export default function FAQ() {
   return (
     <div className='h-[60vh]'>
-<div className="white-glassmorphism kdam  pl-5 pb-2 text-left">
+<div className="white-glassmorphism kdam  pl-3 pb-2 text-left">
       <Fragment>
         <Faq
           data={data}

@@ -70,7 +70,7 @@ function about() {
           </div>
         </div>
       </div> */}
-  {/* <Card /> */}
+      {/* <Card /> */}
       <div>
         <h1 className="revamp text-[36px] md:my-20 md:text-[46px] ">
           About Event
@@ -83,7 +83,7 @@ function about() {
       <div className="grid grid-cols-1 justify-evenly xl:grid-cols-2 ">
         <div className="kdam py-5 px-2 text-center text-lg md:px-20 md:text-2xl">
           <p className="py-8 para-1">
-          Gamer Days 2.0 is a Week Long Gaming Event. It is a successor of Gamer Days Event held in November 2021. This event is your chance to compete with Pro players. On top of that, this event also gives you a chance to win incredible prizes.
+            Gamer Days 2.0 is a Week Long Gaming Event. It is a successor of Gamer Days Event held in November 2021. This event is your chance to compete with Pro players. On top of that, this event also gives you a chance to win incredible prizes.
           </p>
         </div>
         <div className="px-10 py-3 transition-transform">
@@ -97,56 +97,57 @@ function about() {
       </div>
 
       <div>
-        <h1 className="revamp text-[36px] md:my-20 md:text-[46px] ">
+        <h1 className="revamp text-[36px] md:my-20 my-10 md:text-[46px] ">
           Schedule
-          </h1>
-       <div className='justify-center text-center xl:pl-[21vw] px-[5vw] items-center '>
-        <table className='blue-glassmorphism  text-center justify-center para-1 text-2xl'>
-          <tr className='text-center py-10 '>
-            <th className='text-2xl py-3 px-10'>Days</th>
-            <th className='text-2xl py-3 px-10'>Game Name</th>
-            <th className='text-2xl py-3 px-10'>Date</th>
-          </tr>
-          <tr>
-            <th>Day 1</th>
-            <th className='text-2xl py-3 px-10 text-left'>Chess</th>
-            <th className='text-2xl py-3 px-10 text-left'>13 July, 2022</th>
+        </h1>
+        <div className='justify-center text-center xl:pl-[21vw] pl-[10vw] items-center '>
+          <table className='blue-glassmorphism  text-center justify-center para-1 text-2xl'>
+            <tr className='  '>
+              <th className='md:text-2xl text-[18px] md:py-3 py-1 md:px-10 px-2'>Days</th>
+              <th className='md:text-2xl text-[18px] md:py-3 py-1 md:px-10  text-left'>Game Name</th>
+              <th className='md:text-2xl text-[18px] md:py-3 py-1 md:px-10 px-2'>Date</th>
+            </tr>
+         
+            <tr>
+              <th className='md:text-2xl text-[18px] md:py-3 py-1 md:px-10 px-2'>Day 1</th>
+              <th className='md:text-2xl text-[18px] md:py-3 py-1 md:px-10 px-2 '>Chess</th>
+              <th className='md:text-2xl text-[18px] md:py-3 py-1 md:px-10 px-2 text-left'>13 July, 2022</th>
 
-          </tr> <tr>
-            <th>Day 2</th>
-            <th className='text-2xl py-3 px-10 text-left'>Stumble Guys</th>
-            <th className='text-2xl py-3 px-10 text-left'>14 July, 2022</th>
+            </tr> <tr>
+              <th className='md:text-2xl text-[18px] md:py-3 py-1 md:px-10 px-2'>Day 2</th>
+              <th className='md:text-2xl text-[18px] md:py-3 py-1 md:px-10 px-2 text-left'>Stumble Guys</th>
+              <th className='md:text-2xl text-[18px] md:py-3 py-1 md:px-10 px-2 text-left'>14 July, 2022</th>
 
-          </tr> <tr>
-            <th>Day 3</th>
-            <th className='text-2xl py-3 px-10 text-left'>Skribbl</th>
-            <th className='text-2xl py-3 px-10 text-left'>15 July, 2022</th>
+            </tr> <tr>
+              <th className='md:text-2xl text-[18px] md:py-3 py-1 md:px-10 px-2'>Day 3</th>
+              <th className='md:text-2xl text-[18px] md:py-3 py-1 md:px-10 px-2 text-left'>Skribbl</th>
+              <th className='md:text-2xl text-[18px] md:py-3 py-1 md:px-10 px-2 text-left'>15 July, 2022</th>
 
-          </tr> 
-          <tr>
-            <th>Day 4</th>
-            <th className='text-2xl py-3 px-10 text-left'>CODM</th>
-            <th className='text-2xl py-3 px-10 text-left'>16 July, 2022</th>
+            </tr>
+            <tr>
+              <th className='md:text-2xl text-[18px] md:py-3 py-1 md:px-10 px-2'>Day 4</th>
+              <th className='md:text-2xl text-[18px] md:py-3 py-1 md:px-10 px-2 text-left'>CODM</th>
+              <th className='md:text-2xl text-[18px] md:py-3 py-1 md:px-10 px-2 text-left'>16 July, 2022</th>
 
-          </tr>
-          <tr>
-            <th>Day 5</th>
-            <th className='text-2xl py-3 px-10 text-left'> Valorant</th>
-            <th className='text-2xl py-3 px-10 text-left'>17 July, 2022</th>
+            </tr>
+            <tr>
+              <th className='md:text-2xl text-[18px] md:py-3 py-1 md:px-10 px-2'>Day 5</th>
+              <th className='md:text-2xl text-[18px] md:py-3 py-1 md:px-10 px-2 text-left'> Valorant</th>
+              <th className='md:text-2xl text-[18px] md:py-3 py-1 md:px-10 px-2 text-left'>17 July, 2022</th>
 
-          </tr>
-          <tr>
-            <th>Day 6</th>
-            <th className='text-2xl py-3 px-10 text-left'>BGMI</th>
-            <th className='text-2xl py-3 px-10 text-left'>18 July, 2022</th>
+            </tr>
+            <tr>
+              <th className='md:text-2xl text-[18px] md:py-3 py-1 md:px-10 px-2'>Day 6</th>
+              <th className='md:text-2xl text-[18px] md:py-3 py-1 md:px-10 px-2 text-left'>BGMI</th>
+              <th className='md:text-2xl text-[18px] md:py-3 py-1 md:px-10 px-2 text-left'>18 July, 2022</th>
 
-          </tr>
+            </tr>
 
-        </table>
-       </div>
+          </table>
+        </div>
 
       </div>
-     
+
     </div>
   )
 }
