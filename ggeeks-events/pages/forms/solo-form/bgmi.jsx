@@ -43,27 +43,25 @@ function Bgmi() {
         </div>
       </Link> */}
       <div><h1 className='md:text-5xl text-2xl px-5 py-3'>BattleGrounds Mobile India</h1></div>
-      <div className="p-4"></div>
-      <div className="para-1 text-left white-glassmorphism px-10 py-10">
-      <h5 className='text-3xl  text-left revamp pb-5 text-orange-400'>DESCRIPTION</h5>
-        <div className="px-6" >
+      <div className="text-left para-1 white-glassmorphism px-10 py-10">
+        <h1 className='text-3xl  text-left revamp pb-5 text-orange-400'>DESCRIPTION</h1>
+        <div >
           <h6 className=' text-emerald-200'>ROUND 1</h6>
-          <li>Date: 18 November 2021</li>
+          <li>Date- 18 July 2022</li>
           <li>Day: Monday</li>
-          <li>Time: 9 PM Onwards</li>
-          <li>Map: Erangel-Squad</li>
-          <br />
-          <h6 className=' text-emerald-200'>ROUND 2</h6>
-          <li>Date: 18 November 2021</li>
+          <li>Time- 9 p.m. onwards</li>
+          <li>Map - Erangle</li>
+          <br/>
+            <h6 className=' text-emerald-200'>ROUND 2</h6>
+          <li>Date- 18 July 2022</li>
           <li>Day: Monday</li>
-          <li>Time: After Round 1</li>
-          <li>Map: Team Deathmatch</li>
-          {/* <br /> */}
-          {/* <h6><b>INSTRUCTIONS FOR FILLING THIS FORM</b></h6>
-          <p>Everyone has to fill this Form.</p>
-          <p>Team Leader should be Unique for a SQUAD/TRIO/DUO, This will be used for pairing you with your Team.</p> */}
+          <li>Time- 10 p.m. onwards</li>
+          <li>Eligibility: Top 2 Teams of Round 1</li>
+          <li>Map - Team Deathmatch</li>
+            <br/>
+            <p>Kindly keep your game updated before the match day.</p>
+            </div>
         </div>
-      </div>
       <div className='md:px-40 md:py-10 px-10 py-3'>
         <form name="BGMI-Form" action="" method="POST" className='grid grid-cols-1  md:px-10 px-2 justify-center form-font' onSubmit={handleSubmit}>
           <label className="text-[19px] kdam text-left px-2" >Name:</label>
