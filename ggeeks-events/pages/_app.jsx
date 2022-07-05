@@ -143,8 +143,14 @@ function MyApp({ Component, pageProps }) {
       <footer className='revamp'>
         <div className=' md:text-3xl text-[20px]  py-3'>
           <div className='flex md:flex-row flex-col py-3 text-center justify-center overflow-hidden md:justify-between px-20 '>
-            <div className=' grid grid-cols-6'>
+            <div className=' grid grid-cols-7'>
+            <div className=' pt-2'>
+                <a target='_blank' alt='main-website' href='https://gaminggeeks.online/'>
+                  <Image src={Logo} width={35} height={35} alt='website' className='m-3 pt-2' />
+                </a>
+              </div>
               <div className=''>
+             
                 <a target='_blank' href='https://www.youtube.com/channel/UC0up2cGfG13O9oWqachTunQ' className=''>
                   <FaYoutube className='m-3' />
                 </a>
@@ -174,6 +180,7 @@ function MyApp({ Component, pageProps }) {
                   <FaWhatsapp className='m-3' />
                 </a>
               </div>
+              
             </div>
 
             <div className='text-center py-3'>

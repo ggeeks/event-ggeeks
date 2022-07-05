@@ -19,8 +19,8 @@ function Sponser() {
           <div className='p-3 '>
             <Image src={anaitik} width={250} height={150} alt="Anaitik" />
           </div>
-          <div className='p-3'>
-            <Image src={give} width={250} height={150} alt='Give My Certificate'/>
+          <div className='p-3 '>
+            <Image src={code8} width={250} height={150} alt="Geeks for Geeks" />
           </div>
           <div className='p-3'>
             <Image src={interview} width={250} height={150} alt="Interview Buddy"/>
@@ -42,8 +42,9 @@ function Sponser() {
       {/* <div className='py-5 text-3xl'>Title Sponsor</div> */}
       <div className='p-3 '>
         <div className="grid md:grid-cols-1 grid-cols-1 w-5/6 md:mx-24 mx-12">
-          <div className='p-3 '>
-            <Image src={code8} width={250} height={150} alt="Geeks for Geeks" />
+          
+          <div className='px-3'>
+            <Image src={give} width={250} height={150} alt='Give My Certificate'/>
           </div>
         </div>
       </div>

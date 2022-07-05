@@ -81,7 +81,7 @@ function about() {
         </h1>
       </div>
       <div className="grid grid-cols-1 justify-evenly xl:grid-cols-2 ">
-        <div className="kdam py-5 px-2 text-center text-lg md:px-20 md:text-2xl">
+        <div className="kdam py-5 px-2 text-justify text-lg md:px-20 md:text-2xl">
           <p className="py-8 para-1">
             Gamer Days 2.0 is a Week Long Gaming Event. It is a successor of Gamer Days Event held in November 2021. This event is your chance to compete with Pro players. On top of that, this event also gives you a chance to win incredible prizes.
           </p>
