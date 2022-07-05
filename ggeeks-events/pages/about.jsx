@@ -110,7 +110,7 @@ function about() {
          
             <tr>
               <th className='md:text-2xl text-[18px] md:py-3 py-1 md:px-10 px-2'>Day 1</th>
-              <th className='md:text-2xl text-[18px] md:py-3 py-1 md:px-10 px-2 '>Chess</th>
+              <th className='md:text-2xl text-[18px] md:py-3 py-1 md:px-10 px-2 text-left'>Chess</th>
               <th className='md:text-2xl text-[18px] md:py-3 py-1 md:px-10 px-2 text-left'>13 July, 2022</th>
 
             </tr> <tr>
