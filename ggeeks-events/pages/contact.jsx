@@ -40,8 +40,12 @@ function contact() {
         <div>
           <form action="" method="POST" className=' grid grid-cols-1  md:px-10 px-2 justify-center ' onSubmit={handleSubmit}>
             <input type="text" placeholder='Name' className='white-glassmorphism bg-transparent my-3 px-3 py-3' required onChange={(e) => setName(e.target.value)} value={name} />
-            <input type="number" placeholder='Phone Number' className='white-glassmorphism bg-transparent my-3 px-3 py-3 ' required onChange={(e) => setPhone(e.target.value)} value={phoneNumber} />
-            <input type="email" placeholder='E-mail' className='white-glassmorphism bg-transparent my-3 px-3 py-3' required onChange={(e) => setEmail(e.target.value)} value={email} />
+            <input type="tel" placeholder='Phone Number' className='white-glassmorphism bg-transparent my-3 px-3 py-3 '  pattern='([0-9]){10}'
+            minLength={10}
+            maxLength={10}
+            title="Enter a valid phone number" required onChange={(e) => setPhone(e.target.value)} value={phoneNumber} />
+            <input type="email" placeholder='E-mail' pattern="[a-z0-9._%+-]+@[a-z0-9.-]+\.[a-z]{2,}$"
+          title='someone@example.com' className='white-glassmorphism bg-transparent my-3 px-3 py-3' required onChange={(e) => setEmail(e.target.value)} value={email} />
             <input type="text" placeholder='Institute' className='white-glassmorphism bg-transparent my-3 px-3 py-3' required onChange={(e) => setInstitute(e.target.value)} value={institute} />
             <textarea type="text" placeholder='Message' className='white-glassmorphism bg-transparent px-3 my-3 py-3' required onChange={(e) => setMessage(e.target.value)} value={message} />
             <div><button type="submit" className='md:text-2xl text-lg border items-center rounded-xl my-3 px-3 py-4 blue-glassmorphism hover:text-orange-500 md:w-40 w-20 text-center '>Send</button></div>
