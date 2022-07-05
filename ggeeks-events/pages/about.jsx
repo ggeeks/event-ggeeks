@@ -100,7 +100,7 @@ function about() {
         <h1 className="revamp text-[36px] md:my-20 md:text-[46px] ">
           Schedule
           </h1>
-       <div className='justify-center text-center md:px-[20vw] px-[5vw] items-center '>
+       <div className='justify-center text-center xl:pl-[21vw] px-[5vw] items-center '>
         <table className='blue-glassmorphism  text-center justify-center para-1 text-2xl'>
           <tr className='text-center py-10 '>
             <th className='text-2xl py-3 px-10'>Days</th>

@@ -63,7 +63,7 @@ const ValorantTeam = () => {
           <button className=' text-xl' >Back</button>
         </div>
     </Link>
-    <div>
+    {/* <div>
       <div className='text-3xl text-center'>
         <h1>DESCRIPTION</h1>
       </div>
@@ -73,7 +73,7 @@ const ValorantTeam = () => {
         <li>-</li>
         <li>-</li>
       </ul>
-    </div>
+    </div> */}
     <div><h1 className=' md:text-5xl text-2xl px-5 py-3'>Valorant</h1></div>
     <div className='md:px-40 md:py-10 px-10 py-3'>
     <form name="Valorant-Form" action="" method="POST" className='grid grid-cols-1  md:px-10 px-2 justify-center form-font' onSubmit={handleSubmit}>
