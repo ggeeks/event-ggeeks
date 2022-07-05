@@ -55,11 +55,12 @@ function Chess() {
           <div className='text-left'>
             <li>Date: 13 July 2022</li>
             <li>Day: Wednesday</li>
+            <li>Time: 09 PM Onwards</li>
             <li>Type: Arena</li>
             <li>
               Platform: <a href="http://lichess.org"><u>Lichess</u></a>
             </li>
-            <li>Time: 09 PM Onwards</li>
+            
             <li>Format: 2 minutes + 1 second Increment per move</li>
           </div>
         </div>
