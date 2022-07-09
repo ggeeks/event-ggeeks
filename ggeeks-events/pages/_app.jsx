@@ -1,6 +1,8 @@
 import '../styles/globals.css'
 import Image from 'next/image'
 import Link from 'next/link'
+// import Logo from "../assets/ggeeks-icon.png"
+import Logo2 from "../assets/ggeeks-icon2.png"
 import Logo from "../assets/lone-logo.png"
 import { AiOutlineClose } from "react-icons/ai"
 import { HiMenuAlt4 } from "react-icons/hi"
@@ -144,14 +146,14 @@ function MyApp({ Component, pageProps }) {
         <div className=' md:text-3xl text-[20px]  py-3'>
           <div className='flex md:flex-row flex-col py-3 text-center justify-center overflow-hidden md:justify-between px-20 '>
             <div className=' grid grid-cols-7'>
-            <div className=' pt-2'>
+              <div className=' pt-2'>
                 <a target='_blank' alt='main-website' href='https://gaminggeeks.online/'>
                   <Image src={Logo} width={35} height={35} alt='website' className='m-3 pt-2' />
                 </a>
               </div>
               <div className=''>
-             
-                <a target='_blank' href='https://www.youtube.com/channel/UC0up2cGfG13O9oWqachTunQ' className=''>
+
+                <a target='_blank' href='https://www.youtube.com/c/GamingGeeksYouTube' className=''>
                   <FaYoutube className='m-3' />
                 </a>
               </div>
@@ -161,7 +163,7 @@ function MyApp({ Component, pageProps }) {
                 </a>
               </div>
               <div className=''>
-                <a target='_blank' href='https://discord.gg/YRmKyN498W'>
+                <a target='_blank' href='https://dsc.gg/ggeeks'>
                   <FaDiscord className='m-3' />
                 </a>
               </div>
@@ -180,7 +182,7 @@ function MyApp({ Component, pageProps }) {
                   <FaWhatsapp className='m-3' />
                 </a>
               </div>
-              
+
             </div>
 
             <div className='text-center py-3'>
