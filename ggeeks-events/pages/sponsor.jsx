@@ -21,7 +21,7 @@ function Sponser() {
             <Image src={anaitik} width={250} height={150} alt="Anaitik" />
           </div>
           <div className='p-3 '>
-            <Image src={code8} width={250} height={150} alt="Geeks for Geeks" />
+            <Image src={code8} width={250} height={150} alt="code8" />
           </div>
           <div className='p-3'>
             <Image src={interview} width={250} height={150} alt="Interview Buddy"/>
@@ -36,7 +36,7 @@ function Sponser() {
             <Image src={revUP} width={250} height={150} alt="RevUp"/>
           </div>
           <div className='p-3'>
-            <Image src={gfg} width={250} height={150} alt="code8"/>
+            <Image src={gfg} width={250} height={150} alt="Geeks for Geeks"/>
           </div>
           <div className='px-3'>
             <Image src={give} width={250} height={150} alt='Give My Certificate'/>
