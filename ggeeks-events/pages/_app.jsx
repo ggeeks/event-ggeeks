@@ -112,7 +112,7 @@ function MyApp({ Component, pageProps }) {
             </Link> */}
                     <Link href="/sponsor" className="text-lg justify-center">
                       <div className="justify-items-center cursor-pointer py-3 hover:text-[#fdfd96] px-2">
-                        Sponser
+                        Sponsor
                       </div>
                     </Link>
                     <Link href="/contact" className="text-lg justify-center">
