@@ -45,13 +45,13 @@ function Timer() {
         <div className='text-white white-glassmorphism'>
             <div className='white-glassmorphism '>
           <div className="countdown-wrapper white-glassmorphism ">
-            {days && (
+            {/* {days && (
               <div className="countdown-item  ">
-                {/* <SVGCircle radius={daysRadius} /> */}
+                <SVGCircle radius={daysRadius} />
                 {days}
                 <span >days</span>
               </div>
-            )}
+            )} */}
             {hours && (
               <div className="countdown-item ">
                 {/* <SVGCircle radius={hoursRadius} /> */}
@@ -95,8 +95,8 @@ return(
     <div className=''>
     
     <Countdown
-      timeTillDate="07 13 2022, 9:00 pm"
-      timeFormat="MM DD YYYY, h:mm a"
+      timeTillDate="07 13 2022, 15:30  "
+      timeFormat="MM DD YYYY, hh:mm a"
       className='text-white text-2xl  white-glassmorphism'
     />
     
