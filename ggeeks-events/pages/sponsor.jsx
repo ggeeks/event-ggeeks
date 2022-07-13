@@ -47,10 +47,10 @@ function Sponser() {
       <div className='p-3 flex '>
         <div className="grid md:grid-cols-2 grid-cols-1 w-5/6 md:mx-24 mx-12">
           <div className='p-3'>
-            <Image src={gfg} width={250} height={150} alt="Geeks for Geeks"/>
+            <Image src={gfg} width={320} height={150} alt="Geeks for Geeks"/>
           </div>
-          <div className='px-3'>
-            <Image src={give} width={250} height={150} alt='Give My Certificate'/>
+          <div className='p-3'>
+            <Image src={give} width={290} height={150} alt='Give My Certificate'/>
           </div>
         </div>
       </div>
