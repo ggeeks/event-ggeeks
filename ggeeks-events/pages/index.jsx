@@ -41,7 +41,7 @@ function Home() {
         <meta property="twitter:image" content="https://doc-0k-0o-docs.googleusercontent.com/docs/securesc/7pt0n586j47352im6pk7u2167m20uo2k/mdk5qg1qrdkgi9o71kjevnrhs57qoqho/1657042125000/08865544693198994583/17977609043681300254/1OT0A5AwyrLgFS153r4Ait-kklkoM7qoA?ax=ACxEAsbA8T6roKu-cuoCh_GtGc16pFeCH87tPXLhQpQIuO3cPtyGaj7Jk7o7xX0cYG8BHZsmkya1TQG75A2927rxQscj8bo5oIpJvVquXc1lYTOKFES6GR78yzj8sO-KRAxuaqW9mWdKBeyjUkVWvZ2ZeZueYZHacsJyCkepggdIHL6i947brQFX3dtqFd4agBsKFButfiC0V9f373LjQ7kfIotxviqr-oW29hp0swNL5ECAB8rJpGBfBN2I1Nand45c9NVwj58cuglqV05a1KUCVG9zvgo2Q__c4QGhJ6wJr1StKawJlrEiUFOed-a6n7ZppXjSTa6mNcGSfpAz-q2fV-xojmo40qDvaYs9907GAcffTUGNLwD4cIlTGY6EYP88gIyNwEdHFewsnlwmBntcxTBlnifSLR3ASZ8YCxo8Vm3X5dal9rCE_rCDuqcnBZGx0nJQYDRCt3HKaQaFMcD6NFDhlqP1LvzhKjtBY4MVfQTHmviThnKNH4J_EROGCJSGbgbzTwnTZ95Ok4_-sZFkokjtQcYsBmPJG_lrX4GCC99pnieesj_BgcTVfQ1Ch1pgm9efaw9vJBqjG7bbthHUgrYlazsMsjXLt-0XB1dOiuXEXxK3G8X6okxb07wSmZKagDfA4tihU1JhMFl-dw-h8thCR92EN9vA56P5aKgEOhkq5CbKMskLNDjfc7iFC1UC8kKWEYg5jezzZw&uuid=03044593-fd34-4666-be4b-c78cc2e08379&authuser=0&nonce=23gd71v9sgg02&user=17977609043681300254&hash=kl2q4lofupdroa0etjhre5teaedvqthm" />
       </Head>
 
-      <main className=' revamp  mb-[20vh] items-center justify-center '>
+      <main className=' revamp  my-[20vh] items-center justify-center '>
         <h1 className='text-[50px] tracking-[.15em] md:text-[76px] '>Gamer Days 2.0</h1>
         {/* <h1 className='md:text-[40px] text-3xl py-5 '>Date TBA soon </h1> */}
         <Link href='/register' to={<Register />}>
@@ -50,9 +50,9 @@ function Home() {
         {/* <div>
         <iframe src="https://free.timeanddate.com/countdown/i8cr1dax/n54/cf100/cm0/cu4/ct0/cs0/ca0/co0/cr0/ss0/cacfff/cpcfff/pc9f9/tc66c/fn3/fs275/szw320/szh135/iso2022-06-20T00:00:00/pl5/pr5/pt10/pb10" allowtransparency="true" frameborder="0" width="330" height="155"></iframe>
         </div> */}
-        <div className='lg:px-64 px-2'>
+        {/* <div className='lg:px-64 px-2'>
           <Timer />
-        </div>
+        </div> */}
 
 
 

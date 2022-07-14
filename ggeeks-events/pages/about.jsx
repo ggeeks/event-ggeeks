@@ -4,7 +4,7 @@ import Image from 'next/image'
 import EventLogo from '../assets/eventlogo.jpg'
 import Register from './register'
 import Card from '../components/Card'
-
+import Prize from './prize'
 function about() {
   return (
 
@@ -145,7 +145,9 @@ function about() {
 
           </table>
         </div>
-
+<div>
+  <Prize />
+</div>
       </div>
 
     </div>
